@@ -1,0 +1,24 @@
+  worklet-15-executive-decision-support
+
+  [coordinator]  apniLeap AURA Coordinator
+        |
+        +--- fan-out, all four at once ---+
+        |    [academic_agent]                 |
+        |    [research_agent]                 |
+        |    [placement_agent]                |
+        |    [finance_agent]                  |
+        +---------------------------------+
+        v
+  [kpi_agent]  KPI Agent — synthesis
+        |
+  [report_agent]  Report Generation Agent
+        |
+  [validation]  Validation gate (hard)
+        |
+        +-- fail --> [regenerate] --(back-edge)--> [report_agent]
+        |
+        +-- pass --> [human_gate]  Principal / Registrar
+                          |
+                          +-- edit --(back-edge)--> [regenerate]
+                          |
+                          +-- approve --> [publish]  governed, versioned

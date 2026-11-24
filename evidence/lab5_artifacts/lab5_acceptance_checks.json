@@ -1,0 +1,67 @@
+[
+  {
+    "check": "E1  one envelope and one error vocabulary, whatever the backend",
+    "passed": true,
+    "evidence": "backends served across this session: ['file:csv', 'http:benchmark-api', 'sqlite']; every response uses the same {ok, resource, served_by, data, meta} envelope"
+  },
+  {
+    "check": "E2  a file, a real SQLite database and an API all served the pipeline",
+    "passed": true,
+    "evidence": "department_reports_2025_26.csv on disk, institution.db (20,480 bytes), benchmark API called"
+  },
+  {
+    "check": "E3  capability discovery works without calling a resource",
+    "passed": true,
+    "evidence": "describe() advertises 3 resources with params, returns and scope"
+  },
+  {
+    "check": "E4  swapping the source changed every figure by nothing",
+    "passed": true,
+    "evidence": "file:csv -> sqlite; 3 KPIs identical to 1e-9"
+  },
+  {
+    "check": "E5  the agent function was not edited for the swap",
+    "passed": true,
+    "evidence": "kpi_pipeline was re-run as-is; the change was two lines inside the connector"
+  },
+  {
+    "check": "E6  provenance follows the actual read, not the agent's assumption",
+    "passed": true,
+    "evidence": "'Department reports export (CSV on disk)' -> 'Department reports (SQLite table)'"
+  },
+  {
+    "check": "E7  a token without the scope is refused",
+    "passed": true,
+    "evidence": "2 scope refusals (intern -> departments, Academic Agent -> benchmarks)"
+  },
+  {
+    "check": "E8  an unknown token is refused",
+    "passed": true,
+    "evidence": "tok-forged rejected before any backend was reached"
+  },
+  {
+    "check": "E9  an unexposed resource cannot be reached at all",
+    "passed": true,
+    "evidence": "student_medical_records is not exposed, so it is not reachable"
+  },
+  {
+    "check": "E10 backend failures arrive in the server's own error vocabulary",
+    "passed": true,
+    "evidence": "a missing period and a missing benchmark both surfaced as NOT_FOUND, not as a stack trace"
+  },
+  {
+    "check": "E11 a missing required parameter is caught before the backend runs",
+    "passed": true,
+    "evidence": "department_reports without 'period' refused at the door"
+  },
+  {
+    "check": "E12 every authorised call is logged with holder, resource and backend",
+    "passed": true,
+    "evidence": "24 calls logged, 14 authorised"
+  },
+  {
+    "check": "E13 a direct-to-source read produces no log entry — which is how a bypass is detected",
+    "passed": true,
+    "evidence": "the direct CSV read added 0 connector calls, so it cannot be reconciled against the audit log"
+  }
+]

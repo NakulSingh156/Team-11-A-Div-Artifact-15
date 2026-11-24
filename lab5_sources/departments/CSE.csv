@@ -1,0 +1,79 @@
+dept_code,dept_name,category,period,grain,sub_period,domain,metric,value,unit,aggregation,figure_status,source_system,recorded_on
+CSE,Computer Science & Engineering,circuit,2025-26,semester,SEM-1,Academic,students_appeared,120,count,sum,final,Academic ERP,2025-12-31
+CSE,Computer Science & Engineering,circuit,2025-26,semester,SEM-2,Academic,students_appeared,120,count,sum,final,Academic ERP,2026-06-30
+CSE,Computer Science & Engineering,circuit,2025-26,semester,SEM-1,Academic,students_passed,116,count,sum,final,Academic ERP,2025-12-31
+CSE,Computer Science & Engineering,circuit,2025-26,semester,SEM-2,Academic,students_passed,115,count,sum,final,Academic ERP,2026-06-30
+CSE,Computer Science & Engineering,circuit,2025-26,annual,FY,Academic,co_po_attainment,2.71,index 0-3,weighted_mean,final,Academic ERP,2026-06-30
+CSE,Computer Science & Engineering,circuit,2025-26,annual,FY,Research,sanctioned_faculty,34,count,latest,final,Research repository,2026-06-30
+CSE,Computer Science & Engineering,circuit,2025-26,quarter,Q1,Research,publications,10,count,sum,final,Research repository,2025-09-30
+CSE,Computer Science & Engineering,circuit,2025-26,quarter,Q2,Research,publications,14,count,sum,final,Research repository,2025-12-31
+CSE,Computer Science & Engineering,circuit,2025-26,quarter,Q3,Research,publications,17,count,sum,final,Research repository,2026-03-31
+CSE,Computer Science & Engineering,circuit,2025-26,quarter,Q4,Research,publications,17,count,sum,final,Research repository,2026-06-30
+CSE,Computer Science & Engineering,circuit,2025-26,quarter,Q1,Research,citations,84,count,sum,final,Research repository,2025-09-30
+CSE,Computer Science & Engineering,circuit,2025-26,quarter,Q2,Research,citations,96,count,sum,final,Research repository,2025-12-31
+CSE,Computer Science & Engineering,circuit,2025-26,quarter,Q3,Research,citations,109,count,sum,final,Research repository,2026-03-31
+CSE,Computer Science & Engineering,circuit,2025-26,quarter,Q4,Research,citations,113,count,sum,final,Research repository,2026-06-30
+CSE,Computer Science & Engineering,circuit,2025-26,quarter,Q1,Research,grants_lakh,29.92,INR lakh,sum,final,Research repository,2025-09-30
+CSE,Computer Science & Engineering,circuit,2025-26,quarter,Q2,Research,grants_lakh,18.34,INR lakh,sum,final,Research repository,2025-12-31
+CSE,Computer Science & Engineering,circuit,2025-26,quarter,Q3,Research,grants_lakh,26.05,INR lakh,sum,final,Research repository,2026-03-31
+CSE,Computer Science & Engineering,circuit,2025-26,quarter,Q4,Research,grants_lakh,22.19,INR lakh,sum,final,Research repository,2026-06-30
+CSE,Computer Science & Engineering,circuit,2025-26,annual,FY,Placement,eligible_students,228,count,latest,final,Placement Cell tracker,2026-06-30
+CSE,Computer Science & Engineering,circuit,2025-26,quarter,Q1,Placement,placed_students,19,count,sum,final,Placement Cell tracker,2025-09-30
+CSE,Computer Science & Engineering,circuit,2025-26,quarter,Q2,Placement,placed_students,72,count,sum,final,Placement Cell tracker,2025-12-31
+CSE,Computer Science & Engineering,circuit,2025-26,quarter,Q3,Placement,placed_students,87,count,sum,final,Placement Cell tracker,2026-03-31
+CSE,Computer Science & Engineering,circuit,2025-26,quarter,Q4,Placement,placed_students,34,count,sum,final,Placement Cell tracker,2026-06-30
+CSE,Computer Science & Engineering,circuit,2025-26,quarter,Q1,Placement,total_package_lpa,179.78,LPA,sum,final,Placement Cell tracker,2025-09-30
+CSE,Computer Science & Engineering,circuit,2025-26,quarter,Q2,Placement,total_package_lpa,741.58,LPA,sum,final,Placement Cell tracker,2025-12-31
+CSE,Computer Science & Engineering,circuit,2025-26,quarter,Q3,Placement,total_package_lpa,966.29,LPA,sum,final,Placement Cell tracker,2026-03-31
+CSE,Computer Science & Engineering,circuit,2025-26,quarter,Q4,Placement,total_package_lpa,359.55,LPA,sum,final,Placement Cell tracker,2026-06-30
+CSE,Computer Science & Engineering,circuit,2025-26,quarter,Q1,Placement,interns_completed,25,count,sum,final,Placement Cell tracker,2025-09-30
+CSE,Computer Science & Engineering,circuit,2025-26,quarter,Q2,Placement,interns_completed,35,count,sum,final,Placement Cell tracker,2025-12-31
+CSE,Computer Science & Engineering,circuit,2025-26,quarter,Q3,Placement,interns_completed,80,count,sum,final,Placement Cell tracker,2026-03-31
+CSE,Computer Science & Engineering,circuit,2025-26,quarter,Q4,Placement,interns_completed,65,count,sum,final,Placement Cell tracker,2026-06-30
+CSE,Computer Science & Engineering,circuit,2025-26,quarter,Q1,Finance,budget_allocated_lakh,105.0,INR lakh,sum,final,Finance & Accounts ledger,2025-09-30
+CSE,Computer Science & Engineering,circuit,2025-26,quarter,Q2,Finance,budget_allocated_lakh,105.0,INR lakh,sum,final,Finance & Accounts ledger,2025-12-31
+CSE,Computer Science & Engineering,circuit,2025-26,quarter,Q3,Finance,budget_allocated_lakh,105.0,INR lakh,sum,final,Finance & Accounts ledger,2026-03-31
+CSE,Computer Science & Engineering,circuit,2025-26,quarter,Q4,Finance,budget_allocated_lakh,105.0,INR lakh,sum,final,Finance & Accounts ledger,2026-06-30
+CSE,Computer Science & Engineering,circuit,2025-26,quarter,Q1,Finance,budget_spent_lakh,66.81,INR lakh,sum,final,Finance & Accounts ledger,2025-09-30
+CSE,Computer Science & Engineering,circuit,2025-26,quarter,Q2,Finance,budget_spent_lakh,86.46,INR lakh,sum,final,Finance & Accounts ledger,2025-12-31
+CSE,Computer Science & Engineering,circuit,2025-26,quarter,Q3,Finance,budget_spent_lakh,102.18,INR lakh,sum,final,Finance & Accounts ledger,2026-03-31
+CSE,Computer Science & Engineering,circuit,2025-26,quarter,Q4,Finance,budget_spent_lakh,137.55,INR lakh,sum,final,Finance & Accounts ledger,2026-06-30
+CSE,Computer Science & Engineering,circuit,2024-25,semester,SEM-1,Academic,students_appeared,120,count,sum,final,Academic ERP,2024-12-31
+CSE,Computer Science & Engineering,circuit,2024-25,semester,SEM-2,Academic,students_appeared,120,count,sum,final,Academic ERP,2025-06-30
+CSE,Computer Science & Engineering,circuit,2024-25,semester,SEM-1,Academic,students_passed,115,count,sum,final,Academic ERP,2024-12-31
+CSE,Computer Science & Engineering,circuit,2024-25,semester,SEM-2,Academic,students_passed,114,count,sum,final,Academic ERP,2025-06-30
+CSE,Computer Science & Engineering,circuit,2024-25,annual,FY,Academic,co_po_attainment,2.65,index 0-3,weighted_mean,final,Academic ERP,2025-06-30
+CSE,Computer Science & Engineering,circuit,2024-25,annual,FY,Research,sanctioned_faculty,34,count,latest,final,Research repository,2025-06-30
+CSE,Computer Science & Engineering,circuit,2024-25,quarter,Q1,Research,publications,10,count,sum,final,Research repository,2024-09-30
+CSE,Computer Science & Engineering,circuit,2024-25,quarter,Q2,Research,publications,13,count,sum,final,Research repository,2024-12-31
+CSE,Computer Science & Engineering,circuit,2024-25,quarter,Q3,Research,publications,16,count,sum,final,Research repository,2025-03-31
+CSE,Computer Science & Engineering,circuit,2024-25,quarter,Q4,Research,publications,16,count,sum,final,Research repository,2025-06-30
+CSE,Computer Science & Engineering,circuit,2024-25,quarter,Q1,Research,citations,74,count,sum,final,Research repository,2024-09-30
+CSE,Computer Science & Engineering,circuit,2024-25,quarter,Q2,Research,citations,85,count,sum,final,Research repository,2024-12-31
+CSE,Computer Science & Engineering,circuit,2024-25,quarter,Q3,Research,citations,96,count,sum,final,Research repository,2025-03-31
+CSE,Computer Science & Engineering,circuit,2024-25,quarter,Q4,Research,citations,99,count,sum,final,Research repository,2025-06-30
+CSE,Computer Science & Engineering,circuit,2024-25,quarter,Q1,Research,grants_lakh,27.32,INR lakh,sum,final,Research repository,2024-09-30
+CSE,Computer Science & Engineering,circuit,2024-25,quarter,Q2,Research,grants_lakh,16.75,INR lakh,sum,final,Research repository,2024-12-31
+CSE,Computer Science & Engineering,circuit,2024-25,quarter,Q3,Research,grants_lakh,23.8,INR lakh,sum,final,Research repository,2025-03-31
+CSE,Computer Science & Engineering,circuit,2024-25,quarter,Q4,Research,grants_lakh,20.27,INR lakh,sum,final,Research repository,2025-06-30
+CSE,Computer Science & Engineering,circuit,2024-25,annual,FY,Placement,eligible_students,220,count,latest,final,Placement Cell tracker,2025-06-30
+CSE,Computer Science & Engineering,circuit,2024-25,quarter,Q1,Placement,placed_students,18,count,sum,final,Placement Cell tracker,2024-09-30
+CSE,Computer Science & Engineering,circuit,2024-25,quarter,Q2,Placement,placed_students,68,count,sum,final,Placement Cell tracker,2024-12-31
+CSE,Computer Science & Engineering,circuit,2024-25,quarter,Q3,Placement,placed_students,82,count,sum,final,Placement Cell tracker,2025-03-31
+CSE,Computer Science & Engineering,circuit,2024-25,quarter,Q4,Placement,placed_students,32,count,sum,final,Placement Cell tracker,2025-06-30
+CSE,Computer Science & Engineering,circuit,2024-25,quarter,Q1,Placement,total_package_lpa,175.88,LPA,sum,final,Placement Cell tracker,2024-09-30
+CSE,Computer Science & Engineering,circuit,2024-25,quarter,Q2,Placement,total_package_lpa,725.52,LPA,sum,final,Placement Cell tracker,2024-12-31
+CSE,Computer Science & Engineering,circuit,2024-25,quarter,Q3,Placement,total_package_lpa,945.37,LPA,sum,final,Placement Cell tracker,2025-03-31
+CSE,Computer Science & Engineering,circuit,2024-25,quarter,Q4,Placement,total_package_lpa,351.76,LPA,sum,final,Placement Cell tracker,2025-06-30
+CSE,Computer Science & Engineering,circuit,2024-25,quarter,Q1,Placement,interns_completed,22,count,sum,final,Placement Cell tracker,2024-09-30
+CSE,Computer Science & Engineering,circuit,2024-25,quarter,Q2,Placement,interns_completed,32,count,sum,final,Placement Cell tracker,2024-12-31
+CSE,Computer Science & Engineering,circuit,2024-25,quarter,Q3,Placement,interns_completed,73,count,sum,final,Placement Cell tracker,2025-03-31
+CSE,Computer Science & Engineering,circuit,2024-25,quarter,Q4,Placement,interns_completed,59,count,sum,final,Placement Cell tracker,2025-06-30
+CSE,Computer Science & Engineering,circuit,2024-25,quarter,Q1,Finance,budget_allocated_lakh,105.0,INR lakh,sum,final,Finance & Accounts ledger,2024-09-30
+CSE,Computer Science & Engineering,circuit,2024-25,quarter,Q2,Finance,budget_allocated_lakh,105.0,INR lakh,sum,final,Finance & Accounts ledger,2024-12-31
+CSE,Computer Science & Engineering,circuit,2024-25,quarter,Q3,Finance,budget_allocated_lakh,105.0,INR lakh,sum,final,Finance & Accounts ledger,2025-03-31
+CSE,Computer Science & Engineering,circuit,2024-25,quarter,Q4,Finance,budget_allocated_lakh,105.0,INR lakh,sum,final,Finance & Accounts ledger,2025-06-30
+CSE,Computer Science & Engineering,circuit,2024-25,quarter,Q1,Finance,budget_spent_lakh,62.05,INR lakh,sum,final,Finance & Accounts ledger,2024-09-30
+CSE,Computer Science & Engineering,circuit,2024-25,quarter,Q2,Finance,budget_spent_lakh,80.3,INR lakh,sum,final,Finance & Accounts ledger,2024-12-31
+CSE,Computer Science & Engineering,circuit,2024-25,quarter,Q3,Finance,budget_spent_lakh,94.89,INR lakh,sum,final,Finance & Accounts ledger,2025-03-31
+CSE,Computer Science & Engineering,circuit,2024-25,quarter,Q4,Finance,budget_spent_lakh,127.74,INR lakh,sum,final,Finance & Accounts ledger,2025-06-30

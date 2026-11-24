@@ -1,0 +1,67 @@
+[
+  {
+    "check": "M1  a specialist exists for every domain in scope",
+    "passed": true,
+    "evidence": "registry: ['Academic', 'Finance', 'Placement', 'Research']"
+  },
+  {
+    "check": "M2  every off-target KPI was routed to the specialist that owns its domain",
+    "passed": true,
+    "evidence": "9 items routed across 4 packs"
+  },
+  {
+    "check": "M3  every specialist output passes its OWN scheme",
+    "passed": true,
+    "evidence": "9/9 outputs valid"
+  },
+  {
+    "check": "M4  every output carries the structured fields its domain requires",
+    "passed": true,
+    "evidence": "each output's scheme_fields covers its specialist's required_scheme"
+  },
+  {
+    "check": "M5  every option is checkable \u2014 owner, timeline, risks, trade-off, measure",
+    "passed": true,
+    "evidence": "9 options, each with a measure of success"
+  },
+  {
+    "check": "M6  specialists use their own domain vocabulary",
+    "passed": true,
+    "evidence": "every headline uses at least one term from its domain's vocabulary"
+  },
+  {
+    "check": "M7  figures are rendered in their own unit",
+    "passed": true,
+    "evidence": "grants read as INR lakh; publications read as per faculty"
+  },
+  {
+    "check": "M8  a generic output carries no checkable fields, and fails the domain's own scheme",
+    "passed": true,
+    "evidence": "0 scheme fields; judged by the Finance pack it breaks 2 rules: [\"scheme fields missing: ['figure_status', 'reconciliation_due', 'action_permitted']\", 'a provisional finance figure must be labelled in the headline']"
+  },
+  {
+    "check": "M9  the Finance specialist forbids action on an unreconciled figure",
+    "passed": true,
+    "evidence": "action_permitted=False; option: Defer any reallocation until the books close"
+  },
+  {
+    "check": "M10 a provisional finance figure is labelled in the headline",
+    "passed": true,
+    "evidence": "Budget utilisation is 86.96% against 90.00% on PROVISIONAL, unreconcil"
+  },
+  {
+    "check": "M11 tampering with a specialist output is caught by its own rules",
+    "passed": true,
+    "evidence": "violations: ['finance outputs may not permit action on an unreconciled figure', 'a provisional finance figure must be labelled in the headline']"
+  },
+  {
+    "check": "M12 the Placement specialist surfaces the KPI-P1 / KPI-P2 trade-off",
+    "passed": true,
+    "evidence": "placement options state that raising the rate lowers the average package"
+  },
+  {
+    "check": "M13 the Research specialist confirms no cross-department double-count",
+    "passed": true,
+    "evidence": "every research output carries double_count_checked=True (the Lab 8 finding)"
+  }
+]

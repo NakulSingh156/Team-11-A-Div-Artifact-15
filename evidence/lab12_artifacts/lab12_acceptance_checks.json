@@ -1,0 +1,67 @@
+[
+  {
+    "check": "L1  only a role with can_approve may publish",
+    "passed": true,
+    "evidence": "3 denied (analyst, dean, intern), 1 allowed (Principal)"
+  },
+  {
+    "check": "L2  an already-approved document cannot be approved again",
+    "passed": true,
+    "evidence": "re-approval of v1 was denied: status must be 'draft'"
+  },
+  {
+    "check": "L3  every release is versioned",
+    "passed": true,
+    "evidence": "versions on record: [1, 2]"
+  },
+  {
+    "check": "L4  every release records WHO approved it and WHEN",
+    "passed": true,
+    "evidence": "v1 by Dr. A. Principal (Principal / Director); v2 by S. Registrar (Registrar)"
+  },
+  {
+    "check": "L5  human edits are captured, not silently merged",
+    "passed": true,
+    "evidence": "v1 edits: ['Tightened the summary to 3 bullets.']"
+  },
+  {
+    "check": "L6  rollback is permission-controlled",
+    "passed": true,
+    "evidence": "Dean (Academics) (Dean) may not roll back a release"
+  },
+  {
+    "check": "L7  rollback restores the earlier version cleanly",
+    "passed": true,
+    "evidence": "live is v1 again, with 0 uncited KPI rows (v2 had 1)"
+  },
+  {
+    "check": "L8  rollback moves the pointer; it does not erase history",
+    "passed": true,
+    "evidence": "v2 is still on record and auditable after the rollback"
+  },
+  {
+    "check": "L9  confidentiality: department detail is withheld by level",
+    "passed": true,
+    "evidence": "Registrar sees the rows; Council sees a withheld-detail placeholder"
+  },
+  {
+    "check": "L10 confidentiality: a provisional figure never reaches the Council",
+    "passed": true,
+    "evidence": "Council view carries 8 of 9 KPIs"
+  },
+  {
+    "check": "L11 redaction is declared, never silent",
+    "passed": true,
+    "evidence": "Council redactions: ['department-level drill-down', 'KPI-F1 (provisional)']"
+  },
+  {
+    "check": "L12 every attempt is audited, allowed or denied",
+    "passed": true,
+    "evidence": "8 audit entries, 5 of them denials"
+  },
+  {
+    "check": "L13 release metrics are recorded",
+    "passed": true,
+    "evidence": "3 metric events including the rollback"
+  }
+]

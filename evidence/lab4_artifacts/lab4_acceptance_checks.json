@@ -1,0 +1,67 @@
+[
+  {
+    "check": "D1  tag retrieval returns correctly-tagged candidates",
+    "passed": true,
+    "evidence": "2 record(s), every one carrying the 'placement' tag"
+  },
+  {
+    "check": "D2  'all' mode requires every tag, not any",
+    "passed": true,
+    "evidence": "'all' -> 2 record(s); 'any' -> 3"
+  },
+  {
+    "check": "D3  a tag nobody carries returns nothing, not a wrong guess",
+    "passed": true,
+    "evidence": "retrieve_by_tags(['hostel-mess']) -> []"
+  },
+  {
+    "check": "D4  similarity retrieval surfaces the right prior item",
+    "passed": true,
+    "evidence": "top hit BRIEF-2023-24-Q4 at similarity 0.3931"
+  },
+  {
+    "check": "D5  similarity is ordered, not arbitrary",
+    "passed": true,
+    "evidence": "scores: [0.393, 0.152, 0.073, 0.061]"
+  },
+  {
+    "check": "D6  an unrelated query scores ~0 rather than returning false confidence",
+    "passed": true,
+    "evidence": "unrelated query top similarity 0.0000"
+  },
+  {
+    "check": "D7  hybrid retrieval respects the tag filter AND ranks by similarity",
+    "passed": true,
+    "evidence": "2 hits, top = BRIEF-2023-24-Q4"
+  },
+  {
+    "check": "D8  a previously-taken decision is recognised; a new one is not flagged",
+    "passed": true,
+    "evidence": "already-tried proposal 0.556 vs new proposal 0.079"
+  },
+  {
+    "check": "D9  editing run state cannot change the archived baseline",
+    "passed": true,
+    "evidence": "archived 2024-25 KPI-P1 still 73.50 after the draft was overwritten"
+  },
+  {
+    "check": "D10 the archive hands out copies, so a reader cannot corrupt it",
+    "passed": true,
+    "evidence": "a mutated retrieved record left the store untouched"
+  },
+  {
+    "check": "D11 the archive is append-only",
+    "passed": true,
+    "evidence": "7 writes for 7 records — no overwrites"
+  },
+  {
+    "check": "D12 only an approved draft can enter long-term memory",
+    "passed": true,
+    "evidence": "the unapproved draft was refused; the approved one carries approved_by"
+  },
+  {
+    "check": "D13 the archive enables a finding the current year alone cannot produce",
+    "passed": true,
+    "evidence": "KPI-P2 is below target AND declining (-0.28 YoY) — invisible without a baseline"
+  }
+]

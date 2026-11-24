@@ -1,0 +1,23 @@
+{
+  "tok-coordinator": {
+    "holder": "apniLeap AURA Coordinator",
+    "scopes": [
+      "read:benchmarks",
+      "read:departments",
+      "read:kpi-register"
+    ]
+  },
+  "tok-academic-agent": {
+    "holder": "Academic Agent",
+    "scopes": [
+      "read:departments",
+      "read:kpi-register"
+    ]
+  },
+  "tok-intern": {
+    "holder": "Summer intern (read-only KPI register)",
+    "scopes": [
+      "read:kpi-register"
+    ]
+  }
+}

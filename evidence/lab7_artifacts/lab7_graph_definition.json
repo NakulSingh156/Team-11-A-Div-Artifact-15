@@ -1,0 +1,172 @@
+{
+  "name": "worklet-15-executive-decision-support",
+  "nodes": [
+    {
+      "name": "coordinator",
+      "kind": "coordinator",
+      "label": "apniLeap AURA Coordinator",
+      "parallel_group": null
+    },
+    {
+      "name": "academic_agent",
+      "kind": "agent",
+      "label": "Academic Agent",
+      "parallel_group": "domain_agents"
+    },
+    {
+      "name": "research_agent",
+      "kind": "agent",
+      "label": "Research Agent",
+      "parallel_group": "domain_agents"
+    },
+    {
+      "name": "placement_agent",
+      "kind": "agent",
+      "label": "Placement Agent",
+      "parallel_group": "domain_agents"
+    },
+    {
+      "name": "finance_agent",
+      "kind": "agent",
+      "label": "Finance Agent",
+      "parallel_group": "domain_agents"
+    },
+    {
+      "name": "kpi_agent",
+      "kind": "join",
+      "label": "KPI Agent \u2014 synthesis",
+      "parallel_group": null
+    },
+    {
+      "name": "report_agent",
+      "kind": "agent",
+      "label": "Report Generation Agent",
+      "parallel_group": null
+    },
+    {
+      "name": "validation",
+      "kind": "validation",
+      "label": "Validation gate (hard)",
+      "parallel_group": null
+    },
+    {
+      "name": "regenerate",
+      "kind": "agent",
+      "label": "Regenerate the failing KPI only",
+      "parallel_group": null
+    },
+    {
+      "name": "human_gate",
+      "kind": "gate",
+      "label": "Principal / Registrar review",
+      "parallel_group": null
+    },
+    {
+      "name": "publish",
+      "kind": "publish",
+      "label": "Governed publish + audit",
+      "parallel_group": null
+    }
+  ],
+  "edges": [
+    {
+      "src": "coordinator",
+      "dst": "academic_agent",
+      "condition": null,
+      "back_edge": false
+    },
+    {
+      "src": "academic_agent",
+      "dst": "kpi_agent",
+      "condition": null,
+      "back_edge": false
+    },
+    {
+      "src": "coordinator",
+      "dst": "research_agent",
+      "condition": null,
+      "back_edge": false
+    },
+    {
+      "src": "research_agent",
+      "dst": "kpi_agent",
+      "condition": null,
+      "back_edge": false
+    },
+    {
+      "src": "coordinator",
+      "dst": "placement_agent",
+      "condition": null,
+      "back_edge": false
+    },
+    {
+      "src": "placement_agent",
+      "dst": "kpi_agent",
+      "condition": null,
+      "back_edge": false
+    },
+    {
+      "src": "coordinator",
+      "dst": "finance_agent",
+      "condition": null,
+      "back_edge": false
+    },
+    {
+      "src": "finance_agent",
+      "dst": "kpi_agent",
+      "condition": null,
+      "back_edge": false
+    },
+    {
+      "src": "kpi_agent",
+      "dst": "report_agent",
+      "condition": null,
+      "back_edge": false
+    },
+    {
+      "src": "report_agent",
+      "dst": "validation",
+      "condition": null,
+      "back_edge": false
+    },
+    {
+      "src": "validation",
+      "dst": "human_gate",
+      "condition": "pass",
+      "back_edge": false
+    },
+    {
+      "src": "validation",
+      "dst": "regenerate",
+      "condition": "fail",
+      "back_edge": false
+    },
+    {
+      "src": "regenerate",
+      "dst": "report_agent",
+      "condition": null,
+      "back_edge": true
+    },
+    {
+      "src": "human_gate",
+      "dst": "publish",
+      "condition": "approve",
+      "back_edge": false
+    },
+    {
+      "src": "human_gate",
+      "dst": "regenerate",
+      "condition": "edit",
+      "back_edge": true
+    }
+  ],
+  "static_check": {
+    "unreachable": [],
+    "dangling": [],
+    "terminal_nodes": [
+      "publish"
+    ],
+    "conditional_edges_without_a_router": [],
+    "ok": true
+  }
+}

@@ -1,0 +1,13 @@
+# The dashboards are designed dark: raised cards on a deep ground, one accent
+# colour. Streamlit reads this file from the directory you launch in, which is
+# why the documented command is `cd dashboard && streamlit run pipeline_app.py`.
+[theme]
+base = "dark"
+primaryColor = "#8098ff"
+backgroundColor = "#0c0f16"
+secondaryBackgroundColor = "#141924"
+textColor = "#e9edf5"
+font = "sans serif"
+
+[browser]
+gatherUsageStats = false

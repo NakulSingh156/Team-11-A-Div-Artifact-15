@@ -1,0 +1,58 @@
+{
+  "CSE": {
+    "ok": true,
+    "attempts": 1,
+    "ms": 63.09,
+    "error": null,
+    "claimed": 58
+  },
+  "ECE": {
+    "ok": true,
+    "attempts": 1,
+    "ms": 63.17,
+    "error": null,
+    "claimed": 34
+  },
+  "ISE": {
+    "ok": true,
+    "attempts": 1,
+    "ms": 63.07,
+    "error": null,
+    "claimed": 21
+  },
+  "EEE": {
+    "ok": true,
+    "attempts": 1,
+    "ms": 62.98,
+    "error": null,
+    "claimed": 16
+  },
+  "MECH": {
+    "ok": true,
+    "attempts": 1,
+    "ms": 63.0,
+    "error": null,
+    "claimed": 19
+  },
+  "CIVIL": {
+    "ok": false,
+    "attempts": 3,
+    "ms": 368.87,
+    "error": "ConnectionError: CIVIL departmental server unreachable",
+    "claimed": null
+  },
+  "CHEM": {
+    "ok": true,
+    "attempts": 2,
+    "ms": 187.77,
+    "error": null,
+    "claimed": 14
+  },
+  "BT": {
+    "ok": true,
+    "attempts": 1,
+    "ms": 62.86,
+    "error": null,
+    "claimed": 12
+  }
+}

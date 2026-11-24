@@ -1,0 +1,22 @@
+[
+  {
+    "actor": "P. Analyst (Planning analyst)",
+    "outcome": "DENIED",
+    "detail": "P. Analyst (Planning analyst) may not approve an executive brief"
+  },
+  {
+    "actor": "Dean (Academics) (Dean)",
+    "outcome": "DENIED",
+    "detail": "Dean (Academics) (Dean) may not approve an executive brief"
+  },
+  {
+    "actor": "Summer intern (Summer intern)",
+    "outcome": "DENIED",
+    "detail": "Summer intern (Summer intern) may not approve an executive brief"
+  },
+  {
+    "actor": "Dr. A. Principal (Principal / Director)",
+    "outcome": "ALLOWED",
+    "detail": "published v1"
+  }
+]

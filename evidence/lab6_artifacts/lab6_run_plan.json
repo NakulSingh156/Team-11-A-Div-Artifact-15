@@ -1,0 +1,64 @@
+[
+  {
+    "name": "load_departments",
+    "kind": "tool",
+    "description": "Read department rows through the connector",
+    "requires_approval": false,
+    "depends_on": []
+  },
+  {
+    "name": "review_domains",
+    "kind": "skill",
+    "description": "Run the review_domain skill for all four domains",
+    "requires_approval": false,
+    "depends_on": [
+      "load_departments"
+    ]
+  },
+  {
+    "name": "retrieve_baseline",
+    "kind": "memory",
+    "description": "Read closed-year KPI snapshots from the archive",
+    "requires_approval": false,
+    "depends_on": [
+      "load_departments"
+    ]
+  },
+  {
+    "name": "compute_trend",
+    "kind": "compute",
+    "description": "Year-on-year movement per KPI",
+    "requires_approval": false,
+    "depends_on": [
+      "review_domains",
+      "retrieve_baseline"
+    ]
+  },
+  {
+    "name": "assemble_brief",
+    "kind": "skill",
+    "description": "Render the brief with the format_document skill",
+    "requires_approval": false,
+    "depends_on": [
+      "compute_trend"
+    ]
+  },
+  {
+    "name": "human_gate",
+    "kind": "gate",
+    "description": "Principal / Registrar approval",
+    "requires_approval": true,
+    "depends_on": [
+      "assemble_brief"
+    ]
+  },
+  {
+    "name": "publish",
+    "kind": "publish",
+    "description": "Release the approved, versioned brief",
+    "requires_approval": false,
+    "depends_on": [
+      "human_gate"
+    ]
+  }
+]

@@ -1,0 +1,22 @@
+{
+  "action_budget": {
+    "limit": 2,
+    "completed": [
+      "load_departments",
+      "review_domains"
+    ]
+  },
+  "connector_budget": {
+    "limit": 0,
+    "completed": []
+  },
+  "ungated_run": {
+    "completed": [
+      "load_departments",
+      "review_domains",
+      "retrieve_baseline",
+      "compute_trend",
+      "assemble_brief"
+    ]
+  }
+}

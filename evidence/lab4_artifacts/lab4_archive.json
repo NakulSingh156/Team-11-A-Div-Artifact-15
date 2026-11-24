@@ -1,0 +1,144 @@
+[
+  {
+    "type": "decision_brief",
+    "period": "2023-24",
+    "title": "Placement recovery after the 2023 hiring slowdown",
+    "tags": [
+      "placement",
+      "core-branches",
+      "recruiter-outreach",
+      "below-target"
+    ],
+    "summary": "Placement closed at 71.80% against an 80% target. Core branches drove the gap; circuit branches held. The Council approved a recruiter outreach drive and deferred the package target.",
+    "decisions": [
+      "Approved INR 12 lakh recruiter outreach budget",
+      "Deferred the average-package target by one year"
+    ],
+    "outcome": "Placement rose to 73.50% the following year — short of target but the trend reversed. The wider recruiter pool brought in lower-paying offers, and average package began to slide.",
+    "record_id": "BRIEF-2023-24-Q4",
+    "archived_at": "2026-09-28T20:13:07+00:00"
+  },
+  {
+    "type": "decision_brief",
+    "period": "2024-25",
+    "title": "Research output against the NIRF submission",
+    "tags": [
+      "research",
+      "publications",
+      "citations",
+      "nirf",
+      "below-target"
+    ],
+    "summary": "Publications per faculty stood at 1.05 against a 1.50 target and citations per faculty at 6.40. The Council approved a seed-grant scheme and asked for a per-department breakdown each quarter.",
+    "decisions": [
+      "Approved a seed-grant scheme for research-active faculty",
+      "Made department-level drill-down mandatory for research KPIs"
+    ],
+    "outcome": "Publications rose to 1.12; the reporting change stuck and is now standing practice.",
+    "record_id": "BRIEF-2024-25-Q2",
+    "archived_at": "2026-09-28T20:13:07+00:00"
+  },
+  {
+    "type": "decision_brief",
+    "period": "2024-25",
+    "title": "Budget utilisation and the unreconciled Q4 position",
+    "tags": [
+      "finance",
+      "budget-utilisation",
+      "provisional",
+      "reconciliation"
+    ],
+    "summary": "Utilisation was reported at 88.10% but Q4 was unreconciled at the time of review. The Council declined to act on a provisional figure and deferred the decision to the post-audit cycle.",
+    "decisions": [
+      "Deferred all budget reallocation until the books closed",
+      "Required provisional figures to be labelled on the face of the brief"
+    ],
+    "outcome": "Final utilisation came in at 86.90% — 1.2 points below the provisional figure, vindicating the deferral.",
+    "record_id": "BRIEF-2024-25-Q4",
+    "archived_at": "2026-09-28T20:13:07+00:00"
+  },
+  {
+    "type": "decision_brief",
+    "period": "2024-25",
+    "title": "Pass percentage and the rounding dispute",
+    "tags": [
+      "academic",
+      "pass-percentage",
+      "rounding",
+      "at-risk"
+    ],
+    "summary": "Pass percentage was circulated as '92%' when the unrounded figure was 91.60%, which is below the 92.00% target. The Council directed that KPI figures be reported unrounded.",
+    "decisions": [
+      "Directed that all KPI figures be reported unrounded",
+      "Ordered remedial coaching in the two weakest departments"
+    ],
+    "outcome": "The reporting rule is now enforced by the KPI engine itself.",
+    "record_id": "BRIEF-2024-25-Q3",
+    "archived_at": "2026-09-28T20:13:07+00:00"
+  },
+  {
+    "type": "kpi_snapshot",
+    "period": "2023-24",
+    "title": "Institution KPI snapshot 2023-24",
+    "tags": [
+      "kpi-snapshot",
+      "closed-year",
+      "baseline"
+    ],
+    "values": {
+      "KPI-A1": 90.4,
+      "KPI-A2": 2.38,
+      "KPI-R1": 0.98,
+      "KPI-R2": 5.9,
+      "KPI-R3": 198.0,
+      "KPI-P1": 71.8,
+      "KPI-P2": 7.1,
+      "KPI-P3": 64.2,
+      "KPI-F1": 84.3
+    },
+    "record_id": "KPI-SNAPSHOT-2023-24",
+    "archived_at": "2026-09-28T20:13:07+00:00"
+  },
+  {
+    "type": "kpi_snapshot",
+    "period": "2024-25",
+    "title": "Institution KPI snapshot 2024-25",
+    "tags": [
+      "kpi-snapshot",
+      "closed-year",
+      "baseline"
+    ],
+    "values": {
+      "KPI-A1": 91.2,
+      "KPI-A2": 2.44,
+      "KPI-R1": 1.12,
+      "KPI-R2": 6.4,
+      "KPI-R3": 221.5,
+      "KPI-P1": 73.5,
+      "KPI-P2": 7.95,
+      "KPI-P3": 69.1,
+      "KPI-F1": 86.9
+    },
+    "record_id": "KPI-SNAPSHOT-2024-25",
+    "archived_at": "2026-09-28T20:13:07+00:00"
+  },
+  {
+    "type": "decision_brief",
+    "period": "academic year 2025-26",
+    "title": "Executive decision brief — 2025-26",
+    "tags": [
+      "placement",
+      "research",
+      "academic",
+      "finance",
+      "below-target"
+    ],
+    "summary": "9 of 9 KPIs off target; placement improving but average package declining for the first time.",
+    "decisions": [
+      "Noted the average-package decline against the 2023-24 recruiter-outreach decision."
+    ],
+    "approved_by": "Dr. A. Principal",
+    "record_id": "BRIEF-2025-26-RUN-2025-26-01",
+    "archived_at": "2026-09-28T20:13:07+00:00"
+  }
+]

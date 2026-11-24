@@ -1,0 +1,79 @@
+dept_code,dept_name,category,period,grain,sub_period,domain,metric,value,unit,aggregation,figure_status,source_system,recorded_on
+MECH,Mechanical Engineering,core,2025-26,semester,SEM-1,Academic,students_appeared,90,count,sum,final,Academic ERP,2025-12-31
+MECH,Mechanical Engineering,core,2025-26,semester,SEM-2,Academic,students_appeared,90,count,sum,final,Academic ERP,2026-06-30
+MECH,Mechanical Engineering,core,2025-26,semester,SEM-1,Academic,students_passed,79,count,sum,final,Academic ERP,2025-12-31
+MECH,Mechanical Engineering,core,2025-26,semester,SEM-2,Academic,students_passed,79,count,sum,final,Academic ERP,2026-06-30
+MECH,Mechanical Engineering,core,2025-26,annual,FY,Academic,co_po_attainment,2.33,index 0-3,weighted_mean,final,Academic ERP,2026-06-30
+MECH,Mechanical Engineering,core,2025-26,annual,FY,Research,sanctioned_faculty,24,count,latest,final,Research repository,2026-06-30
+MECH,Mechanical Engineering,core,2025-26,quarter,Q1,Research,publications,3,count,sum,final,Research repository,2025-09-30
+MECH,Mechanical Engineering,core,2025-26,quarter,Q2,Research,publications,5,count,sum,final,Research repository,2025-12-31
+MECH,Mechanical Engineering,core,2025-26,quarter,Q3,Research,publications,6,count,sum,final,Research repository,2026-03-31
+MECH,Mechanical Engineering,core,2025-26,quarter,Q4,Research,publications,5,count,sum,final,Research repository,2026-06-30
+MECH,Mechanical Engineering,core,2025-26,quarter,Q1,Research,citations,20,count,sum,final,Research repository,2025-09-30
+MECH,Mechanical Engineering,core,2025-26,quarter,Q2,Research,citations,23,count,sum,final,Research repository,2025-12-31
+MECH,Mechanical Engineering,core,2025-26,quarter,Q3,Research,citations,26,count,sum,final,Research repository,2026-03-31
+MECH,Mechanical Engineering,core,2025-26,quarter,Q4,Research,citations,26,count,sum,final,Research repository,2026-06-30
+MECH,Mechanical Engineering,core,2025-26,quarter,Q1,Research,grants_lakh,8.53,INR lakh,sum,final,Research repository,2025-09-30
+MECH,Mechanical Engineering,core,2025-26,quarter,Q2,Research,grants_lakh,5.23,INR lakh,sum,final,Research repository,2025-12-31
+MECH,Mechanical Engineering,core,2025-26,quarter,Q3,Research,grants_lakh,7.42,INR lakh,sum,final,Research repository,2026-03-31
+MECH,Mechanical Engineering,core,2025-26,quarter,Q4,Research,grants_lakh,6.32,INR lakh,sum,final,Research repository,2026-06-30
+MECH,Mechanical Engineering,core,2025-26,annual,FY,Placement,eligible_students,174,count,latest,final,Placement Cell tracker,2026-06-30
+MECH,Mechanical Engineering,core,2025-26,quarter,Q1,Placement,placed_students,10,count,sum,final,Placement Cell tracker,2025-09-30
+MECH,Mechanical Engineering,core,2025-26,quarter,Q2,Placement,placed_students,38,count,sum,final,Placement Cell tracker,2025-12-31
+MECH,Mechanical Engineering,core,2025-26,quarter,Q3,Placement,placed_students,45,count,sum,final,Placement Cell tracker,2026-03-31
+MECH,Mechanical Engineering,core,2025-26,quarter,Q4,Placement,placed_students,18,count,sum,final,Placement Cell tracker,2026-06-30
+MECH,Mechanical Engineering,core,2025-26,quarter,Q1,Placement,total_package_lpa,47.95,LPA,sum,final,Placement Cell tracker,2025-09-30
+MECH,Mechanical Engineering,core,2025-26,quarter,Q2,Placement,total_package_lpa,197.8,LPA,sum,final,Placement Cell tracker,2025-12-31
+MECH,Mechanical Engineering,core,2025-26,quarter,Q3,Placement,total_package_lpa,257.74,LPA,sum,final,Placement Cell tracker,2026-03-31
+MECH,Mechanical Engineering,core,2025-26,quarter,Q4,Placement,total_package_lpa,95.91,LPA,sum,final,Placement Cell tracker,2026-06-30
+MECH,Mechanical Engineering,core,2025-26,quarter,Q1,Placement,interns_completed,12,count,sum,final,Placement Cell tracker,2025-09-30
+MECH,Mechanical Engineering,core,2025-26,quarter,Q2,Placement,interns_completed,17,count,sum,final,Placement Cell tracker,2025-12-31
+MECH,Mechanical Engineering,core,2025-26,quarter,Q3,Placement,interns_completed,40,count,sum,final,Placement Cell tracker,2026-03-31
+MECH,Mechanical Engineering,core,2025-26,quarter,Q4,Placement,interns_completed,33,count,sum,final,Placement Cell tracker,2026-06-30
+MECH,Mechanical Engineering,core,2025-26,quarter,Q1,Finance,budget_allocated_lakh,75.0,INR lakh,sum,final,Finance & Accounts ledger,2025-09-30
+MECH,Mechanical Engineering,core,2025-26,quarter,Q2,Finance,budget_allocated_lakh,75.0,INR lakh,sum,final,Finance & Accounts ledger,2025-12-31
+MECH,Mechanical Engineering,core,2025-26,quarter,Q3,Finance,budget_allocated_lakh,75.0,INR lakh,sum,final,Finance & Accounts ledger,2026-03-31
+MECH,Mechanical Engineering,core,2025-26,quarter,Q4,Finance,budget_allocated_lakh,75.0,INR lakh,sum,final,Finance & Accounts ledger,2026-06-30
+MECH,Mechanical Engineering,core,2025-26,quarter,Q1,Finance,budget_spent_lakh,41.99,INR lakh,sum,final,Finance & Accounts ledger,2025-09-30
+MECH,Mechanical Engineering,core,2025-26,quarter,Q2,Finance,budget_spent_lakh,54.34,INR lakh,sum,final,Finance & Accounts ledger,2025-12-31
+MECH,Mechanical Engineering,core,2025-26,quarter,Q3,Finance,budget_spent_lakh,64.22,INR lakh,sum,final,Finance & Accounts ledger,2026-03-31
+MECH,Mechanical Engineering,core,2025-26,quarter,Q4,Finance,budget_spent_lakh,86.45,INR lakh,sum,final,Finance & Accounts ledger,2026-06-30
+MECH,Mechanical Engineering,core,2024-25,semester,SEM-1,Academic,students_appeared,90,count,sum,final,Academic ERP,2024-12-31
+MECH,Mechanical Engineering,core,2024-25,semester,SEM-2,Academic,students_appeared,90,count,sum,final,Academic ERP,2025-06-30
+MECH,Mechanical Engineering,core,2024-25,semester,SEM-1,Academic,students_passed,79,count,sum,final,Academic ERP,2024-12-31
+MECH,Mechanical Engineering,core,2024-25,semester,SEM-2,Academic,students_passed,78,count,sum,final,Academic ERP,2025-06-30
+MECH,Mechanical Engineering,core,2024-25,annual,FY,Academic,co_po_attainment,2.29,index 0-3,weighted_mean,final,Academic ERP,2025-06-30
+MECH,Mechanical Engineering,core,2024-25,annual,FY,Research,sanctioned_faculty,24,count,latest,final,Research repository,2025-06-30
+MECH,Mechanical Engineering,core,2024-25,quarter,Q1,Research,publications,3,count,sum,final,Research repository,2024-09-30
+MECH,Mechanical Engineering,core,2024-25,quarter,Q2,Research,publications,5,count,sum,final,Research repository,2024-12-31
+MECH,Mechanical Engineering,core,2024-25,quarter,Q3,Research,publications,5,count,sum,final,Research repository,2025-03-31
+MECH,Mechanical Engineering,core,2024-25,quarter,Q4,Research,publications,5,count,sum,final,Research repository,2025-06-30
+MECH,Mechanical Engineering,core,2024-25,quarter,Q1,Research,citations,18,count,sum,final,Research repository,2024-09-30
+MECH,Mechanical Engineering,core,2024-25,quarter,Q2,Research,citations,20,count,sum,final,Research repository,2024-12-31
+MECH,Mechanical Engineering,core,2024-25,quarter,Q3,Research,citations,23,count,sum,final,Research repository,2025-03-31
+MECH,Mechanical Engineering,core,2024-25,quarter,Q4,Research,citations,23,count,sum,final,Research repository,2025-06-30
+MECH,Mechanical Engineering,core,2024-25,quarter,Q1,Research,grants_lakh,7.79,INR lakh,sum,final,Research repository,2024-09-30
+MECH,Mechanical Engineering,core,2024-25,quarter,Q2,Research,grants_lakh,4.77,INR lakh,sum,final,Research repository,2024-12-31
+MECH,Mechanical Engineering,core,2024-25,quarter,Q3,Research,grants_lakh,6.78,INR lakh,sum,final,Research repository,2025-03-31
+MECH,Mechanical Engineering,core,2024-25,quarter,Q4,Research,grants_lakh,5.78,INR lakh,sum,final,Research repository,2025-06-30
+MECH,Mechanical Engineering,core,2024-25,annual,FY,Placement,eligible_students,168,count,latest,final,Placement Cell tracker,2025-06-30
+MECH,Mechanical Engineering,core,2024-25,quarter,Q1,Placement,placed_students,9,count,sum,final,Placement Cell tracker,2024-09-30
+MECH,Mechanical Engineering,core,2024-25,quarter,Q2,Placement,placed_students,36,count,sum,final,Placement Cell tracker,2024-12-31
+MECH,Mechanical Engineering,core,2024-25,quarter,Q3,Placement,placed_students,43,count,sum,final,Placement Cell tracker,2025-03-31
+MECH,Mechanical Engineering,core,2024-25,quarter,Q4,Placement,placed_students,17,count,sum,final,Placement Cell tracker,2025-06-30
+MECH,Mechanical Engineering,core,2024-25,quarter,Q1,Placement,total_package_lpa,46.91,LPA,sum,final,Placement Cell tracker,2024-09-30
+MECH,Mechanical Engineering,core,2024-25,quarter,Q2,Placement,total_package_lpa,193.52,LPA,sum,final,Placement Cell tracker,2024-12-31
+MECH,Mechanical Engineering,core,2024-25,quarter,Q3,Placement,total_package_lpa,252.16,LPA,sum,final,Placement Cell tracker,2025-03-31
+MECH,Mechanical Engineering,core,2024-25,quarter,Q4,Placement,total_package_lpa,93.83,LPA,sum,final,Placement Cell tracker,2025-06-30
+MECH,Mechanical Engineering,core,2024-25,quarter,Q1,Placement,interns_completed,11,count,sum,final,Placement Cell tracker,2024-09-30
+MECH,Mechanical Engineering,core,2024-25,quarter,Q2,Placement,interns_completed,16,count,sum,final,Placement Cell tracker,2024-12-31
+MECH,Mechanical Engineering,core,2024-25,quarter,Q3,Placement,interns_completed,36,count,sum,final,Placement Cell tracker,2025-03-31
+MECH,Mechanical Engineering,core,2024-25,quarter,Q4,Placement,interns_completed,30,count,sum,final,Placement Cell tracker,2025-06-30
+MECH,Mechanical Engineering,core,2024-25,quarter,Q1,Finance,budget_allocated_lakh,75.0,INR lakh,sum,final,Finance & Accounts ledger,2024-09-30
+MECH,Mechanical Engineering,core,2024-25,quarter,Q2,Finance,budget_allocated_lakh,75.0,INR lakh,sum,final,Finance & Accounts ledger,2024-12-31
+MECH,Mechanical Engineering,core,2024-25,quarter,Q3,Finance,budget_allocated_lakh,75.0,INR lakh,sum,final,Finance & Accounts ledger,2025-03-31
+MECH,Mechanical Engineering,core,2024-25,quarter,Q4,Finance,budget_allocated_lakh,75.0,INR lakh,sum,final,Finance & Accounts ledger,2025-06-30
+MECH,Mechanical Engineering,core,2024-25,quarter,Q1,Finance,budget_spent_lakh,44.32,INR lakh,sum,final,Finance & Accounts ledger,2024-09-30
+MECH,Mechanical Engineering,core,2024-25,quarter,Q2,Finance,budget_spent_lakh,57.35,INR lakh,sum,final,Finance & Accounts ledger,2024-12-31
+MECH,Mechanical Engineering,core,2024-25,quarter,Q3,Finance,budget_spent_lakh,67.78,INR lakh,sum,final,Finance & Accounts ledger,2025-03-31
+MECH,Mechanical Engineering,core,2024-25,quarter,Q4,Finance,budget_spent_lakh,91.25,INR lakh,sum,final,Finance & Accounts ledger,2025-06-30

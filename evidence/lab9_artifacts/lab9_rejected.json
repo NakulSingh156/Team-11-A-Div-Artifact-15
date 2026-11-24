@@ -1,0 +1,20 @@
+[
+  {
+    "id": "C6",
+    "kind": "context",
+    "text": "A national hiring slowdown is the main reason placement fell short.",
+    "reason": "no in-scope source was named or found for this claim"
+  },
+  {
+    "id": "C7",
+    "kind": "finding",
+    "text": "Student satisfaction with placement support is around 68%.",
+    "reason": "'KPI-S1' is not an approved KPI"
+  },
+  {
+    "id": "C8",
+    "kind": "finding",
+    "text": "Civil Engineering's alumni donation total was INR 4.2 lakh.",
+    "reason": "'alumni_donations' is not a reported field"
+  }
+]

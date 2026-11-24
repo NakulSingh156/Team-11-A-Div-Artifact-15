@@ -1,0 +1,8 @@
+{
+  "attempt": 3,
+  "action": "ESCALATE",
+  "reason": "still failing after 3 attempts",
+  "failing": [
+    "every-figure-cites-its-source@KPI-X9"
+  ]
+}

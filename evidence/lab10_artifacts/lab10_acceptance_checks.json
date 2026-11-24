@@ -1,0 +1,62 @@
+[
+  {
+    "check": "J1  a clean brief passes every constraint",
+    "passed": true,
+    "evidence": "6 constraints, 0 failures on a clean build"
+  },
+  {
+    "check": "J2  every injected fault was DETECTED",
+    "passed": true,
+    "evidence": "5/5 faults produced a non-empty failure report"
+  },
+  {
+    "check": "J3  each failure names the exact constraint AND where",
+    "passed": true,
+    "evidence": "every-figure-cites-its-source@KPI-R2"
+  },
+  {
+    "check": "J4  each failure carries a human-readable diagnosis",
+    "passed": true,
+    "evidence": "KPI-R2: a KPI row reached the brief with an empty source_system"
+  },
+  {
+    "check": "J5  every fault was repaired within the retry budget",
+    "passed": true,
+    "evidence": "max attempts used: 1 of 3"
+  },
+  {
+    "check": "J6  a row-level fault repairs exactly ONE row",
+    "passed": true,
+    "evidence": "rows touched per fault: [1, 0, 0, 1, 1]"
+  },
+  {
+    "check": "J7  the other rows are left byte-identical",
+    "passed": true,
+    "evidence": "untouched rows per fault: [8, 9, 9, 8, 8] of 9"
+  },
+  {
+    "check": "J8  a brief-level fault touches no KPI row at all",
+    "passed": true,
+    "evidence": "the assumptions and options repairs changed 0 KPI rows"
+  },
+  {
+    "check": "J9  repair is not fabrication",
+    "passed": true,
+    "evidence": "the deleted risk assessment was replaced with a placeholder flagged for the owner, not invented"
+  },
+  {
+    "check": "J10 an unrepairable fault escalates instead of publishing",
+    "passed": true,
+    "evidence": "still failing after 3 attempts -> ['every-figure-cites-its-source@KPI-X9']"
+  },
+  {
+    "check": "J11 the loop terminates \u2014 it does not spin on an unfixable fault",
+    "passed": true,
+    "evidence": "stopped after exactly 3 attempts"
+  },
+  {
+    "check": "J12 the diagnosis log records every attempt",
+    "passed": true,
+    "evidence": "each campaign entry carries detection, diagnosis, attempts and outcome"
+  }
+]

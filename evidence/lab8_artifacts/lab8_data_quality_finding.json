@@ -1,0 +1,21 @@
+{
+  "flat_export_publications": 185,
+  "distinct_identities_all_eight": 182,
+  "double_counted": 3,
+  "kpi_r1_as_computed_in_labs_1_7": 1.1859,
+  "kpi_r1_identity_merged": 1.1667,
+  "contested": {
+    "PUB-J1": [
+      "CSE",
+      "ECE"
+    ],
+    "PUB-J2": [
+      "CSE",
+      "ECE"
+    ],
+    "PUB-J3": [
+      "CSE",
+      "ECE"
+    ]
+  }
+}

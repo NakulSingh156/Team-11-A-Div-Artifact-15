@@ -1,0 +1,71 @@
+{
+  "resource": "department_reports",
+  "backend_before": "file:csv",
+  "backend_after": "sqlite",
+  "agent_lines_changed": 0,
+  "results_before": [
+    {
+      "kpi_id": "KPI-P1",
+      "name": "Placement percentage",
+      "value": 75.1205,
+      "unit": "%",
+      "target": 80.0,
+      "status": "below target",
+      "source_system": "Placement Cell tracker",
+      "rows_source": "Department reports export (CSV on disk)"
+    },
+    {
+      "kpi_id": "KPI-R2",
+      "name": "Citations per faculty",
+      "value": 7.2564,
+      "unit": "per faculty",
+      "target": 9.0,
+      "status": "below target",
+      "source_system": "Research repository",
+      "rows_source": "Department reports export (CSV on disk)"
+    },
+    {
+      "kpi_id": "KPI-P3",
+      "name": "Internship completion",
+      "value": 73.3848,
+      "unit": "%",
+      "target": 85.0,
+      "status": "below target",
+      "source_system": "Placement Cell tracker",
+      "rows_source": "Department reports export (CSV on disk)"
+    }
+  ],
+  "results_after": [
+    {
+      "kpi_id": "KPI-P1",
+      "name": "Placement percentage",
+      "value": 75.1205,
+      "unit": "%",
+      "target": 80.0,
+      "status": "below target",
+      "source_system": "Placement Cell tracker",
+      "rows_source": "Department reports (SQLite table)"
+    },
+    {
+      "kpi_id": "KPI-R2",
+      "name": "Citations per faculty",
+      "value": 7.2564,
+      "unit": "per faculty",
+      "target": 9.0,
+      "status": "below target",
+      "source_system": "Research repository",
+      "rows_source": "Department reports (SQLite table)"
+    },
+    {
+      "kpi_id": "KPI-P3",
+      "name": "Internship completion",
+      "value": 73.3848,
+      "unit": "%",
+      "target": 85.0,
+      "status": "below target",
+      "source_system": "Placement Cell tracker",
+      "rows_source": "Department reports (SQLite table)"
+    }
+  ],
+  "all_figures_identical": true
+}

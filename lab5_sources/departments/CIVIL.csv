@@ -1,0 +1,79 @@
+dept_code,dept_name,category,period,grain,sub_period,domain,metric,value,unit,aggregation,figure_status,source_system,recorded_on
+CIVIL,Civil Engineering,core,2025-26,semester,SEM-1,Academic,students_appeared,60,count,sum,final,Academic ERP,2025-12-31
+CIVIL,Civil Engineering,core,2025-26,semester,SEM-2,Academic,students_appeared,60,count,sum,final,Academic ERP,2026-06-30
+CIVIL,Civil Engineering,core,2025-26,semester,SEM-1,Academic,students_passed,51,count,sum,final,Academic ERP,2025-12-31
+CIVIL,Civil Engineering,core,2025-26,semester,SEM-2,Academic,students_passed,50,count,sum,final,Academic ERP,2026-06-30
+CIVIL,Civil Engineering,core,2025-26,annual,FY,Academic,co_po_attainment,2.19,index 0-3,weighted_mean,final,Academic ERP,2026-06-30
+CIVIL,Civil Engineering,core,2025-26,annual,FY,Research,sanctioned_faculty,16,count,latest,final,Research repository,2026-06-30
+CIVIL,Civil Engineering,core,2025-26,quarter,Q1,Research,publications,2,count,sum,final,Research repository,2025-09-30
+CIVIL,Civil Engineering,core,2025-26,quarter,Q2,Research,publications,3,count,sum,final,Research repository,2025-12-31
+CIVIL,Civil Engineering,core,2025-26,quarter,Q3,Research,publications,3,count,sum,final,Research repository,2026-03-31
+CIVIL,Civil Engineering,core,2025-26,quarter,Q4,Research,publications,3,count,sum,final,Research repository,2026-06-30
+CIVIL,Civil Engineering,core,2025-26,quarter,Q1,Research,citations,10,count,sum,final,Research repository,2025-09-30
+CIVIL,Civil Engineering,core,2025-26,quarter,Q2,Research,citations,11,count,sum,final,Research repository,2025-12-31
+CIVIL,Civil Engineering,core,2025-26,quarter,Q3,Research,citations,13,count,sum,final,Research repository,2026-03-31
+CIVIL,Civil Engineering,core,2025-26,quarter,Q4,Research,citations,13,count,sum,final,Research repository,2026-06-30
+CIVIL,Civil Engineering,core,2025-26,quarter,Q1,Research,grants_lakh,3.72,INR lakh,sum,final,Research repository,2025-09-30
+CIVIL,Civil Engineering,core,2025-26,quarter,Q2,Research,grants_lakh,2.28,INR lakh,sum,final,Research repository,2025-12-31
+CIVIL,Civil Engineering,core,2025-26,quarter,Q3,Research,grants_lakh,3.24,INR lakh,sum,final,Research repository,2026-03-31
+CIVIL,Civil Engineering,core,2025-26,quarter,Q4,Research,grants_lakh,2.76,INR lakh,sum,final,Research repository,2026-06-30
+CIVIL,Civil Engineering,core,2025-26,annual,FY,Placement,eligible_students,118,count,latest,final,Placement Cell tracker,2026-06-30
+CIVIL,Civil Engineering,core,2025-26,quarter,Q1,Placement,placed_students,6,count,sum,final,Placement Cell tracker,2025-09-30
+CIVIL,Civil Engineering,core,2025-26,quarter,Q2,Placement,placed_students,21,count,sum,final,Placement Cell tracker,2025-12-31
+CIVIL,Civil Engineering,core,2025-26,quarter,Q3,Placement,placed_students,25,count,sum,final,Placement Cell tracker,2026-03-31
+CIVIL,Civil Engineering,core,2025-26,quarter,Q4,Placement,placed_students,10,count,sum,final,Placement Cell tracker,2026-06-30
+CIVIL,Civil Engineering,core,2025-26,quarter,Q1,Placement,total_package_lpa,22.81,LPA,sum,final,Placement Cell tracker,2025-09-30
+CIVIL,Civil Engineering,core,2025-26,quarter,Q2,Placement,total_package_lpa,94.12,LPA,sum,final,Placement Cell tracker,2025-12-31
+CIVIL,Civil Engineering,core,2025-26,quarter,Q3,Placement,total_package_lpa,122.64,LPA,sum,final,Placement Cell tracker,2026-03-31
+CIVIL,Civil Engineering,core,2025-26,quarter,Q4,Placement,total_package_lpa,45.63,LPA,sum,final,Placement Cell tracker,2026-06-30
+CIVIL,Civil Engineering,core,2025-26,quarter,Q1,Placement,interns_completed,7,count,sum,final,Placement Cell tracker,2025-09-30
+CIVIL,Civil Engineering,core,2025-26,quarter,Q2,Placement,interns_completed,10,count,sum,final,Placement Cell tracker,2025-12-31
+CIVIL,Civil Engineering,core,2025-26,quarter,Q3,Placement,interns_completed,24,count,sum,final,Placement Cell tracker,2026-03-31
+CIVIL,Civil Engineering,core,2025-26,quarter,Q4,Placement,interns_completed,20,count,sum,final,Placement Cell tracker,2026-06-30
+CIVIL,Civil Engineering,core,2025-26,quarter,Q1,Finance,budget_allocated_lakh,47.5,INR lakh,sum,final,Finance & Accounts ledger,2025-09-30
+CIVIL,Civil Engineering,core,2025-26,quarter,Q2,Finance,budget_allocated_lakh,47.5,INR lakh,sum,final,Finance & Accounts ledger,2025-12-31
+CIVIL,Civil Engineering,core,2025-26,quarter,Q3,Finance,budget_allocated_lakh,47.5,INR lakh,sum,final,Finance & Accounts ledger,2026-03-31
+CIVIL,Civil Engineering,core,2025-26,quarter,Q4,Finance,budget_allocated_lakh,47.5,INR lakh,sum,final,Finance & Accounts ledger,2026-06-30
+CIVIL,Civil Engineering,core,2025-26,quarter,Q1,Finance,budget_spent_lakh,25.33,INR lakh,sum,final,Finance & Accounts ledger,2025-09-30
+CIVIL,Civil Engineering,core,2025-26,quarter,Q2,Finance,budget_spent_lakh,32.78,INR lakh,sum,final,Finance & Accounts ledger,2025-12-31
+CIVIL,Civil Engineering,core,2025-26,quarter,Q3,Finance,budget_spent_lakh,38.74,INR lakh,sum,final,Finance & Accounts ledger,2026-03-31
+CIVIL,Civil Engineering,core,2025-26,quarter,Q4,Finance,budget_spent_lakh,52.15,INR lakh,sum,final,Finance & Accounts ledger,2026-06-30
+CIVIL,Civil Engineering,core,2024-25,semester,SEM-1,Academic,students_appeared,60,count,sum,final,Academic ERP,2024-12-31
+CIVIL,Civil Engineering,core,2024-25,semester,SEM-2,Academic,students_appeared,60,count,sum,final,Academic ERP,2025-06-30
+CIVIL,Civil Engineering,core,2024-25,semester,SEM-1,Academic,students_passed,50,count,sum,final,Academic ERP,2024-12-31
+CIVIL,Civil Engineering,core,2024-25,semester,SEM-2,Academic,students_passed,50,count,sum,final,Academic ERP,2025-06-30
+CIVIL,Civil Engineering,core,2024-25,annual,FY,Academic,co_po_attainment,2.15,index 0-3,weighted_mean,final,Academic ERP,2025-06-30
+CIVIL,Civil Engineering,core,2024-25,annual,FY,Research,sanctioned_faculty,16,count,latest,final,Research repository,2025-06-30
+CIVIL,Civil Engineering,core,2024-25,quarter,Q1,Research,publications,2,count,sum,final,Research repository,2024-09-30
+CIVIL,Civil Engineering,core,2024-25,quarter,Q2,Research,publications,3,count,sum,final,Research repository,2024-12-31
+CIVIL,Civil Engineering,core,2024-25,quarter,Q3,Research,publications,3,count,sum,final,Research repository,2025-03-31
+CIVIL,Civil Engineering,core,2024-25,quarter,Q4,Research,publications,3,count,sum,final,Research repository,2025-06-30
+CIVIL,Civil Engineering,core,2024-25,quarter,Q1,Research,citations,9,count,sum,final,Research repository,2024-09-30
+CIVIL,Civil Engineering,core,2024-25,quarter,Q2,Research,citations,10,count,sum,final,Research repository,2024-12-31
+CIVIL,Civil Engineering,core,2024-25,quarter,Q3,Research,citations,11,count,sum,final,Research repository,2025-03-31
+CIVIL,Civil Engineering,core,2024-25,quarter,Q4,Research,citations,11,count,sum,final,Research repository,2025-06-30
+CIVIL,Civil Engineering,core,2024-25,quarter,Q1,Research,grants_lakh,3.4,INR lakh,sum,final,Research repository,2024-09-30
+CIVIL,Civil Engineering,core,2024-25,quarter,Q2,Research,grants_lakh,2.08,INR lakh,sum,final,Research repository,2024-12-31
+CIVIL,Civil Engineering,core,2024-25,quarter,Q3,Research,grants_lakh,2.96,INR lakh,sum,final,Research repository,2025-03-31
+CIVIL,Civil Engineering,core,2024-25,quarter,Q4,Research,grants_lakh,2.52,INR lakh,sum,final,Research repository,2025-06-30
+CIVIL,Civil Engineering,core,2024-25,annual,FY,Placement,eligible_students,113,count,latest,final,Placement Cell tracker,2025-06-30
+CIVIL,Civil Engineering,core,2024-25,quarter,Q1,Placement,placed_students,5,count,sum,final,Placement Cell tracker,2024-09-30
+CIVIL,Civil Engineering,core,2024-25,quarter,Q2,Placement,placed_students,20,count,sum,final,Placement Cell tracker,2024-12-31
+CIVIL,Civil Engineering,core,2024-25,quarter,Q3,Placement,placed_students,24,count,sum,final,Placement Cell tracker,2025-03-31
+CIVIL,Civil Engineering,core,2024-25,quarter,Q4,Placement,placed_students,10,count,sum,final,Placement Cell tracker,2025-06-30
+CIVIL,Civil Engineering,core,2024-25,quarter,Q1,Placement,total_package_lpa,22.32,LPA,sum,final,Placement Cell tracker,2024-09-30
+CIVIL,Civil Engineering,core,2024-25,quarter,Q2,Placement,total_package_lpa,92.08,LPA,sum,final,Placement Cell tracker,2024-12-31
+CIVIL,Civil Engineering,core,2024-25,quarter,Q3,Placement,total_package_lpa,119.98,LPA,sum,final,Placement Cell tracker,2025-03-31
+CIVIL,Civil Engineering,core,2024-25,quarter,Q4,Placement,total_package_lpa,44.64,LPA,sum,final,Placement Cell tracker,2025-06-30
+CIVIL,Civil Engineering,core,2024-25,quarter,Q1,Placement,interns_completed,7,count,sum,final,Placement Cell tracker,2024-09-30
+CIVIL,Civil Engineering,core,2024-25,quarter,Q2,Placement,interns_completed,9,count,sum,final,Placement Cell tracker,2024-12-31
+CIVIL,Civil Engineering,core,2024-25,quarter,Q3,Placement,interns_completed,22,count,sum,final,Placement Cell tracker,2025-03-31
+CIVIL,Civil Engineering,core,2024-25,quarter,Q4,Placement,interns_completed,18,count,sum,final,Placement Cell tracker,2025-06-30
+CIVIL,Civil Engineering,core,2024-25,quarter,Q1,Finance,budget_allocated_lakh,47.5,INR lakh,sum,final,Finance & Accounts ledger,2024-09-30
+CIVIL,Civil Engineering,core,2024-25,quarter,Q2,Finance,budget_allocated_lakh,47.5,INR lakh,sum,final,Finance & Accounts ledger,2024-12-31
+CIVIL,Civil Engineering,core,2024-25,quarter,Q3,Finance,budget_allocated_lakh,47.5,INR lakh,sum,final,Finance & Accounts ledger,2025-03-31
+CIVIL,Civil Engineering,core,2024-25,quarter,Q4,Finance,budget_allocated_lakh,47.5,INR lakh,sum,final,Finance & Accounts ledger,2025-06-30
+CIVIL,Civil Engineering,core,2024-25,quarter,Q1,Finance,budget_spent_lakh,28.07,INR lakh,sum,final,Finance & Accounts ledger,2024-09-30
+CIVIL,Civil Engineering,core,2024-25,quarter,Q2,Finance,budget_spent_lakh,36.32,INR lakh,sum,final,Finance & Accounts ledger,2024-12-31
+CIVIL,Civil Engineering,core,2024-25,quarter,Q3,Finance,budget_spent_lakh,42.93,INR lakh,sum,final,Finance & Accounts ledger,2025-03-31
+CIVIL,Civil Engineering,core,2024-25,quarter,Q4,Finance,budget_spent_lakh,57.79,INR lakh,sum,final,Finance & Accounts ledger,2025-06-30

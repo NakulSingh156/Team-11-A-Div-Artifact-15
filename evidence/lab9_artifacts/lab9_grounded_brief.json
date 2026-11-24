@@ -1,0 +1,87 @@
+{
+  "period": "academic year 2025-26",
+  "findings": [
+    {
+      "id": "C1",
+      "text": "Placement percentage for 2025-26 is below the strategic-plan target.",
+      "source": "KPI register",
+      "locator": "KPI-P1 \u00b7 sum(placed_students) / sum(eligible_students) x 100 \u00b7 Placement Cell tracker",
+      "value": 75.1205
+    },
+    {
+      "id": "C2",
+      "text": "Civil Engineering placed 62 of its 118 eligible students.",
+      "source": "department reports",
+      "locator": "CIVIL \u00b7 placed_students",
+      "value": 62
+    },
+    {
+      "id": "C3",
+      "text": "Citations per faculty sit below the NIRF cohort peer median.",
+      "source": "external benchmarks",
+      "locator": "NIRF Engineering rank band 51-100 \u00b7 2025",
+      "value": 11.4
+    },
+    {
+      "id": "C5",
+      "text": "Budget utilisation is below target on provisional figures.",
+      "source": "KPI register",
+      "locator": "KPI-F1 \u00b7 sum(budget_spent_lakh) / sum(budget_allocated_lakh) x 100 \u00b7 Finance & Accounts ledger",
+      "value": 86.9588
+    }
+  ],
+  "context": [
+    {
+      "id": "C4",
+      "text": "The Council already approved a recruiter-outreach budget in 2023-24.",
+      "source": "institutional archive"
+    }
+  ],
+  "evidence_table": [
+    {
+      "claim": "Placement percentage for 2025-26 is below the strategic-plan target.",
+      "source": "KPI register",
+      "locator": "KPI-P1 \u00b7 sum(placed_students) / sum(eligible_students) x 100 \u00b7 Placement Cell tracker",
+      "value": 75.1205,
+      "in_scope": true,
+      "reason": "computed from the approved formula over 8 departments",
+      "id": "C1"
+    },
+    {
+      "claim": "Civil Engineering placed 62 of its 118 eligible students.",
+      "source": "department reports",
+      "locator": "CIVIL \u00b7 placed_students",
+      "value": 62,
+      "in_scope": true,
+      "reason": "read from the Registrar-authorised export",
+      "id": "C2"
+    },
+    {
+      "claim": "Citations per faculty sit below the NIRF cohort peer median.",
+      "source": "external benchmarks",
+      "locator": "NIRF Engineering rank band 51-100 \u00b7 2025",
+      "value": 11.4,
+      "in_scope": true,
+      "reason": "published peer median",
+      "id": "C3"
+    },
+    {
+      "claim": "The Council already approved a recruiter-outreach budget in 2023-24.",
+      "source": "institutional archive",
+      "locator": "BRIEF-2023-24-Q4 \u00b7 2023-24",
+      "value": "Placement rose to 73.50% the following year \u2014 short of target but the trend reversed. The wider recruiter pool brought in lower-paying offers, and average package began to slide.",
+      "in_scope": true,
+      "reason": "closed-year record in the append-only archive",
+      "id": "C4"
+    },
+    {
+      "claim": "Budget utilisation is below target on provisional figures.",
+      "source": "KPI register",
+      "locator": "KPI-F1 \u00b7 sum(budget_spent_lakh) / sum(budget_allocated_lakh) x 100 \u00b7 Finance & Accounts ledger",
+      "value": 86.9588,
+      "in_scope": true,
+      "reason": "computed from the approved formula over 8 departments",
+      "id": "C5"
+    }
+  ]
+}

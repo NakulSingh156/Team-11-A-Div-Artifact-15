@@ -1,0 +1,74 @@
+[
+  {
+    "seq": 1,
+    "actor": "P. Analyst (Planning analyst)",
+    "role": "Planning analyst",
+    "action": "approve",
+    "detail": "denied: role cannot approve",
+    "allowed": false,
+    "at": "2026-10-13T14:52:59+00:00"
+  },
+  {
+    "seq": 2,
+    "actor": "Dean (Academics) (Dean)",
+    "role": "Dean",
+    "action": "approve",
+    "detail": "denied: role cannot approve",
+    "allowed": false,
+    "at": "2026-10-13T14:52:59+00:00"
+  },
+  {
+    "seq": 3,
+    "actor": "Summer intern (Summer intern)",
+    "role": "Summer intern",
+    "action": "approve",
+    "detail": "denied: role cannot approve",
+    "allowed": false,
+    "at": "2026-10-13T14:52:59+00:00"
+  },
+  {
+    "seq": 4,
+    "actor": "Dr. A. Principal (Principal / Director)",
+    "role": "Principal / Director",
+    "action": "approve+publish",
+    "detail": "v1",
+    "allowed": true,
+    "at": "2026-10-13T14:52:59+00:00"
+  },
+  {
+    "seq": 5,
+    "actor": "Dr. A. Principal (Principal / Director)",
+    "role": "Principal / Director",
+    "action": "approve",
+    "detail": "denied: status is 'approved'",
+    "allowed": false,
+    "at": "2026-10-13T14:52:59+00:00"
+  },
+  {
+    "seq": 6,
+    "actor": "S. Registrar (Registrar)",
+    "role": "Registrar",
+    "action": "approve+publish",
+    "detail": "v2",
+    "allowed": true,
+    "at": "2026-10-13T14:52:59+00:00"
+  },
+  {
+    "seq": 7,
+    "actor": "Dean (Academics) (Dean)",
+    "role": "Dean",
+    "action": "rollback",
+    "detail": "denied: role cannot roll back",
+    "allowed": false,
+    "at": "2026-10-13T14:52:59+00:00"
+  },
+  {
+    "seq": 8,
+    "actor": "S. Registrar (Registrar)",
+    "role": "Registrar",
+    "action": "rollback",
+    "detail": "current -> v1",
+    "allowed": true,
+    "at": "2026-10-13T14:52:59+00:00"
+  }
+]

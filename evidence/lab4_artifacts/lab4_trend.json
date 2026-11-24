@@ -1,0 +1,83 @@
+{
+  "KPI-A1": {
+    "2023-24": 90.4,
+    "2024-25": 91.2,
+    "2025-26": 91.85,
+    "yoy": 0.65,
+    "direction": "improving",
+    "target": 92.0,
+    "status": "at risk"
+  },
+  "KPI-A2": {
+    "2023-24": 2.38,
+    "2024-25": 2.44,
+    "2025-26": 2.48,
+    "yoy": 0.04,
+    "direction": "improving",
+    "target": 2.5,
+    "status": "at risk"
+  },
+  "KPI-R1": {
+    "2023-24": 0.98,
+    "2024-25": 1.12,
+    "2025-26": 1.19,
+    "yoy": 0.07,
+    "direction": "improving",
+    "target": 1.5,
+    "status": "below target"
+  },
+  "KPI-R2": {
+    "2023-24": 5.9,
+    "2024-25": 6.4,
+    "2025-26": 7.26,
+    "yoy": 0.86,
+    "direction": "improving",
+    "target": 9.0,
+    "status": "below target"
+  },
+  "KPI-R3": {
+    "2023-24": 198.0,
+    "2024-25": 221.5,
+    "2025-26": 242.5,
+    "yoy": 21.0,
+    "direction": "improving",
+    "target": 300.0,
+    "status": "below target"
+  },
+  "KPI-P1": {
+    "2023-24": 71.8,
+    "2024-25": 73.5,
+    "2025-26": 75.12,
+    "yoy": 1.62,
+    "direction": "improving",
+    "target": 80.0,
+    "status": "below target"
+  },
+  "KPI-P2": {
+    "2023-24": 7.1,
+    "2024-25": 7.95,
+    "2025-26": 7.67,
+    "yoy": -0.28,
+    "direction": "declining",
+    "target": 8.0,
+    "status": "below target"
+  },
+  "KPI-P3": {
+    "2023-24": 64.2,
+    "2024-25": 69.1,
+    "2025-26": 73.38,
+    "yoy": 4.28,
+    "direction": "improving",
+    "target": 85.0,
+    "status": "below target"
+  },
+  "KPI-F1": {
+    "2023-24": 84.3,
+    "2024-25": 86.9,
+    "2025-26": 86.96,
+    "yoy": 0.06,
+    "direction": "improving",
+    "target": 90.0,
+    "status": "below target"
+  }
+}

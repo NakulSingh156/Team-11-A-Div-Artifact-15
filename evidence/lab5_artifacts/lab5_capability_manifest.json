@@ -1,0 +1,52 @@
+{
+  "server": "edss-connector",
+  "resources": [
+    {
+      "name": "department_reports",
+      "description": "Per-department metric rows for one reporting period.",
+      "params": {
+        "period": {
+          "type": "string",
+          "required": true
+        },
+        "category": {
+          "type": "string",
+          "required": false,
+          "enum": [
+            "circuit",
+            "core"
+          ]
+        }
+      },
+      "returns": "{rows, row_count, period, source_system}",
+      "required_scope": "read:departments",
+      "served_by": "sqlite"
+    },
+    {
+      "name": "kpi_definitions",
+      "description": "Approved institution KPI definitions: formula, unit, target, authority.",
+      "params": {
+        "kpi_ids": {
+          "type": "array",
+          "required": false
+        }
+      },
+      "returns": "{definitions, count, source_system}",
+      "required_scope": "read:kpi-register",
+      "served_by": "sqlite"
+    },
+    {
+      "name": "external_benchmark",
+      "description": "Published peer median for a KPI. Coverage is partial.",
+      "params": {
+        "kpi_id": {
+          "type": "string",
+          "required": true
+        }
+      },
+      "returns": "{kpi_id, peer_median, cohort, year, source_system}",
+      "required_scope": "read:benchmarks",
+      "served_by": "http:benchmark-api"
+    }
+  ]
+}

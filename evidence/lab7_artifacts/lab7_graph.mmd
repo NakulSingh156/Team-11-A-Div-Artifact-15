@@ -1,0 +1,27 @@
+flowchart TD
+    coordinator[apniLeap AURA Coordinator]
+    academic_agent[Academic Agent]
+    research_agent[Research Agent]
+    placement_agent[Placement Agent]
+    finance_agent[Finance Agent]
+    kpi_agent[KPI Agent — synthesis]
+    report_agent[Report Generation Agent]
+    validation{{Validation gate (hard)}}
+    regenerate[Regenerate the failing KPI only]
+    human_gate[[Principal / Registrar review]]
+    publish([Governed publish + audit])
+    coordinator --> academic_agent
+    academic_agent --> kpi_agent
+    coordinator --> research_agent
+    research_agent --> kpi_agent
+    coordinator --> placement_agent
+    placement_agent --> kpi_agent
+    coordinator --> finance_agent
+    finance_agent --> kpi_agent
+    kpi_agent --> report_agent
+    report_agent --> validation
+    validation -->|pass| human_gate
+    validation -->|fail| regenerate
+    regenerate -.-> report_agent
+    human_gate -->|approve| publish
+    human_gate -.->|edit| regenerate

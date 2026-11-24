@@ -1,0 +1,52 @@
+[
+  {
+    "check": "C1  review_domain served more than one case, unchanged",
+    "passed": true,
+    "evidence": "5 distinct cases: [\"('Academic', None)\", \"('Finance', None)\", \"('Placement', 'circuit')\", \"('Placement', None)\", \"('Research', None)\"]"
+  },
+  {
+    "check": "C2  format_document served two unrelated payload shapes",
+    "passed": true,
+    "evidence": "3 invocations across 2 templates"
+  },
+  {
+    "check": "C3  a KPI added at run time is served with zero code change",
+    "passed": true,
+    "evidence": "Academic KPIs 2 -> 3; skill returned ['KPI-A1', 'KPI-A2', 'KPI-A3']"
+  },
+  {
+    "check": "C4  every skill declares typed input AND output schemas",
+    "passed": true,
+    "evidence": "2 skills in the registry"
+  },
+  {
+    "check": "C5  malformed input is refused before the skill body runs",
+    "passed": true,
+    "evidence": "7 contract violations refused in Cell 8: ['input: unknown domain', 'input: missing a required field', 'input: wrong type']…"
+  },
+  {
+    "check": "C6  a skill cannot call a tool outside its declared surface",
+    "passed": true,
+    "evidence": "the rogue skill's undeclared read_department_reports call was refused, so it recorded zero successful invocations"
+  },
+  {
+    "check": "C7  skills compose without new domain logic",
+    "passed": true,
+    "evidence": "institution_review = review_domain x4 -> format_document, 41 lines out"
+  },
+  {
+    "check": "C8  the formatter stays pure — it calls no tool at all",
+    "passed": true,
+    "evidence": "zero tool calls across all format_document invocations"
+  },
+  {
+    "check": "C9  every figure in the composed review came from a tool",
+    "passed": true,
+    "evidence": "9 KPIs, each citing a source system"
+  },
+  {
+    "check": "C10 provisional and rounding flags survive into the output",
+    "passed": true,
+    "evidence": "Finance provisional + rounding warnings present in the skill output"
+  }
+]

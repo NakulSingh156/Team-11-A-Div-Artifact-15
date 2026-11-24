@@ -1,0 +1,320 @@
+[
+  {
+    "seq": 1,
+    "resource": "department_reports",
+    "holder": "apniLeap AURA Coordinator",
+    "params": {
+      "period": "academic year 2025-26"
+    },
+    "at": "2026-09-28T20:17:18+00:00",
+    "served_by": "file:csv",
+    "ok": true,
+    "error_code": null,
+    "note": "",
+    "ms": 1.66
+  },
+  {
+    "seq": 2,
+    "resource": "kpi_definitions",
+    "holder": "apniLeap AURA Coordinator",
+    "params": {
+      "kpi_ids": "<3 rows>"
+    },
+    "at": "2026-09-28T20:17:18+00:00",
+    "served_by": "sqlite",
+    "ok": true,
+    "error_code": null,
+    "note": "",
+    "ms": 0.4
+  },
+  {
+    "seq": 3,
+    "resource": "external_benchmark",
+    "holder": "apniLeap AURA Coordinator",
+    "params": {
+      "kpi_id": "KPI-P1"
+    },
+    "at": "2026-09-28T20:17:18+00:00",
+    "served_by": "http:benchmark-api",
+    "ok": true,
+    "error_code": null,
+    "note": "",
+    "ms": 30.02
+  },
+  {
+    "seq": 4,
+    "resource": "external_benchmark",
+    "holder": "apniLeap AURA Coordinator",
+    "params": {
+      "kpi_id": "KPI-R2"
+    },
+    "at": "2026-09-28T20:17:18+00:00",
+    "served_by": "http:benchmark-api",
+    "ok": true,
+    "error_code": null,
+    "note": "",
+    "ms": 27.03
+  },
+  {
+    "seq": 5,
+    "resource": "external_benchmark",
+    "holder": "apniLeap AURA Coordinator",
+    "params": {
+      "kpi_id": "KPI-P3"
+    },
+    "at": "2026-09-28T20:17:18+00:00",
+    "ok": false,
+    "error_code": "NOT_FOUND",
+    "note": "no published external benchmark for KPI-P3 (Internship completion)",
+    "ms": 24.98
+  },
+  {
+    "seq": 6,
+    "resource": "department_reports",
+    "holder": "apniLeap AURA Coordinator",
+    "params": {
+      "period": "academic year 2025-26"
+    },
+    "at": "2026-09-28T20:17:18+00:00",
+    "served_by": "file:csv",
+    "ok": true,
+    "error_code": null,
+    "note": "",
+    "ms": 0.48
+  },
+  {
+    "seq": 7,
+    "resource": "kpi_definitions",
+    "holder": "apniLeap AURA Coordinator",
+    "params": {
+      "kpi_ids": "<3 rows>"
+    },
+    "at": "2026-09-28T20:17:18+00:00",
+    "served_by": "sqlite",
+    "ok": true,
+    "error_code": null,
+    "note": "",
+    "ms": 0.68
+  },
+  {
+    "seq": 8,
+    "resource": "external_benchmark",
+    "holder": "apniLeap AURA Coordinator",
+    "params": {
+      "kpi_id": "KPI-P1"
+    },
+    "at": "2026-09-28T20:17:18+00:00",
+    "served_by": "http:benchmark-api",
+    "ok": true,
+    "error_code": null,
+    "note": "",
+    "ms": 30.03
+  },
+  {
+    "seq": 9,
+    "resource": "external_benchmark",
+    "holder": "apniLeap AURA Coordinator",
+    "params": {
+      "kpi_id": "KPI-R2"
+    },
+    "at": "2026-09-28T20:17:18+00:00",
+    "served_by": "http:benchmark-api",
+    "ok": true,
+    "error_code": null,
+    "note": "",
+    "ms": 20.09
+  },
+  {
+    "seq": 10,
+    "resource": "external_benchmark",
+    "holder": "apniLeap AURA Coordinator",
+    "params": {
+      "kpi_id": "KPI-P3"
+    },
+    "at": "2026-09-28T20:17:18+00:00",
+    "ok": false,
+    "error_code": "NOT_FOUND",
+    "note": "no published external benchmark for KPI-P3 (Internship completion)",
+    "ms": 29.95
+  },
+  {
+    "seq": 11,
+    "resource": "department_reports",
+    "holder": "apniLeap AURA Coordinator",
+    "params": {
+      "period": "academic year 2025-26"
+    },
+    "at": "2026-09-28T20:17:18+00:00",
+    "served_by": "sqlite",
+    "ok": true,
+    "error_code": null,
+    "note": "",
+    "ms": 0.98
+  },
+  {
+    "seq": 12,
+    "resource": "kpi_definitions",
+    "holder": "apniLeap AURA Coordinator",
+    "params": {
+      "kpi_ids": "<3 rows>"
+    },
+    "at": "2026-09-28T20:17:18+00:00",
+    "served_by": "sqlite",
+    "ok": true,
+    "error_code": null,
+    "note": "",
+    "ms": 0.71
+  },
+  {
+    "seq": 13,
+    "resource": "external_benchmark",
+    "holder": "apniLeap AURA Coordinator",
+    "params": {
+      "kpi_id": "KPI-P1"
+    },
+    "at": "2026-09-28T20:17:18+00:00",
+    "served_by": "http:benchmark-api",
+    "ok": true,
+    "error_code": null,
+    "note": "",
+    "ms": 26.23
+  },
+  {
+    "seq": 14,
+    "resource": "external_benchmark",
+    "holder": "apniLeap AURA Coordinator",
+    "params": {
+      "kpi_id": "KPI-R2"
+    },
+    "at": "2026-09-28T20:17:18+00:00",
+    "served_by": "http:benchmark-api",
+    "ok": true,
+    "error_code": null,
+    "note": "",
+    "ms": 27.13
+  },
+  {
+    "seq": 15,
+    "resource": "external_benchmark",
+    "holder": "apniLeap AURA Coordinator",
+    "params": {
+      "kpi_id": "KPI-P3"
+    },
+    "at": "2026-09-28T20:17:18+00:00",
+    "ok": false,
+    "error_code": "NOT_FOUND",
+    "note": "no published external benchmark for KPI-P3 (Internship completion)",
+    "ms": 23.22
+  },
+  {
+    "seq": 16,
+    "resource": "kpi_definitions",
+    "holder": "Summer intern (read-only KPI register)",
+    "params": {},
+    "at": "2026-09-28T20:17:18+00:00",
+    "served_by": "sqlite",
+    "ok": true,
+    "error_code": null,
+    "note": "",
+    "ms": 1.17
+  },
+  {
+    "seq": 17,
+    "resource": "department_reports",
+    "holder": "Summer intern (read-only KPI register)",
+    "params": {
+      "period": "academic year 2025-26"
+    },
+    "at": "2026-09-28T20:17:18+00:00",
+    "ok": false,
+    "error_code": "FORBIDDEN_SCOPE",
+    "note": "",
+    "ms": 0.01
+  },
+  {
+    "seq": 18,
+    "resource": "external_benchmark",
+    "holder": "Academic Agent",
+    "params": {
+      "kpi_id": "KPI-P1"
+    },
+    "at": "2026-09-28T20:17:18+00:00",
+    "ok": false,
+    "error_code": "FORBIDDEN_SCOPE",
+    "note": "",
+    "ms": 0.01
+  },
+  {
+    "seq": 19,
+    "resource": "kpi_definitions",
+    "holder": "<unknown>",
+    "params": {},
+    "at": "2026-09-28T20:17:18+00:00",
+    "ok": false,
+    "error_code": "UNAUTHORIZED",
+    "note": "",
+    "ms": 0.01
+  },
+  {
+    "seq": 20,
+    "resource": "student_medical_records",
+    "holder": "apniLeap AURA Coordinator",
+    "params": {},
+    "at": "2026-09-28T20:17:18+00:00",
+    "ok": false,
+    "error_code": "UNKNOWN_RESOURCE",
+    "note": "",
+    "ms": 0.01
+  },
+  {
+    "seq": 21,
+    "resource": "department_reports",
+    "holder": "apniLeap AURA Coordinator",
+    "params": {},
+    "at": "2026-09-28T20:17:18+00:00",
+    "ok": false,
+    "error_code": "BAD_REQUEST",
+    "note": "",
+    "ms": 0.01
+  },
+  {
+    "seq": 22,
+    "resource": "department_reports",
+    "holder": "apniLeap AURA Coordinator",
+    "params": {
+      "period": "academic year 2019-20"
+    },
+    "at": "2026-09-28T20:17:18+00:00",
+    "ok": false,
+    "error_code": "NOT_FOUND",
+    "note": "no rows for period 'academic year 2019-20'",
+    "ms": 0.76
+  },
+  {
+    "seq": 23,
+    "resource": "external_benchmark",
+    "holder": "apniLeap AURA Coordinator",
+    "params": {
+      "kpi_id": "KPI-F1"
+    },
+    "at": "2026-09-28T20:17:18+00:00",
+    "ok": false,
+    "error_code": "NOT_FOUND",
+    "note": "no published external benchmark for KPI-F1 (Budget utilisation)",
+    "ms": 30.0
+  },
+  {
+    "seq": 24,
+    "resource": "kpi_definitions",
+    "holder": "apniLeap AURA Coordinator",
+    "params": {
+      "kpi_ids": "<1 rows>"
+    },
+    "at": "2026-09-28T20:17:18+00:00",
+    "served_by": "sqlite",
+    "ok": true,
+    "error_code": null,
+    "note": "",
+    "ms": 0.95
+  }
+]

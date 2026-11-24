@@ -1,0 +1,145 @@
+{
+  "review_domain": {
+    "description": "Review one domain's approved KPIs against their targets, with per-department evidence.",
+    "instructions": "1. Read the department rows for the requested period through the connector.\n2. If a department filter is supplied, narrow to it and refuse an empty subset.\n3. For every approved KPI belonging to the domain: read its definition, compute\n   it with the registered formula, and compare it to its approved target.\n4. Return the KPI set with variance, status, source system and figure status.\n5. Report which KPIs are off target; never recommend an action — that is the\n   Report Generation Agent's job, behind the human gate.",
+    "constraints": [
+      "Use only approved KPI definitions; never invent a formula.",
+      "Never average department percentages — aggregate raw counts.",
+      "Label any figure that is not final; never present it as an actual.",
+      "Emit no recommendation and take no action."
+    ],
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "domain": {
+          "type": "string",
+          "enum": [
+            "Academic",
+            "Research",
+            "Placement",
+            "Finance"
+          ]
+        },
+        "period": {
+          "type": "string"
+        },
+        "category": {
+          "type": "string",
+          "enum": [
+            "circuit",
+            "core"
+          ]
+        }
+      },
+      "required": [
+        "domain",
+        "period"
+      ]
+    },
+    "output_schema": {
+      "type": "object",
+      "properties": {
+        "domain": {
+          "type": "string"
+        },
+        "period": {
+          "type": "string"
+        },
+        "scope": {
+          "type": "string"
+        },
+        "kpis": {
+          "type": "array"
+        },
+        "off_target": {
+          "type": "array"
+        },
+        "headline": {
+          "type": "string"
+        },
+        "provisional": {
+          "type": "boolean"
+        }
+      },
+      "required": [
+        "domain",
+        "period",
+        "scope",
+        "kpis",
+        "off_target",
+        "headline",
+        "provisional"
+      ]
+    },
+    "tools": [
+      "read_department_reports",
+      "filter_rows",
+      "read_kpi_definitions",
+      "compute_kpi",
+      "compare_to_target"
+    ],
+    "invocations": 11
+  },
+  "format_document": {
+    "description": "Render a titled, sectioned payload as a leadership-ready document in a chosen template.",
+    "instructions": "1. Emit the title, then the metadata block as key: value lines.\n2. Emit each section in order: a heading, then its bullets, then its table\n   if it has one.\n3. In 'brief' template, number the sections; in 'memo' template, do not.\n4. Append the source line verbatim if one is supplied.\n5. Reproduce every value exactly as given — never reformat a number.",
+    "constraints": [
+      "Never compute, round or reword a value; this skill only lays out.",
+      "Never drop a section or a caveat that was passed in.",
+      "Stay domain-agnostic: no KPI, department or worklet logic here."
+    ],
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "title": {
+          "type": "string"
+        },
+        "meta": {
+          "type": "object"
+        },
+        "sections": {
+          "type": "array"
+        },
+        "template": {
+          "type": "string",
+          "enum": [
+            "brief",
+            "memo"
+          ]
+        },
+        "source_line": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "title",
+        "sections"
+      ]
+    },
+    "output_schema": {
+      "type": "object",
+      "properties": {
+        "document": {
+          "type": "string"
+        },
+        "template": {
+          "type": "string"
+        },
+        "section_count": {
+          "type": "integer"
+        },
+        "line_count": {
+          "type": "integer"
+        }
+      },
+      "required": [
+        "document",
+        "template",
+        "section_count",
+        "line_count"
+      ]
+    },
+    "tools": [],
+    "invocations": 3
+  }
+}

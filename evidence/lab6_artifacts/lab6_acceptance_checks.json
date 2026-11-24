@@ -1,0 +1,67 @@
+[
+  {
+    "check": "F1  every action is logged with its inputs AND outputs",
+    "passed": true,
+    "evidence": "13 action records, each carrying inputs, output, status and duration"
+  },
+  {
+    "check": "F2  the failure is in the log, not a gap in it",
+    "passed": true,
+    "evidence": "MCPError: BACKEND_FAILURE: benchmark service dropped the connection mid-run"
+  },
+  {
+    "check": "F3  the crash wrote a checkpoint",
+    "passed": true,
+    "evidence": "EDSS-RUNTIME-DEMO.checkpoint.json, 14,390 bytes on disk"
+  },
+  {
+    "check": "F4  a NEW runtime object was rebuilt from that file",
+    "passed": true,
+    "evidence": "resumed with ['load_departments', 'review_domains', 'retrieve_baseline'] already done"
+  },
+  {
+    "check": "F5  completed work was not repeated after the resume",
+    "passed": true,
+    "evidence": "skipped 3 completed actions; re-executed 0 of them"
+  },
+  {
+    "check": "F6  the resumed run finished every action",
+    "passed": true,
+    "evidence": "7/7 actions complete"
+  },
+  {
+    "check": "F7  an action cannot run before its dependencies",
+    "passed": true,
+    "evidence": "assemble_brief: depends on ['compute_trend'], not yet completed"
+  },
+  {
+    "check": "F8  the action budget is enforced",
+    "passed": true,
+    "evidence": "a 2-action budget stopped the run after 2 actions"
+  },
+  {
+    "check": "F9  the connector budget is enforced independently",
+    "passed": true,
+    "evidence": "a zero connector-call budget refused the very first read"
+  },
+  {
+    "check": "F10 the human gate cannot be passed without a named human",
+    "passed": true,
+    "evidence": "the ungated runtime never completed human_gate"
+  },
+  {
+    "check": "F11 the gate, once approved, records WHO approved it",
+    "passed": true,
+    "evidence": "approved_by = Dr. A. Principal, recorded in the audit log"
+  },
+  {
+    "check": "F12 nothing is published before the gate",
+    "passed": true,
+    "evidence": "order: \u2026['assemble_brief', 'human_gate', 'publish']"
+  },
+  {
+    "check": "F13 the runtime binds all three earlier labs",
+    "passed": true,
+    "evidence": "skills (Lab 3), archive (Lab 4) and connector (Lab 5) all driven through perform()"
+  }
+]

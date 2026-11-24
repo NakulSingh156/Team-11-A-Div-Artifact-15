@@ -1,0 +1,79 @@
+[
+  {
+    "seq": 1,
+    "lab": "Lab 5",
+    "stage": "connector read",
+    "detail": "8 rows via Department reports export (CSV on disk)",
+    "at": "2026-10-13T15:01:51+00:00"
+  },
+  {
+    "seq": 2,
+    "lab": "Lab 8",
+    "stage": "parallel swarm + merge",
+    "detail": "7/8 agents, 3 double-counts removed, coverage 87.5%",
+    "at": "2026-10-13T15:01:52+00:00"
+  },
+  {
+    "seq": 3,
+    "lab": "Lab 3",
+    "stage": "domain skills",
+    "detail": "4 domains reviewed, 9 KPIs off target",
+    "at": "2026-10-13T15:01:52+00:00"
+  },
+  {
+    "seq": 4,
+    "lab": "Lab 4",
+    "stage": "memory + no-repeat",
+    "detail": "2 baselines; closest prior decision BRIEF-2023-24-Q4 (sim 0.543)",
+    "at": "2026-10-13T15:01:52+00:00"
+  },
+  {
+    "seq": 5,
+    "lab": "Lab 13",
+    "stage": "specialists drafted options",
+    "detail": "9 options from 4 domain packs",
+    "at": "2026-10-13T15:01:52+00:00"
+  },
+  {
+    "seq": 6,
+    "lab": "Lab 9",
+    "stage": "grounding",
+    "detail": "9/9 claims carry an in-scope source, locator and value",
+    "at": "2026-10-13T15:01:52+00:00"
+  },
+  {
+    "seq": 7,
+    "lab": "Lab 10",
+    "stage": "validation (pre-heal)",
+    "detail": "passed=False; failing ['every-figure-cites-its-source@KPI-R2']",
+    "at": "2026-10-13T15:01:52+00:00"
+  },
+  {
+    "seq": 8,
+    "lab": "Lab 10",
+    "stage": "self-heal",
+    "detail": "1 attempt(s); now passed=True",
+    "at": "2026-10-13T15:01:52+00:00"
+  },
+  {
+    "seq": 9,
+    "lab": "Lab 11",
+    "stage": "acceptance suite",
+    "detail": "22/22 derived tests green",
+    "at": "2026-10-13T15:01:52+00:00"
+  },
+  {
+    "seq": 10,
+    "lab": "Lab 11",
+    "stage": "gate -> human",
+    "detail": "submitted to Dr. A. Principal (Principal / Director)",
+    "at": "2026-10-13T15:01:52+00:00"
+  },
+  {
+    "seq": 11,
+    "lab": "Lab 12",
+    "stage": "approved + published",
+    "detail": "v1 by Dr. A. Principal; 1 governance audit entries",
+    "at": "2026-10-13T15:01:52+00:00"
+  }
+]

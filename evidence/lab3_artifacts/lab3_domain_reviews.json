@@ -1,0 +1,919 @@
+{
+  "Academic": {
+    "domain": "Academic",
+    "period": "academic year 2025-26",
+    "scope": "all departments",
+    "kpis": [
+      {
+        "kpi_id": "KPI-A1",
+        "name": "Institution pass percentage",
+        "value": 91.8519,
+        "unit": "%",
+        "target": 92.0,
+        "target_source": "Strategic Plan 2024-27",
+        "variance": -0.1481,
+        "status": "at risk",
+        "formula": "sum(students_passed) / sum(students_appeared) x 100",
+        "source_system": "Academic ERP",
+        "figure_status": "final",
+        "rounding_warning": "91.85 rounds to 92.0 at 0 decimal place(s), which would read as meeting the target of 92.0. Report the unrounded figure.",
+        "evidence": [
+          {
+            "dept_code": "CSE",
+            "dept_name": "Computer Science & Engineering",
+            "numerator": 231,
+            "denominator": 240,
+            "numerator_field": "students_passed",
+            "denominator_field": "students_appeared",
+            "dept_value": 96.25,
+            "share_of_denominator_pct": 22.22
+          },
+          {
+            "dept_code": "ECE",
+            "dept_name": "Electronics & Communication",
+            "numerator": 168,
+            "denominator": 180,
+            "numerator_field": "students_passed",
+            "denominator_field": "students_appeared",
+            "dept_value": 93.33,
+            "share_of_denominator_pct": 16.67
+          },
+          {
+            "dept_code": "ISE",
+            "dept_name": "Information Science & Engineering",
+            "numerator": 116,
+            "denominator": 120,
+            "numerator_field": "students_passed",
+            "denominator_field": "students_appeared",
+            "dept_value": 96.67,
+            "share_of_denominator_pct": 11.11
+          },
+          {
+            "dept_code": "EEE",
+            "dept_name": "Electrical & Electronics",
+            "numerator": 109,
+            "denominator": 120,
+            "numerator_field": "students_passed",
+            "denominator_field": "students_appeared",
+            "dept_value": 90.83,
+            "share_of_denominator_pct": 11.11
+          },
+          {
+            "dept_code": "MECH",
+            "dept_name": "Mechanical Engineering",
+            "numerator": 158,
+            "denominator": 180,
+            "numerator_field": "students_passed",
+            "denominator_field": "students_appeared",
+            "dept_value": 87.78,
+            "share_of_denominator_pct": 16.67
+          },
+          {
+            "dept_code": "CIVIL",
+            "dept_name": "Civil Engineering",
+            "numerator": 101,
+            "denominator": 120,
+            "numerator_field": "students_passed",
+            "denominator_field": "students_appeared",
+            "dept_value": 84.17,
+            "share_of_denominator_pct": 11.11
+          },
+          {
+            "dept_code": "CHEM",
+            "dept_name": "Chemical Engineering",
+            "numerator": 54,
+            "denominator": 60,
+            "numerator_field": "students_passed",
+            "denominator_field": "students_appeared",
+            "dept_value": 90.0,
+            "share_of_denominator_pct": 5.56
+          },
+          {
+            "dept_code": "BT",
+            "dept_name": "Biotechnology",
+            "numerator": 55,
+            "denominator": 60,
+            "numerator_field": "students_passed",
+            "denominator_field": "students_appeared",
+            "dept_value": 91.67,
+            "share_of_denominator_pct": 5.56
+          }
+        ]
+      },
+      {
+        "kpi_id": "KPI-A2",
+        "name": "CO/PO attainment index",
+        "value": 2.4844,
+        "unit": "index 0-3",
+        "target": 2.5,
+        "target_source": "NAAC criterion 2",
+        "variance": -0.0156,
+        "status": "at risk",
+        "formula": "sum(co_po_attainment x students_appeared) / sum(students_appeared)",
+        "source_system": "Academic ERP (OBE module)",
+        "figure_status": "final",
+        "rounding_warning": "2.484 rounds to 2.5 at 1 decimal place(s), which would read as meeting the target of 2.5. Report the unrounded figure.",
+        "evidence": [
+          {
+            "dept_code": "CSE",
+            "dept_name": "Computer Science & Engineering",
+            "numerator": 2.71,
+            "denominator": 240,
+            "numerator_field": "co_po_attainment",
+            "denominator_field": "students_appeared",
+            "dept_value": 2.71,
+            "share_of_denominator_pct": 22.22
+          },
+          {
+            "dept_code": "ECE",
+            "dept_name": "Electronics & Communication",
+            "numerator": 2.58,
+            "denominator": 180,
+            "numerator_field": "co_po_attainment",
+            "denominator_field": "students_appeared",
+            "dept_value": 2.58,
+            "share_of_denominator_pct": 16.67
+          },
+          {
+            "dept_code": "ISE",
+            "dept_name": "Information Science & Engineering",
+            "numerator": 2.66,
+            "denominator": 120,
+            "numerator_field": "co_po_attainment",
+            "denominator_field": "students_appeared",
+            "dept_value": 2.66,
+            "share_of_denominator_pct": 11.11
+          },
+          {
+            "dept_code": "EEE",
+            "dept_name": "Electrical & Electronics",
+            "numerator": 2.41,
+            "denominator": 120,
+            "numerator_field": "co_po_attainment",
+            "denominator_field": "students_appeared",
+            "dept_value": 2.41,
+            "share_of_denominator_pct": 11.11
+          },
+          {
+            "dept_code": "MECH",
+            "dept_name": "Mechanical Engineering",
+            "numerator": 2.33,
+            "denominator": 180,
+            "numerator_field": "co_po_attainment",
+            "denominator_field": "students_appeared",
+            "dept_value": 2.33,
+            "share_of_denominator_pct": 16.67
+          },
+          {
+            "dept_code": "CIVIL",
+            "dept_name": "Civil Engineering",
+            "numerator": 2.19,
+            "denominator": 120,
+            "numerator_field": "co_po_attainment",
+            "denominator_field": "students_appeared",
+            "dept_value": 2.19,
+            "share_of_denominator_pct": 11.11
+          },
+          {
+            "dept_code": "CHEM",
+            "dept_name": "Chemical Engineering",
+            "numerator": 2.28,
+            "denominator": 60,
+            "numerator_field": "co_po_attainment",
+            "denominator_field": "students_appeared",
+            "dept_value": 2.28,
+            "share_of_denominator_pct": 5.56
+          },
+          {
+            "dept_code": "BT",
+            "dept_name": "Biotechnology",
+            "numerator": 2.35,
+            "denominator": 60,
+            "numerator_field": "co_po_attainment",
+            "denominator_field": "students_appeared",
+            "dept_value": 2.35,
+            "share_of_denominator_pct": 5.56
+          }
+        ]
+      }
+    ],
+    "off_target": [
+      "KPI-A1",
+      "KPI-A2"
+    ],
+    "headline": "Academic: 2 of 2 KPIs off target across all departments for academic year 2025-26.",
+    "provisional": false
+  },
+  "Research": {
+    "domain": "Research",
+    "period": "academic year 2025-26",
+    "scope": "all departments",
+    "kpis": [
+      {
+        "kpi_id": "KPI-R1",
+        "name": "Publications per faculty",
+        "value": 1.1859,
+        "unit": "per faculty",
+        "target": 1.5,
+        "target_source": "NIRF Research & Professional Practice",
+        "variance": -0.3141,
+        "status": "below target",
+        "formula": "sum(publications) / sum(sanctioned_faculty)",
+        "source_system": "Research repository",
+        "figure_status": "final",
+        "rounding_warning": null,
+        "evidence": [
+          {
+            "dept_code": "CSE",
+            "dept_name": "Computer Science & Engineering",
+            "numerator": 58,
+            "denominator": 34,
+            "numerator_field": "publications",
+            "denominator_field": "sanctioned_faculty",
+            "dept_value": 1.71,
+            "share_of_denominator_pct": 21.79
+          },
+          {
+            "dept_code": "ECE",
+            "dept_name": "Electronics & Communication",
+            "numerator": 34,
+            "denominator": 26,
+            "numerator_field": "publications",
+            "denominator_field": "sanctioned_faculty",
+            "dept_value": 1.31,
+            "share_of_denominator_pct": 16.67
+          },
+          {
+            "dept_code": "ISE",
+            "dept_name": "Information Science & Engineering",
+            "numerator": 21,
+            "denominator": 18,
+            "numerator_field": "publications",
+            "denominator_field": "sanctioned_faculty",
+            "dept_value": 1.17,
+            "share_of_denominator_pct": 11.54
+          },
+          {
+            "dept_code": "EEE",
+            "dept_name": "Electrical & Electronics",
+            "numerator": 16,
+            "denominator": 17,
+            "numerator_field": "publications",
+            "denominator_field": "sanctioned_faculty",
+            "dept_value": 0.94,
+            "share_of_denominator_pct": 10.9
+          },
+          {
+            "dept_code": "MECH",
+            "dept_name": "Mechanical Engineering",
+            "numerator": 19,
+            "denominator": 24,
+            "numerator_field": "publications",
+            "denominator_field": "sanctioned_faculty",
+            "dept_value": 0.79,
+            "share_of_denominator_pct": 15.38
+          },
+          {
+            "dept_code": "CIVIL",
+            "dept_name": "Civil Engineering",
+            "numerator": 11,
+            "denominator": 16,
+            "numerator_field": "publications",
+            "denominator_field": "sanctioned_faculty",
+            "dept_value": 0.69,
+            "share_of_denominator_pct": 10.26
+          },
+          {
+            "dept_code": "CHEM",
+            "dept_name": "Chemical Engineering",
+            "numerator": 14,
+            "denominator": 11,
+            "numerator_field": "publications",
+            "denominator_field": "sanctioned_faculty",
+            "dept_value": 1.27,
+            "share_of_denominator_pct": 7.05
+          },
+          {
+            "dept_code": "BT",
+            "dept_name": "Biotechnology",
+            "numerator": 12,
+            "denominator": 10,
+            "numerator_field": "publications",
+            "denominator_field": "sanctioned_faculty",
+            "dept_value": 1.2,
+            "share_of_denominator_pct": 6.41
+          }
+        ]
+      },
+      {
+        "kpi_id": "KPI-R2",
+        "name": "Citations per faculty",
+        "value": 7.2564,
+        "unit": "per faculty",
+        "target": 9.0,
+        "target_source": "NIRF Research & Professional Practice",
+        "variance": -1.7436,
+        "status": "below target",
+        "formula": "sum(citations) / sum(sanctioned_faculty)",
+        "source_system": "Research repository",
+        "figure_status": "final",
+        "rounding_warning": null,
+        "evidence": [
+          {
+            "dept_code": "CSE",
+            "dept_name": "Computer Science & Engineering",
+            "numerator": 402,
+            "denominator": 34,
+            "numerator_field": "citations",
+            "denominator_field": "sanctioned_faculty",
+            "dept_value": 11.82,
+            "share_of_denominator_pct": 21.79
+          },
+          {
+            "dept_code": "ECE",
+            "dept_name": "Electronics & Communication",
+            "numerator": 221,
+            "denominator": 26,
+            "numerator_field": "citations",
+            "denominator_field": "sanctioned_faculty",
+            "dept_value": 8.5,
+            "share_of_denominator_pct": 16.67
+          },
+          {
+            "dept_code": "ISE",
+            "dept_name": "Information Science & Engineering",
+            "numerator": 140,
+            "denominator": 18,
+            "numerator_field": "citations",
+            "denominator_field": "sanctioned_faculty",
+            "dept_value": 7.78,
+            "share_of_denominator_pct": 11.54
+          },
+          {
+            "dept_code": "EEE",
+            "dept_name": "Electrical & Electronics",
+            "numerator": 88,
+            "denominator": 17,
+            "numerator_field": "citations",
+            "denominator_field": "sanctioned_faculty",
+            "dept_value": 5.18,
+            "share_of_denominator_pct": 10.9
+          },
+          {
+            "dept_code": "MECH",
+            "dept_name": "Mechanical Engineering",
+            "numerator": 95,
+            "denominator": 24,
+            "numerator_field": "citations",
+            "denominator_field": "sanctioned_faculty",
+            "dept_value": 3.96,
+            "share_of_denominator_pct": 15.38
+          },
+          {
+            "dept_code": "CIVIL",
+            "dept_name": "Civil Engineering",
+            "numerator": 47,
+            "denominator": 16,
+            "numerator_field": "citations",
+            "denominator_field": "sanctioned_faculty",
+            "dept_value": 2.94,
+            "share_of_denominator_pct": 10.26
+          },
+          {
+            "dept_code": "CHEM",
+            "dept_name": "Chemical Engineering",
+            "numerator": 76,
+            "denominator": 11,
+            "numerator_field": "citations",
+            "denominator_field": "sanctioned_faculty",
+            "dept_value": 6.91,
+            "share_of_denominator_pct": 7.05
+          },
+          {
+            "dept_code": "BT",
+            "dept_name": "Biotechnology",
+            "numerator": 63,
+            "denominator": 10,
+            "numerator_field": "citations",
+            "denominator_field": "sanctioned_faculty",
+            "dept_value": 6.3,
+            "share_of_denominator_pct": 6.41
+          }
+        ]
+      },
+      {
+        "kpi_id": "KPI-R3",
+        "name": "Grants sanctioned",
+        "value": 242.5,
+        "unit": "INR lakh",
+        "target": 300.0,
+        "target_source": "Strategic Plan 2024-27",
+        "variance": -57.5,
+        "status": "below target",
+        "formula": "sum(grants_lakh)",
+        "source_system": "Research repository",
+        "figure_status": "final",
+        "rounding_warning": null,
+        "evidence": [
+          {
+            "dept_code": "CSE",
+            "dept_name": "Computer Science & Engineering",
+            "numerator": 96.5,
+            "denominator": null,
+            "numerator_field": "grants_lakh",
+            "denominator_field": null,
+            "dept_value": 96.5,
+            "share_of_denominator_pct": 39.79
+          },
+          {
+            "dept_code": "ECE",
+            "dept_name": "Electronics & Communication",
+            "numerator": 41.0,
+            "denominator": null,
+            "numerator_field": "grants_lakh",
+            "denominator_field": null,
+            "dept_value": 41.0,
+            "share_of_denominator_pct": 16.91
+          },
+          {
+            "dept_code": "ISE",
+            "dept_name": "Information Science & Engineering",
+            "numerator": 22.5,
+            "denominator": null,
+            "numerator_field": "grants_lakh",
+            "denominator_field": null,
+            "dept_value": 22.5,
+            "share_of_denominator_pct": 9.28
+          },
+          {
+            "dept_code": "EEE",
+            "dept_name": "Electrical & Electronics",
+            "numerator": 18.0,
+            "denominator": null,
+            "numerator_field": "grants_lakh",
+            "denominator_field": null,
+            "dept_value": 18.0,
+            "share_of_denominator_pct": 7.42
+          },
+          {
+            "dept_code": "MECH",
+            "dept_name": "Mechanical Engineering",
+            "numerator": 27.5,
+            "denominator": null,
+            "numerator_field": "grants_lakh",
+            "denominator_field": null,
+            "dept_value": 27.5,
+            "share_of_denominator_pct": 11.34
+          },
+          {
+            "dept_code": "CIVIL",
+            "dept_name": "Civil Engineering",
+            "numerator": 12.0,
+            "denominator": null,
+            "numerator_field": "grants_lakh",
+            "denominator_field": null,
+            "dept_value": 12.0,
+            "share_of_denominator_pct": 4.95
+          },
+          {
+            "dept_code": "CHEM",
+            "dept_name": "Chemical Engineering",
+            "numerator": 15.5,
+            "denominator": null,
+            "numerator_field": "grants_lakh",
+            "denominator_field": null,
+            "dept_value": 15.5,
+            "share_of_denominator_pct": 6.39
+          },
+          {
+            "dept_code": "BT",
+            "dept_name": "Biotechnology",
+            "numerator": 9.5,
+            "denominator": null,
+            "numerator_field": "grants_lakh",
+            "denominator_field": null,
+            "dept_value": 9.5,
+            "share_of_denominator_pct": 3.92
+          }
+        ]
+      }
+    ],
+    "off_target": [
+      "KPI-R1",
+      "KPI-R2",
+      "KPI-R3"
+    ],
+    "headline": "Research: 3 of 3 KPIs off target across all departments for academic year 2025-26.",
+    "provisional": false
+  },
+  "Placement": {
+    "domain": "Placement",
+    "period": "academic year 2025-26",
+    "scope": "all departments",
+    "kpis": [
+      {
+        "kpi_id": "KPI-P1",
+        "name": "Placement percentage",
+        "value": 75.1205,
+        "unit": "%",
+        "target": 80.0,
+        "target_source": "Strategic Plan 2024-27",
+        "variance": -4.8795,
+        "status": "below target",
+        "formula": "sum(placed_students) / sum(eligible_students) x 100",
+        "source_system": "Placement Cell tracker",
+        "figure_status": "final",
+        "rounding_warning": null,
+        "evidence": [
+          {
+            "dept_code": "CSE",
+            "dept_name": "Computer Science & Engineering",
+            "numerator": 212,
+            "denominator": 228,
+            "numerator_field": "placed_students",
+            "denominator_field": "eligible_students",
+            "dept_value": 92.98,
+            "share_of_denominator_pct": 21.99
+          },
+          {
+            "dept_code": "ECE",
+            "dept_name": "Electronics & Communication",
+            "numerator": 143,
+            "denominator": 172,
+            "numerator_field": "placed_students",
+            "denominator_field": "eligible_students",
+            "dept_value": 83.14,
+            "share_of_denominator_pct": 16.59
+          },
+          {
+            "dept_code": "ISE",
+            "dept_name": "Information Science & Engineering",
+            "numerator": 103,
+            "denominator": 114,
+            "numerator_field": "placed_students",
+            "denominator_field": "eligible_students",
+            "dept_value": 90.35,
+            "share_of_denominator_pct": 10.99
+          },
+          {
+            "dept_code": "EEE",
+            "dept_name": "Electrical & Electronics",
+            "numerator": 86,
+            "denominator": 116,
+            "numerator_field": "placed_students",
+            "denominator_field": "eligible_students",
+            "dept_value": 74.14,
+            "share_of_denominator_pct": 11.19
+          },
+          {
+            "dept_code": "MECH",
+            "dept_name": "Mechanical Engineering",
+            "numerator": 111,
+            "denominator": 174,
+            "numerator_field": "placed_students",
+            "denominator_field": "eligible_students",
+            "dept_value": 63.79,
+            "share_of_denominator_pct": 16.78
+          },
+          {
+            "dept_code": "CIVIL",
+            "dept_name": "Civil Engineering",
+            "numerator": 62,
+            "denominator": 118,
+            "numerator_field": "placed_students",
+            "denominator_field": "eligible_students",
+            "dept_value": 52.54,
+            "share_of_denominator_pct": 11.38
+          },
+          {
+            "dept_code": "CHEM",
+            "dept_name": "Chemical Engineering",
+            "numerator": 33,
+            "denominator": 58,
+            "numerator_field": "placed_students",
+            "denominator_field": "eligible_students",
+            "dept_value": 56.9,
+            "share_of_denominator_pct": 5.59
+          },
+          {
+            "dept_code": "BT",
+            "dept_name": "Biotechnology",
+            "numerator": 29,
+            "denominator": 57,
+            "numerator_field": "placed_students",
+            "denominator_field": "eligible_students",
+            "dept_value": 50.88,
+            "share_of_denominator_pct": 5.5
+          }
+        ]
+      },
+      {
+        "kpi_id": "KPI-P2",
+        "name": "Average package",
+        "value": 7.667,
+        "unit": "LPA",
+        "target": 8.0,
+        "target_source": "Strategic Plan 2024-27",
+        "variance": -0.333,
+        "status": "below target",
+        "formula": "sum(total_package_lpa) / sum(placed_students)",
+        "source_system": "Placement Cell tracker",
+        "figure_status": "final",
+        "rounding_warning": "7.667 rounds to 8.0 at 0 decimal place(s), which would read as meeting the target of 8.0. Report the unrounded figure.",
+        "evidence": [
+          {
+            "dept_code": "CSE",
+            "dept_name": "Computer Science & Engineering",
+            "numerator": 2247.2,
+            "denominator": 212,
+            "numerator_field": "total_package_lpa",
+            "denominator_field": "placed_students",
+            "dept_value": 10.6,
+            "share_of_denominator_pct": 27.21
+          },
+          {
+            "dept_code": "ECE",
+            "dept_name": "Electronics & Communication",
+            "numerator": 1058.2,
+            "denominator": 143,
+            "numerator_field": "total_package_lpa",
+            "denominator_field": "placed_students",
+            "dept_value": 7.4,
+            "share_of_denominator_pct": 18.36
+          },
+          {
+            "dept_code": "ISE",
+            "dept_name": "Information Science & Engineering",
+            "numerator": 947.6,
+            "denominator": 103,
+            "numerator_field": "total_package_lpa",
+            "denominator_field": "placed_students",
+            "dept_value": 9.2,
+            "share_of_denominator_pct": 13.22
+          },
+          {
+            "dept_code": "EEE",
+            "dept_name": "Electrical & Electronics",
+            "numerator": 524.6,
+            "denominator": 86,
+            "numerator_field": "total_package_lpa",
+            "denominator_field": "placed_students",
+            "dept_value": 6.1,
+            "share_of_denominator_pct": 11.04
+          },
+          {
+            "dept_code": "MECH",
+            "dept_name": "Mechanical Engineering",
+            "numerator": 599.4,
+            "denominator": 111,
+            "numerator_field": "total_package_lpa",
+            "denominator_field": "placed_students",
+            "dept_value": 5.4,
+            "share_of_denominator_pct": 14.25
+          },
+          {
+            "dept_code": "CIVIL",
+            "dept_name": "Civil Engineering",
+            "numerator": 285.2,
+            "denominator": 62,
+            "numerator_field": "total_package_lpa",
+            "denominator_field": "placed_students",
+            "dept_value": 4.6,
+            "share_of_denominator_pct": 7.96
+          },
+          {
+            "dept_code": "CHEM",
+            "dept_name": "Chemical Engineering",
+            "numerator": 168.3,
+            "denominator": 33,
+            "numerator_field": "total_package_lpa",
+            "denominator_field": "placed_students",
+            "dept_value": 5.1,
+            "share_of_denominator_pct": 4.24
+          },
+          {
+            "dept_code": "BT",
+            "dept_name": "Biotechnology",
+            "numerator": 142.1,
+            "denominator": 29,
+            "numerator_field": "total_package_lpa",
+            "denominator_field": "placed_students",
+            "dept_value": 4.9,
+            "share_of_denominator_pct": 3.72
+          }
+        ]
+      },
+      {
+        "kpi_id": "KPI-P3",
+        "name": "Internship completion",
+        "value": 73.3848,
+        "unit": "%",
+        "target": 85.0,
+        "target_source": "Strategic Plan 2024-27",
+        "variance": -11.6152,
+        "status": "below target",
+        "formula": "sum(interns_completed) / sum(eligible_students) x 100",
+        "source_system": "Placement Cell tracker",
+        "figure_status": "final",
+        "rounding_warning": null,
+        "evidence": [
+          {
+            "dept_code": "CSE",
+            "dept_name": "Computer Science & Engineering",
+            "numerator": 205,
+            "denominator": 228,
+            "numerator_field": "interns_completed",
+            "denominator_field": "eligible_students",
+            "dept_value": 89.91,
+            "share_of_denominator_pct": 21.99
+          },
+          {
+            "dept_code": "ECE",
+            "dept_name": "Electronics & Communication",
+            "numerator": 149,
+            "denominator": 172,
+            "numerator_field": "interns_completed",
+            "denominator_field": "eligible_students",
+            "dept_value": 86.63,
+            "share_of_denominator_pct": 16.59
+          },
+          {
+            "dept_code": "ISE",
+            "dept_name": "Information Science & Engineering",
+            "numerator": 96,
+            "denominator": 114,
+            "numerator_field": "interns_completed",
+            "denominator_field": "eligible_students",
+            "dept_value": 84.21,
+            "share_of_denominator_pct": 10.99
+          },
+          {
+            "dept_code": "EEE",
+            "dept_name": "Electrical & Electronics",
+            "numerator": 84,
+            "denominator": 116,
+            "numerator_field": "interns_completed",
+            "denominator_field": "eligible_students",
+            "dept_value": 72.41,
+            "share_of_denominator_pct": 11.19
+          },
+          {
+            "dept_code": "MECH",
+            "dept_name": "Mechanical Engineering",
+            "numerator": 102,
+            "denominator": 174,
+            "numerator_field": "interns_completed",
+            "denominator_field": "eligible_students",
+            "dept_value": 58.62,
+            "share_of_denominator_pct": 16.78
+          },
+          {
+            "dept_code": "CIVIL",
+            "dept_name": "Civil Engineering",
+            "numerator": 61,
+            "denominator": 118,
+            "numerator_field": "interns_completed",
+            "denominator_field": "eligible_students",
+            "dept_value": 51.69,
+            "share_of_denominator_pct": 11.38
+          },
+          {
+            "dept_code": "CHEM",
+            "dept_name": "Chemical Engineering",
+            "numerator": 34,
+            "denominator": 58,
+            "numerator_field": "interns_completed",
+            "denominator_field": "eligible_students",
+            "dept_value": 58.62,
+            "share_of_denominator_pct": 5.59
+          },
+          {
+            "dept_code": "BT",
+            "dept_name": "Biotechnology",
+            "numerator": 30,
+            "denominator": 57,
+            "numerator_field": "interns_completed",
+            "denominator_field": "eligible_students",
+            "dept_value": 52.63,
+            "share_of_denominator_pct": 5.5
+          }
+        ]
+      }
+    ],
+    "off_target": [
+      "KPI-P1",
+      "KPI-P2",
+      "KPI-P3"
+    ],
+    "headline": "Placement: 3 of 3 KPIs off target across all departments for academic year 2025-26.",
+    "provisional": false
+  },
+  "Finance": {
+    "domain": "Finance",
+    "period": "academic year 2025-26",
+    "scope": "all departments",
+    "kpis": [
+      {
+        "kpi_id": "KPI-F1",
+        "name": "Budget utilisation",
+        "value": 86.9588,
+        "unit": "%",
+        "target": 90.0,
+        "target_source": "Strategic Plan 2024-27",
+        "variance": -3.0412,
+        "status": "below target",
+        "formula": "sum(budget_spent_lakh) / sum(budget_allocated_lakh) x 100",
+        "source_system": "Finance & Accounts ledger",
+        "figure_status": "provisional",
+        "rounding_warning": null,
+        "evidence": [
+          {
+            "dept_code": "CSE",
+            "dept_name": "Computer Science & Engineering",
+            "numerator": 393.0,
+            "denominator": 420.0,
+            "numerator_field": "budget_spent_lakh",
+            "denominator_field": "budget_allocated_lakh",
+            "dept_value": 93.57,
+            "share_of_denominator_pct": 21.65
+          },
+          {
+            "dept_code": "ECE",
+            "dept_name": "Electronics & Communication",
+            "numerator": 276.0,
+            "denominator": 310.0,
+            "numerator_field": "budget_spent_lakh",
+            "denominator_field": "budget_allocated_lakh",
+            "dept_value": 89.03,
+            "share_of_denominator_pct": 15.98
+          },
+          {
+            "dept_code": "ISE",
+            "dept_name": "Information Science & Engineering",
+            "numerator": 221.0,
+            "denominator": 240.0,
+            "numerator_field": "budget_spent_lakh",
+            "denominator_field": "budget_allocated_lakh",
+            "dept_value": 92.08,
+            "share_of_denominator_pct": 12.37
+          },
+          {
+            "dept_code": "EEE",
+            "dept_name": "Electrical & Electronics",
+            "numerator": 181.0,
+            "denominator": 210.0,
+            "numerator_field": "budget_spent_lakh",
+            "denominator_field": "budget_allocated_lakh",
+            "dept_value": 86.19,
+            "share_of_denominator_pct": 10.82
+          },
+          {
+            "dept_code": "MECH",
+            "dept_name": "Mechanical Engineering",
+            "numerator": 247.0,
+            "denominator": 300.0,
+            "numerator_field": "budget_spent_lakh",
+            "denominator_field": "budget_allocated_lakh",
+            "dept_value": 82.33,
+            "share_of_denominator_pct": 15.46
+          },
+          {
+            "dept_code": "CIVIL",
+            "dept_name": "Civil Engineering",
+            "numerator": 149.0,
+            "denominator": 190.0,
+            "numerator_field": "budget_spent_lakh",
+            "denominator_field": "budget_allocated_lakh",
+            "dept_value": 78.42,
+            "share_of_denominator_pct": 9.79
+          },
+          {
+            "dept_code": "CHEM",
+            "dept_name": "Chemical Engineering",
+            "numerator": 118.0,
+            "denominator": 140.0,
+            "numerator_field": "budget_spent_lakh",
+            "denominator_field": "budget_allocated_lakh",
+            "dept_value": 84.29,
+            "share_of_denominator_pct": 7.22
+          },
+          {
+            "dept_code": "BT",
+            "dept_name": "Biotechnology",
+            "numerator": 102.0,
+            "denominator": 130.0,
+            "numerator_field": "budget_spent_lakh",
+            "denominator_field": "budget_allocated_lakh",
+            "dept_value": 78.46,
+            "share_of_denominator_pct": 6.7
+          }
+        ]
+      }
+    ],
+    "off_target": [
+      "KPI-F1"
+    ],
+    "headline": "Finance: 1 of 1 KPIs off target across all departments for academic year 2025-26. Figures include a provisional source.",
+    "provisional": true
+  }
+}

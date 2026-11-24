@@ -1,0 +1,142 @@
+{
+  "run_id": "EDSS-TINY-BUDGET",
+  "period": "academic year 2025-26",
+  "completed": [
+    "load_departments",
+    "review_domains"
+  ],
+  "results": {
+    "load_departments": {
+      "row_count": 8,
+      "source": "Department reports export (CSV on disk)"
+    },
+    "review_domains": {
+      "Academic": {
+        "headline": "Academic: 2 of 2 KPIs off target across all departments for academic year 2025-26.",
+        "off_target": [
+          "KPI-A1",
+          "KPI-A2"
+        ],
+        "kpis": {
+          "KPI-A1": 91.8519,
+          "KPI-A2": 2.4844
+        }
+      },
+      "Research": {
+        "headline": "Research: 3 of 3 KPIs off target across all departments for academic year 2025-26.",
+        "off_target": [
+          "KPI-R1",
+          "KPI-R2",
+          "KPI-R3"
+        ],
+        "kpis": {
+          "KPI-R1": 1.1859,
+          "KPI-R2": 7.2564,
+          "KPI-R3": 242.5
+        }
+      },
+      "Placement": {
+        "headline": "Placement: 3 of 3 KPIs off target across all departments for academic year 2025-26.",
+        "off_target": [
+          "KPI-P1",
+          "KPI-P2",
+          "KPI-P3"
+        ],
+        "kpis": {
+          "KPI-P1": 75.1205,
+          "KPI-P2": 7.667,
+          "KPI-P3": 73.3848
+        }
+      },
+      "Finance": {
+        "headline": "Finance: 1 of 1 KPIs off target across all departments for academic year 2025-26. Figures include a provisional source.",
+        "off_target": [
+          "KPI-F1"
+        ],
+        "kpis": {
+          "KPI-F1": 86.9588
+        }
+      }
+    }
+  },
+  "approvals": {},
+  "audit": [
+    {
+      "seq": 1,
+      "run_id": "EDSS-TINY-BUDGET",
+      "action": "load_departments",
+      "kind": "tool",
+      "status": "ok",
+      "inputs": {},
+      "output": {
+        "row_count": 8,
+        "source": "Department reports export (CSV on disk)"
+      },
+      "error": null,
+      "ms": 0.36,
+      "budget": "actions 1/2 \u00b7 connector 1/60 \u00b7 0.00s/120s",
+      "at": "2026-09-28T20:22:29+00:00"
+    },
+    {
+      "seq": 2,
+      "run_id": "EDSS-TINY-BUDGET",
+      "action": "review_domains",
+      "kind": "skill",
+      "status": "ok",
+      "inputs": {},
+      "output": {
+        "Academic": {
+          "headline": "Academic: 2 of 2 KPIs off target across all departments for academic year 2025-26.",
+          "off_target": [
+            "KPI-A1",
+            "KPI-A2"
+          ],
+          "kpis": {
+            "KPI-A1": 91.8519,
+            "KPI-A2": 2.4844
+          }
+        },
+        "Research": {
+          "headline": "Research: 3 of 3 KPIs off target across all departments for academic year 2025-26.",
+          "off_target": [
+            "KPI-R1",
+            "KPI-R2",
+            "KPI-R3"
+          ],
+          "kpis": {
+            "KPI-R1": 1.1859,
+            "KPI-R2": 7.2564,
+            "KPI-R3": 242.5
+          }
+        },
+        "Placement": {
+          "headline": "Placement: 3 of 3 KPIs off target across all departments for academic year 2025-26.",
+          "off_target": [
+            "KPI-P1",
+            "KPI-P2",
+            "KPI-P3"
+          ],
+          "kpis": {
+            "KPI-P1": 75.1205,
+            "KPI-P2": 7.667,
+            "KPI-P3": 73.3848
+          }
+        },
+        "Finance": {
+          "headline": "Finance: 1 of 1 KPIs off target across all departments for academic year 2025-26. Figures include a provisional source.",
+          "off_target": [
+            "KPI-F1"
+          ],
+          "kpis": {
+            "KPI-F1": 86.9588
+          }
+        }
+      },
+      "error": null,
+      "ms": 0.7,
+      "budget": "actions 2/2 \u00b7 connector 1/60 \u00b7 0.00s/120s",
+      "at": "2026-09-28T20:22:29+00:00"
+    }
+  ],
+  "saved_at": "2026-09-28T20:22:29+00:00"
+}

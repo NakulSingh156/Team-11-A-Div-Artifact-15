@@ -1,0 +1,92 @@
+[
+  {
+    "fault": "missing source citation",
+    "injected": "KPI-R2 lost its source_system",
+    "detected": [
+      "every-figure-cites-its-source@KPI-R2"
+    ],
+    "diagnosis": [
+      "KPI-R2: a KPI row reached the brief with an empty source_system"
+    ],
+    "attempts": 1,
+    "healed": true,
+    "rows_touched": [
+      "KPI-R2"
+    ],
+    "sections_touched": [],
+    "rows_untouched": 8,
+    "restored_to_pristine": true
+  },
+  {
+    "fault": "dropped assumptions",
+    "injected": "the assumptions block was truncated to 1 entry",
+    "detected": [
+      "assumptions-stated@brief"
+    ],
+    "diagnosis": [
+      "brief: the assumptions block was dropped or truncated"
+    ],
+    "attempts": 1,
+    "healed": true,
+    "rows_touched": [],
+    "sections_touched": [
+      "assumptions"
+    ],
+    "rows_untouched": 9,
+    "restored_to_pristine": true
+  },
+  {
+    "fault": "option without risks",
+    "injected": "the second option lost its risks and trade-off",
+    "detected": [
+      "options-carry-risks@brief"
+    ],
+    "diagnosis": [
+      "brief: an option was drafted without risks or without a trade-off"
+    ],
+    "attempts": 1,
+    "healed": true,
+    "rows_touched": [],
+    "sections_touched": [
+      "options"
+    ],
+    "rows_untouched": 9,
+    "restored_to_pristine": false
+  },
+  {
+    "fault": "unlabelled provisional figure",
+    "injected": "the provisional Finance figure lost its caveat",
+    "detected": [
+      "provisional-labelled@KPI-F1"
+    ],
+    "diagnosis": [
+      "KPI-F1: an unreconciled figure was shown without its caveat"
+    ],
+    "attempts": 1,
+    "healed": true,
+    "rows_touched": [
+      "KPI-F1"
+    ],
+    "sections_touched": [],
+    "rows_untouched": 8,
+    "restored_to_pristine": true
+  },
+  {
+    "fault": "rounding hides a missed target",
+    "injected": "KPI-A1 was displayed rounded to 92, hiding a missed 92.00 target",
+    "detected": [
+      "rounding-hides-nothing@KPI-A1"
+    ],
+    "diagnosis": [
+      "KPI-A1: a rounded display value made a missed target read as met"
+    ],
+    "attempts": 1,
+    "healed": true,
+    "rows_touched": [
+      "KPI-A1"
+    ],
+    "sections_touched": [],
+    "rows_untouched": 8,
+    "restored_to_pristine": true
+  }
+]

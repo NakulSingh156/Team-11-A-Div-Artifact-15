@@ -1,0 +1,22 @@
+[
+  {
+    "unit": "CHEM",
+    "attempt": 1,
+    "error": "TimeoutError: CHEM reporting system timed out"
+  },
+  {
+    "unit": "CIVIL",
+    "attempt": 1,
+    "error": "ConnectionError: CIVIL departmental server unreachable"
+  },
+  {
+    "unit": "CIVIL",
+    "attempt": 2,
+    "error": "ConnectionError: CIVIL departmental server unreachable"
+  },
+  {
+    "unit": "CIVIL",
+    "attempt": 3,
+    "error": "ConnectionError: CIVIL departmental server unreachable"
+  }
+]

@@ -1,0 +1,149 @@
+[
+  {
+    "tid": "kpi-present:KPI-A1",
+    "description": "KPI-A1 is present and cites a source",
+    "derived_from": "required_kpis",
+    "passed": true,
+    "detail": "KPI-A1 present with a source"
+  },
+  {
+    "tid": "kpi-present:KPI-A2",
+    "description": "KPI-A2 is present and cites a source",
+    "derived_from": "required_kpis",
+    "passed": true,
+    "detail": "KPI-A2 present with a source"
+  },
+  {
+    "tid": "kpi-present:KPI-R1",
+    "description": "KPI-R1 is present and cites a source",
+    "derived_from": "required_kpis",
+    "passed": true,
+    "detail": "KPI-R1 present with a source"
+  },
+  {
+    "tid": "kpi-present:KPI-R2",
+    "description": "KPI-R2 is present and cites a source",
+    "derived_from": "required_kpis",
+    "passed": true,
+    "detail": "KPI-R2 present with a source"
+  },
+  {
+    "tid": "kpi-present:KPI-R3",
+    "description": "KPI-R3 is present and cites a source",
+    "derived_from": "required_kpis",
+    "passed": true,
+    "detail": "KPI-R3 present with a source"
+  },
+  {
+    "tid": "kpi-present:KPI-P1",
+    "description": "KPI-P1 is present and cites a source",
+    "derived_from": "required_kpis",
+    "passed": true,
+    "detail": "KPI-P1 present with a source"
+  },
+  {
+    "tid": "kpi-present:KPI-P2",
+    "description": "KPI-P2 is present and cites a source",
+    "derived_from": "required_kpis",
+    "passed": true,
+    "detail": "KPI-P2 present with a source"
+  },
+  {
+    "tid": "kpi-present:KPI-P3",
+    "description": "KPI-P3 is present and cites a source",
+    "derived_from": "required_kpis",
+    "passed": true,
+    "detail": "KPI-P3 present with a source"
+  },
+  {
+    "tid": "section:Executive summary",
+    "description": "section 'Executive summary' exists and is non-empty",
+    "derived_from": "brief_sections",
+    "passed": true,
+    "detail": "'Executive summary' present"
+  },
+  {
+    "tid": "section:KPI scorecard",
+    "description": "section 'KPI scorecard' exists and is non-empty",
+    "derived_from": "brief_sections",
+    "passed": true,
+    "detail": "'KPI scorecard' present"
+  },
+  {
+    "tid": "section:Off-target drill-down",
+    "description": "section 'Off-target drill-down' exists and is non-empty",
+    "derived_from": "brief_sections",
+    "passed": false,
+    "detail": "'Off-target drill-down' missing or empty"
+  },
+  {
+    "tid": "section:Options",
+    "description": "section 'Options' exists and is non-empty",
+    "derived_from": "brief_sections",
+    "passed": false,
+    "detail": "'Options' missing or empty"
+  },
+  {
+    "tid": "section:Risks and trade-offs",
+    "description": "section 'Risks and trade-offs' exists and is non-empty",
+    "derived_from": "brief_sections",
+    "passed": false,
+    "detail": "'Risks and trade-offs' missing or empty"
+  },
+  {
+    "tid": "section:Assumptions",
+    "description": "section 'Assumptions' exists and is non-empty",
+    "derived_from": "brief_sections",
+    "passed": false,
+    "detail": "'Assumptions' missing or empty"
+  },
+  {
+    "tid": "section:Evidence appendix",
+    "description": "section 'Evidence appendix' exists and is non-empty",
+    "derived_from": "brief_sections",
+    "passed": false,
+    "detail": "'Evidence appendix' missing or empty"
+  },
+  {
+    "tid": "scope:domains",
+    "description": "every KPI belongs to a domain the spec allows",
+    "derived_from": "domains",
+    "passed": true,
+    "detail": "out-of-scope: []"
+  },
+  {
+    "tid": "drilldown:every-kpi",
+    "description": "every KPI carries department drill-down",
+    "derived_from": "drilldown_policy",
+    "passed": false,
+    "detail": "missing drill-down: ['KPI-A1', 'KPI-A2', 'KPI-R1', 'KPI-R2', 'KPI-R3', 'KPI-P1', 'KPI-P2', 'KPI-P3']"
+  },
+  {
+    "tid": "options:coverage",
+    "description": "every off-target KPI has >= 1 option",
+    "derived_from": "min_options_per_off_target_kpi",
+    "passed": false,
+    "detail": "uncovered: ['KPI-A1', 'KPI-A2', 'KPI-R1', 'KPI-R2', 'KPI-R3', 'KPI-P2', 'KPI-P3']"
+  },
+  {
+    "tid": "checks:assumptions",
+    "description": "assumptions are stated explicitly",
+    "derived_from": "validation_checks",
+    "passed": false,
+    "detail": "1 assumptions"
+  },
+  {
+    "tid": "checks:option-risks",
+    "description": "each option lists its risks and trade-offs",
+    "derived_from": "validation_checks",
+    "passed": true,
+    "detail": "options missing risks/trade-off"
+  },
+  {
+    "tid": "checks:not-published",
+    "description": "no action is taken without leadership approval",
+    "derived_from": "validation_checks",
+    "passed": true,
+    "detail": "status=DRAFT"
+  }
+]

@@ -1,0 +1,62 @@
+[
+  {
+    "check": "K1  the suite is derived from the spec, not hand-written",
+    "passed": true,
+    "evidence": "21 tests generated from 6 spec fields"
+  },
+  {
+    "check": "K2  every test names the spec field that produced it",
+    "passed": true,
+    "evidence": "each result carries derived_from, so a failure points at the spec clause"
+  },
+  {
+    "check": "K3  a naive build fails the suite",
+    "passed": true,
+    "evidence": "8 of 21 tests failed on build 1"
+  },
+  {
+    "check": "K4  the gate refuses a red build",
+    "passed": true,
+    "evidence": "refusing to send to Principal / Registrar: 8 of 21 acceptance tests failing (['s\u2026"
+  },
+  {
+    "check": "K5  the completed build passes every test",
+    "passed": true,
+    "evidence": "21/21 green on build 2"
+  },
+  {
+    "check": "K6  only a green build reaches the human",
+    "passed": true,
+    "evidence": "submitted to Principal / Registrar with 21 passing tests"
+  },
+  {
+    "check": "K7  amending the spec grows the suite with NO test written by hand",
+    "passed": true,
+    "evidence": "21 -> 23 tests; new: ['kpi-present:KPI-F1', 'section:Council cover note']"
+  },
+  {
+    "check": "K8  a stale artifact fails the amended spec for the right reasons",
+    "passed": true,
+    "evidence": "exactly the two new tests failed: ['kpi-present:KPI-F1', 'section:Council cover note']"
+  },
+  {
+    "check": "K9  the gate refuses the stale artifact too",
+    "passed": true,
+    "evidence": "re-judging against r3 blocked an artifact that was green under r2"
+  },
+  {
+    "check": "K10 rebuilding against the amended spec goes green",
+    "passed": true,
+    "evidence": "23 tests, all passing"
+  },
+  {
+    "check": "K11 the spec is not mutated by deriving or judging",
+    "passed": true,
+    "evidence": "r2 is untouched after r3 was derived from a deep copy"
+  },
+  {
+    "check": "K12 scope is enforced \u2014 no KPI outside the spec's domains",
+    "passed": true,
+    "evidence": "every KPI in the artifact belongs to a domain the spec allows"
+  }
+]

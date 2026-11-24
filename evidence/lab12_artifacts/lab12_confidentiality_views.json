@@ -1,0 +1,23 @@
+{
+  "registrar": {
+    "rendered_for": "S. Registrar (Registrar)",
+    "kpis_visible": 9,
+    "redactions": []
+  },
+  "council": {
+    "rendered_for": "Council member R. Rao (Governing Council member)",
+    "kpis_visible": 8,
+    "redactions": [
+      "department-level drill-down",
+      "KPI-F1 (provisional)"
+    ]
+  },
+  "intern": {
+    "rendered_for": "Summer intern (Summer intern)",
+    "kpis_visible": 8,
+    "redactions": [
+      "department-level drill-down",
+      "KPI-F1 (provisional)"
+    ]
+  }
+}

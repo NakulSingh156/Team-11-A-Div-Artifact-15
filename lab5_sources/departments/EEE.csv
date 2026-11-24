@@ -1,0 +1,79 @@
+dept_code,dept_name,category,period,grain,sub_period,domain,metric,value,unit,aggregation,figure_status,source_system,recorded_on
+EEE,Electrical & Electronics,circuit,2025-26,semester,SEM-1,Academic,students_appeared,60,count,sum,final,Academic ERP,2025-12-31
+EEE,Electrical & Electronics,circuit,2025-26,semester,SEM-2,Academic,students_appeared,60,count,sum,final,Academic ERP,2026-06-30
+EEE,Electrical & Electronics,circuit,2025-26,semester,SEM-1,Academic,students_passed,55,count,sum,final,Academic ERP,2025-12-31
+EEE,Electrical & Electronics,circuit,2025-26,semester,SEM-2,Academic,students_passed,54,count,sum,final,Academic ERP,2026-06-30
+EEE,Electrical & Electronics,circuit,2025-26,annual,FY,Academic,co_po_attainment,2.41,index 0-3,weighted_mean,final,Academic ERP,2026-06-30
+EEE,Electrical & Electronics,circuit,2025-26,annual,FY,Research,sanctioned_faculty,17,count,latest,final,Research repository,2026-06-30
+EEE,Electrical & Electronics,circuit,2025-26,quarter,Q1,Research,publications,3,count,sum,final,Research repository,2025-09-30
+EEE,Electrical & Electronics,circuit,2025-26,quarter,Q2,Research,publications,4,count,sum,final,Research repository,2025-12-31
+EEE,Electrical & Electronics,circuit,2025-26,quarter,Q3,Research,publications,5,count,sum,final,Research repository,2026-03-31
+EEE,Electrical & Electronics,circuit,2025-26,quarter,Q4,Research,publications,4,count,sum,final,Research repository,2026-06-30
+EEE,Electrical & Electronics,circuit,2025-26,quarter,Q1,Research,citations,18,count,sum,final,Research repository,2025-09-30
+EEE,Electrical & Electronics,circuit,2025-26,quarter,Q2,Research,citations,21,count,sum,final,Research repository,2025-12-31
+EEE,Electrical & Electronics,circuit,2025-26,quarter,Q3,Research,citations,24,count,sum,final,Research repository,2026-03-31
+EEE,Electrical & Electronics,circuit,2025-26,quarter,Q4,Research,citations,25,count,sum,final,Research repository,2026-06-30
+EEE,Electrical & Electronics,circuit,2025-26,quarter,Q1,Research,grants_lakh,5.58,INR lakh,sum,final,Research repository,2025-09-30
+EEE,Electrical & Electronics,circuit,2025-26,quarter,Q2,Research,grants_lakh,3.42,INR lakh,sum,final,Research repository,2025-12-31
+EEE,Electrical & Electronics,circuit,2025-26,quarter,Q3,Research,grants_lakh,4.86,INR lakh,sum,final,Research repository,2026-03-31
+EEE,Electrical & Electronics,circuit,2025-26,quarter,Q4,Research,grants_lakh,4.14,INR lakh,sum,final,Research repository,2026-06-30
+EEE,Electrical & Electronics,circuit,2025-26,annual,FY,Placement,eligible_students,116,count,latest,final,Placement Cell tracker,2026-06-30
+EEE,Electrical & Electronics,circuit,2025-26,quarter,Q1,Placement,placed_students,8,count,sum,final,Placement Cell tracker,2025-09-30
+EEE,Electrical & Electronics,circuit,2025-26,quarter,Q2,Placement,placed_students,29,count,sum,final,Placement Cell tracker,2025-12-31
+EEE,Electrical & Electronics,circuit,2025-26,quarter,Q3,Placement,placed_students,35,count,sum,final,Placement Cell tracker,2026-03-31
+EEE,Electrical & Electronics,circuit,2025-26,quarter,Q4,Placement,placed_students,14,count,sum,final,Placement Cell tracker,2026-06-30
+EEE,Electrical & Electronics,circuit,2025-26,quarter,Q1,Placement,total_package_lpa,41.97,LPA,sum,final,Placement Cell tracker,2025-09-30
+EEE,Electrical & Electronics,circuit,2025-26,quarter,Q2,Placement,total_package_lpa,173.12,LPA,sum,final,Placement Cell tracker,2025-12-31
+EEE,Electrical & Electronics,circuit,2025-26,quarter,Q3,Placement,total_package_lpa,225.58,LPA,sum,final,Placement Cell tracker,2026-03-31
+EEE,Electrical & Electronics,circuit,2025-26,quarter,Q4,Placement,total_package_lpa,83.93,LPA,sum,final,Placement Cell tracker,2026-06-30
+EEE,Electrical & Electronics,circuit,2025-26,quarter,Q1,Placement,interns_completed,10,count,sum,final,Placement Cell tracker,2025-09-30
+EEE,Electrical & Electronics,circuit,2025-26,quarter,Q2,Placement,interns_completed,14,count,sum,final,Placement Cell tracker,2025-12-31
+EEE,Electrical & Electronics,circuit,2025-26,quarter,Q3,Placement,interns_completed,33,count,sum,final,Placement Cell tracker,2026-03-31
+EEE,Electrical & Electronics,circuit,2025-26,quarter,Q4,Placement,interns_completed,27,count,sum,final,Placement Cell tracker,2026-06-30
+EEE,Electrical & Electronics,circuit,2025-26,quarter,Q1,Finance,budget_allocated_lakh,52.5,INR lakh,sum,final,Finance & Accounts ledger,2025-09-30
+EEE,Electrical & Electronics,circuit,2025-26,quarter,Q2,Finance,budget_allocated_lakh,52.5,INR lakh,sum,final,Finance & Accounts ledger,2025-12-31
+EEE,Electrical & Electronics,circuit,2025-26,quarter,Q3,Finance,budget_allocated_lakh,52.5,INR lakh,sum,final,Finance & Accounts ledger,2026-03-31
+EEE,Electrical & Electronics,circuit,2025-26,quarter,Q4,Finance,budget_allocated_lakh,52.5,INR lakh,sum,final,Finance & Accounts ledger,2026-06-30
+EEE,Electrical & Electronics,circuit,2025-26,quarter,Q1,Finance,budget_spent_lakh,30.77,INR lakh,sum,final,Finance & Accounts ledger,2025-09-30
+EEE,Electrical & Electronics,circuit,2025-26,quarter,Q2,Finance,budget_spent_lakh,39.82,INR lakh,sum,final,Finance & Accounts ledger,2025-12-31
+EEE,Electrical & Electronics,circuit,2025-26,quarter,Q3,Finance,budget_spent_lakh,47.06,INR lakh,sum,final,Finance & Accounts ledger,2026-03-31
+EEE,Electrical & Electronics,circuit,2025-26,quarter,Q4,Finance,budget_spent_lakh,63.35,INR lakh,sum,final,Finance & Accounts ledger,2026-06-30
+EEE,Electrical & Electronics,circuit,2024-25,semester,SEM-1,Academic,students_appeared,60,count,sum,final,Academic ERP,2024-12-31
+EEE,Electrical & Electronics,circuit,2024-25,semester,SEM-2,Academic,students_appeared,60,count,sum,final,Academic ERP,2025-06-30
+EEE,Electrical & Electronics,circuit,2024-25,semester,SEM-1,Academic,students_passed,54,count,sum,final,Academic ERP,2024-12-31
+EEE,Electrical & Electronics,circuit,2024-25,semester,SEM-2,Academic,students_passed,54,count,sum,final,Academic ERP,2025-06-30
+EEE,Electrical & Electronics,circuit,2024-25,annual,FY,Academic,co_po_attainment,2.37,index 0-3,weighted_mean,final,Academic ERP,2025-06-30
+EEE,Electrical & Electronics,circuit,2024-25,annual,FY,Research,sanctioned_faculty,17,count,latest,final,Research repository,2025-06-30
+EEE,Electrical & Electronics,circuit,2024-25,quarter,Q1,Research,publications,3,count,sum,final,Research repository,2024-09-30
+EEE,Electrical & Electronics,circuit,2024-25,quarter,Q2,Research,publications,4,count,sum,final,Research repository,2024-12-31
+EEE,Electrical & Electronics,circuit,2024-25,quarter,Q3,Research,publications,4,count,sum,final,Research repository,2025-03-31
+EEE,Electrical & Electronics,circuit,2024-25,quarter,Q4,Research,publications,4,count,sum,final,Research repository,2025-06-30
+EEE,Electrical & Electronics,circuit,2024-25,quarter,Q1,Research,citations,16,count,sum,final,Research repository,2024-09-30
+EEE,Electrical & Electronics,circuit,2024-25,quarter,Q2,Research,citations,19,count,sum,final,Research repository,2024-12-31
+EEE,Electrical & Electronics,circuit,2024-25,quarter,Q3,Research,citations,21,count,sum,final,Research repository,2025-03-31
+EEE,Electrical & Electronics,circuit,2024-25,quarter,Q4,Research,citations,22,count,sum,final,Research repository,2025-06-30
+EEE,Electrical & Electronics,circuit,2024-25,quarter,Q1,Research,grants_lakh,5.1,INR lakh,sum,final,Research repository,2024-09-30
+EEE,Electrical & Electronics,circuit,2024-25,quarter,Q2,Research,grants_lakh,3.12,INR lakh,sum,final,Research repository,2024-12-31
+EEE,Electrical & Electronics,circuit,2024-25,quarter,Q3,Research,grants_lakh,4.44,INR lakh,sum,final,Research repository,2025-03-31
+EEE,Electrical & Electronics,circuit,2024-25,quarter,Q4,Research,grants_lakh,3.78,INR lakh,sum,final,Research repository,2025-06-30
+EEE,Electrical & Electronics,circuit,2024-25,annual,FY,Placement,eligible_students,112,count,latest,final,Placement Cell tracker,2025-06-30
+EEE,Electrical & Electronics,circuit,2024-25,quarter,Q1,Placement,placed_students,7,count,sum,final,Placement Cell tracker,2024-09-30
+EEE,Electrical & Electronics,circuit,2024-25,quarter,Q2,Placement,placed_students,28,count,sum,final,Placement Cell tracker,2024-12-31
+EEE,Electrical & Electronics,circuit,2024-25,quarter,Q3,Placement,placed_students,33,count,sum,final,Placement Cell tracker,2025-03-31
+EEE,Electrical & Electronics,circuit,2024-25,quarter,Q4,Placement,placed_students,13,count,sum,final,Placement Cell tracker,2025-06-30
+EEE,Electrical & Electronics,circuit,2024-25,quarter,Q1,Placement,total_package_lpa,41.06,LPA,sum,final,Placement Cell tracker,2024-09-30
+EEE,Electrical & Electronics,circuit,2024-25,quarter,Q2,Placement,total_package_lpa,169.37,LPA,sum,final,Placement Cell tracker,2024-12-31
+EEE,Electrical & Electronics,circuit,2024-25,quarter,Q3,Placement,total_package_lpa,220.69,LPA,sum,final,Placement Cell tracker,2025-03-31
+EEE,Electrical & Electronics,circuit,2024-25,quarter,Q4,Placement,total_package_lpa,82.12,LPA,sum,final,Placement Cell tracker,2025-06-30
+EEE,Electrical & Electronics,circuit,2024-25,quarter,Q1,Placement,interns_completed,9,count,sum,final,Placement Cell tracker,2024-09-30
+EEE,Electrical & Electronics,circuit,2024-25,quarter,Q2,Placement,interns_completed,13,count,sum,final,Placement Cell tracker,2024-12-31
+EEE,Electrical & Electronics,circuit,2024-25,quarter,Q3,Placement,interns_completed,30,count,sum,final,Placement Cell tracker,2025-03-31
+EEE,Electrical & Electronics,circuit,2024-25,quarter,Q4,Placement,interns_completed,24,count,sum,final,Placement Cell tracker,2025-06-30
+EEE,Electrical & Electronics,circuit,2024-25,quarter,Q1,Finance,budget_allocated_lakh,52.5,INR lakh,sum,final,Finance & Accounts ledger,2024-09-30
+EEE,Electrical & Electronics,circuit,2024-25,quarter,Q2,Finance,budget_allocated_lakh,52.5,INR lakh,sum,final,Finance & Accounts ledger,2024-12-31
+EEE,Electrical & Electronics,circuit,2024-25,quarter,Q3,Finance,budget_allocated_lakh,52.5,INR lakh,sum,final,Finance & Accounts ledger,2025-03-31
+EEE,Electrical & Electronics,circuit,2024-25,quarter,Q4,Finance,budget_allocated_lakh,52.5,INR lakh,sum,final,Finance & Accounts ledger,2025-06-30
+EEE,Electrical & Electronics,circuit,2024-25,quarter,Q1,Finance,budget_spent_lakh,31.02,INR lakh,sum,final,Finance & Accounts ledger,2024-09-30
+EEE,Electrical & Electronics,circuit,2024-25,quarter,Q2,Finance,budget_spent_lakh,40.15,INR lakh,sum,final,Finance & Accounts ledger,2024-12-31
+EEE,Electrical & Electronics,circuit,2024-25,quarter,Q3,Finance,budget_spent_lakh,47.45,INR lakh,sum,final,Finance & Accounts ledger,2025-03-31
+EEE,Electrical & Electronics,circuit,2024-25,quarter,Q4,Finance,budget_spent_lakh,63.87,INR lakh,sum,final,Finance & Accounts ledger,2025-06-30

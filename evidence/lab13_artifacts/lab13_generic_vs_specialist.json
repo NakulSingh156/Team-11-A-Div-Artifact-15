@@ -1,0 +1,17 @@
+{
+  "generic": {
+    "headline": "Budget utilisation is below target and should be improved.",
+    "scheme_fields": {},
+    "valid": true,
+    "violations": []
+  },
+  "specialist": {
+    "headline": "Budget utilisation is 86.96% against 90.00% on PROVISIONAL, unreconciled figures.",
+    "scheme_fields": {
+      "figure_status": "provisional",
+      "reconciliation_due": "August book close",
+      "action_permitted": false
+    },
+    "valid": true
+  }
+}

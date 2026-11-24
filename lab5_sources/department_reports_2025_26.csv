@@ -1,0 +1,9 @@
+dept_code,dept_name,category,students_appeared,students_passed,co_po_attainment,sanctioned_faculty,publications,citations,grants_lakh,eligible_students,placed_students,total_package_lpa,interns_completed,budget_allocated_lakh,budget_spent_lakh,figure_status
+CSE,Computer Science & Engineering,circuit,240,231,2.71,34,58,402,96.5,228,212,2247.2,205,420,393,final
+ECE,Electronics & Communication,circuit,180,168,2.58,26,34,221,41.0,172,143,1058.2,149,310,276,final
+ISE,Information Science & Engineering,circuit,120,116,2.66,18,21,140,22.5,114,103,947.6,96,240,221,final
+EEE,Electrical & Electronics,circuit,120,109,2.41,17,16,88,18.0,116,86,524.6,84,210,181,final
+MECH,Mechanical Engineering,core,180,158,2.33,24,19,95,27.5,174,111,599.4,102,300,247,final
+CIVIL,Civil Engineering,core,120,101,2.19,16,11,47,12.0,118,62,285.2,61,190,149,final
+CHEM,Chemical Engineering,core,60,54,2.28,11,14,76,15.5,58,33,168.3,34,140,118,final
+BT,Biotechnology,core,60,55,2.35,10,12,63,9.5,57,29,142.1,30,130,102,final

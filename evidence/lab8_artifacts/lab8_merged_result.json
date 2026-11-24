@@ -1,0 +1,46 @@
+{
+  "reporting_departments": [
+    "BT",
+    "CHEM",
+    "CSE",
+    "ECE",
+    "EEE",
+    "ISE",
+    "MECH"
+  ],
+  "missing_departments": [
+    "CIVIL"
+  ],
+  "coverage_pct": 87.5,
+  "complete": false,
+  "publications_naive_sum": 174,
+  "publications_reconciled": 171,
+  "double_counted_removed": 3,
+  "contested_publications": {
+    "PUB-J1": [
+      "CSE",
+      "ECE"
+    ],
+    "PUB-J2": [
+      "CSE",
+      "ECE"
+    ],
+    "PUB-J3": [
+      "CSE",
+      "ECE"
+    ]
+  },
+  "totals": {
+    "students_appeared": 960,
+    "students_passed": 891,
+    "sanctioned_faculty": 140,
+    "eligible_students": 919,
+    "placed_students": 717
+  },
+  "kpis": {
+    "pass_percentage": 92.8125,
+    "publications_per_faculty_naive": 1.2429,
+    "publications_per_faculty_reconciled": 1.2214,
+    "placement_percentage": 78.0196
+  }
+}

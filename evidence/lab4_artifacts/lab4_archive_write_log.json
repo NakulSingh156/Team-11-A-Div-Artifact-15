@@ -1,0 +1,72 @@
+[
+  {
+    "record_id": "BRIEF-2023-24-Q4",
+    "tags": [
+      "placement",
+      "core-branches",
+      "recruiter-outreach",
+      "below-target"
+    ],
+    "at": "2026-09-28T20:13:07+00:00"
+  },
+  {
+    "record_id": "BRIEF-2024-25-Q2",
+    "tags": [
+      "research",
+      "publications",
+      "citations",
+      "nirf",
+      "below-target"
+    ],
+    "at": "2026-09-28T20:13:07+00:00"
+  },
+  {
+    "record_id": "BRIEF-2024-25-Q4",
+    "tags": [
+      "finance",
+      "budget-utilisation",
+      "provisional",
+      "reconciliation"
+    ],
+    "at": "2026-09-28T20:13:07+00:00"
+  },
+  {
+    "record_id": "BRIEF-2024-25-Q3",
+    "tags": [
+      "academic",
+      "pass-percentage",
+      "rounding",
+      "at-risk"
+    ],
+    "at": "2026-09-28T20:13:07+00:00"
+  },
+  {
+    "record_id": "KPI-SNAPSHOT-2023-24",
+    "tags": [
+      "kpi-snapshot",
+      "closed-year",
+      "baseline"
+    ],
+    "at": "2026-09-28T20:13:07+00:00"
+  },
+  {
+    "record_id": "KPI-SNAPSHOT-2024-25",
+    "tags": [
+      "kpi-snapshot",
+      "closed-year",
+      "baseline"
+    ],
+    "at": "2026-09-28T20:13:07+00:00"
+  },
+  {
+    "record_id": "BRIEF-2025-26-RUN-2025-26-01",
+    "tags": [
+      "placement",
+      "research",
+      "academic",
+      "finance",
+      "below-target"
+    ],
+    "at": "2026-09-28T20:13:07+00:00"
+  }
+]

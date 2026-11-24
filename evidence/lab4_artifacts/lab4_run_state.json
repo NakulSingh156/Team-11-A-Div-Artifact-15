@@ -1,0 +1,31 @@
+{
+  "run_id": "RUN-2025-26-01",
+  "period": "academic year 2025-26",
+  "draft": {
+    "title": "Executive decision brief — 2025-26",
+    "status": "APPROVED",
+    "kpis": {
+      "KPI-A1": 91.8519,
+      "KPI-A2": 2.4844,
+      "KPI-R1": 1.1859,
+      "KPI-R2": 7.2564,
+      "KPI-R3": 242.5,
+      "KPI-P1": 75.1205,
+      "KPI-P2": 7.667,
+      "KPI-P3": 73.3848,
+      "KPI-F1": 86.9588
+    },
+    "summary": "9 of 9 KPIs off target; placement improving but average package declining for the first time.",
+    "decisions": [
+      "Noted the average-package decline against the 2023-24 recruiter-outreach decision."
+    ]
+  },
+  "scratch_keys": [
+    "prior_decision_hits",
+    "trend"
+  ],
+  "retrieved": [
+    "BRIEF-2023-24-Q4",
+    "BRIEF-2024-25-Q2"
+  ]
+}

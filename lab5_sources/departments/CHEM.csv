@@ -1,0 +1,79 @@
+dept_code,dept_name,category,period,grain,sub_period,domain,metric,value,unit,aggregation,figure_status,source_system,recorded_on
+CHEM,Chemical Engineering,core,2025-26,semester,SEM-1,Academic,students_appeared,30,count,sum,final,Academic ERP,2025-12-31
+CHEM,Chemical Engineering,core,2025-26,semester,SEM-2,Academic,students_appeared,30,count,sum,final,Academic ERP,2026-06-30
+CHEM,Chemical Engineering,core,2025-26,semester,SEM-1,Academic,students_passed,27,count,sum,final,Academic ERP,2025-12-31
+CHEM,Chemical Engineering,core,2025-26,semester,SEM-2,Academic,students_passed,27,count,sum,final,Academic ERP,2026-06-30
+CHEM,Chemical Engineering,core,2025-26,annual,FY,Academic,co_po_attainment,2.28,index 0-3,weighted_mean,final,Academic ERP,2026-06-30
+CHEM,Chemical Engineering,core,2025-26,annual,FY,Research,sanctioned_faculty,11,count,latest,final,Research repository,2026-06-30
+CHEM,Chemical Engineering,core,2025-26,quarter,Q1,Research,publications,3,count,sum,final,Research repository,2025-09-30
+CHEM,Chemical Engineering,core,2025-26,quarter,Q2,Research,publications,3,count,sum,final,Research repository,2025-12-31
+CHEM,Chemical Engineering,core,2025-26,quarter,Q3,Research,publications,4,count,sum,final,Research repository,2026-03-31
+CHEM,Chemical Engineering,core,2025-26,quarter,Q4,Research,publications,4,count,sum,final,Research repository,2026-06-30
+CHEM,Chemical Engineering,core,2025-26,quarter,Q1,Research,citations,16,count,sum,final,Research repository,2025-09-30
+CHEM,Chemical Engineering,core,2025-26,quarter,Q2,Research,citations,18,count,sum,final,Research repository,2025-12-31
+CHEM,Chemical Engineering,core,2025-26,quarter,Q3,Research,citations,21,count,sum,final,Research repository,2026-03-31
+CHEM,Chemical Engineering,core,2025-26,quarter,Q4,Research,citations,21,count,sum,final,Research repository,2026-06-30
+CHEM,Chemical Engineering,core,2025-26,quarter,Q1,Research,grants_lakh,4.81,INR lakh,sum,final,Research repository,2025-09-30
+CHEM,Chemical Engineering,core,2025-26,quarter,Q2,Research,grants_lakh,2.95,INR lakh,sum,final,Research repository,2025-12-31
+CHEM,Chemical Engineering,core,2025-26,quarter,Q3,Research,grants_lakh,4.18,INR lakh,sum,final,Research repository,2026-03-31
+CHEM,Chemical Engineering,core,2025-26,quarter,Q4,Research,grants_lakh,3.56,INR lakh,sum,final,Research repository,2026-06-30
+CHEM,Chemical Engineering,core,2025-26,annual,FY,Placement,eligible_students,58,count,latest,final,Placement Cell tracker,2026-06-30
+CHEM,Chemical Engineering,core,2025-26,quarter,Q1,Placement,placed_students,3,count,sum,final,Placement Cell tracker,2025-09-30
+CHEM,Chemical Engineering,core,2025-26,quarter,Q2,Placement,placed_students,11,count,sum,final,Placement Cell tracker,2025-12-31
+CHEM,Chemical Engineering,core,2025-26,quarter,Q3,Placement,placed_students,14,count,sum,final,Placement Cell tracker,2026-03-31
+CHEM,Chemical Engineering,core,2025-26,quarter,Q4,Placement,placed_students,5,count,sum,final,Placement Cell tracker,2026-06-30
+CHEM,Chemical Engineering,core,2025-26,quarter,Q1,Placement,total_package_lpa,13.46,LPA,sum,final,Placement Cell tracker,2025-09-30
+CHEM,Chemical Engineering,core,2025-26,quarter,Q2,Placement,total_package_lpa,55.54,LPA,sum,final,Placement Cell tracker,2025-12-31
+CHEM,Chemical Engineering,core,2025-26,quarter,Q3,Placement,total_package_lpa,72.37,LPA,sum,final,Placement Cell tracker,2026-03-31
+CHEM,Chemical Engineering,core,2025-26,quarter,Q4,Placement,total_package_lpa,26.93,LPA,sum,final,Placement Cell tracker,2026-06-30
+CHEM,Chemical Engineering,core,2025-26,quarter,Q1,Placement,interns_completed,4,count,sum,final,Placement Cell tracker,2025-09-30
+CHEM,Chemical Engineering,core,2025-26,quarter,Q2,Placement,interns_completed,6,count,sum,final,Placement Cell tracker,2025-12-31
+CHEM,Chemical Engineering,core,2025-26,quarter,Q3,Placement,interns_completed,13,count,sum,final,Placement Cell tracker,2026-03-31
+CHEM,Chemical Engineering,core,2025-26,quarter,Q4,Placement,interns_completed,11,count,sum,final,Placement Cell tracker,2026-06-30
+CHEM,Chemical Engineering,core,2025-26,quarter,Q1,Finance,budget_allocated_lakh,35.0,INR lakh,sum,final,Finance & Accounts ledger,2025-09-30
+CHEM,Chemical Engineering,core,2025-26,quarter,Q2,Finance,budget_allocated_lakh,35.0,INR lakh,sum,final,Finance & Accounts ledger,2025-12-31
+CHEM,Chemical Engineering,core,2025-26,quarter,Q3,Finance,budget_allocated_lakh,35.0,INR lakh,sum,final,Finance & Accounts ledger,2026-03-31
+CHEM,Chemical Engineering,core,2025-26,quarter,Q4,Finance,budget_allocated_lakh,35.0,INR lakh,sum,final,Finance & Accounts ledger,2026-06-30
+CHEM,Chemical Engineering,core,2025-26,quarter,Q1,Finance,budget_spent_lakh,20.06,INR lakh,sum,final,Finance & Accounts ledger,2025-09-30
+CHEM,Chemical Engineering,core,2025-26,quarter,Q2,Finance,budget_spent_lakh,25.96,INR lakh,sum,final,Finance & Accounts ledger,2025-12-31
+CHEM,Chemical Engineering,core,2025-26,quarter,Q3,Finance,budget_spent_lakh,30.68,INR lakh,sum,final,Finance & Accounts ledger,2026-03-31
+CHEM,Chemical Engineering,core,2025-26,quarter,Q4,Finance,budget_spent_lakh,41.3,INR lakh,sum,final,Finance & Accounts ledger,2026-06-30
+CHEM,Chemical Engineering,core,2024-25,semester,SEM-1,Academic,students_appeared,30,count,sum,final,Academic ERP,2024-12-31
+CHEM,Chemical Engineering,core,2024-25,semester,SEM-2,Academic,students_appeared,30,count,sum,final,Academic ERP,2025-06-30
+CHEM,Chemical Engineering,core,2024-25,semester,SEM-1,Academic,students_passed,27,count,sum,final,Academic ERP,2024-12-31
+CHEM,Chemical Engineering,core,2024-25,semester,SEM-2,Academic,students_passed,27,count,sum,final,Academic ERP,2025-06-30
+CHEM,Chemical Engineering,core,2024-25,annual,FY,Academic,co_po_attainment,2.24,index 0-3,weighted_mean,final,Academic ERP,2025-06-30
+CHEM,Chemical Engineering,core,2024-25,annual,FY,Research,sanctioned_faculty,11,count,latest,final,Research repository,2025-06-30
+CHEM,Chemical Engineering,core,2024-25,quarter,Q1,Research,publications,2,count,sum,final,Research repository,2024-09-30
+CHEM,Chemical Engineering,core,2024-25,quarter,Q2,Research,publications,3,count,sum,final,Research repository,2024-12-31
+CHEM,Chemical Engineering,core,2024-25,quarter,Q3,Research,publications,4,count,sum,final,Research repository,2025-03-31
+CHEM,Chemical Engineering,core,2024-25,quarter,Q4,Research,publications,4,count,sum,final,Research repository,2025-06-30
+CHEM,Chemical Engineering,core,2024-25,quarter,Q1,Research,citations,14,count,sum,final,Research repository,2024-09-30
+CHEM,Chemical Engineering,core,2024-25,quarter,Q2,Research,citations,16,count,sum,final,Research repository,2024-12-31
+CHEM,Chemical Engineering,core,2024-25,quarter,Q3,Research,citations,18,count,sum,final,Research repository,2025-03-31
+CHEM,Chemical Engineering,core,2024-25,quarter,Q4,Research,citations,19,count,sum,final,Research repository,2025-06-30
+CHEM,Chemical Engineering,core,2024-25,quarter,Q1,Research,grants_lakh,4.39,INR lakh,sum,final,Research repository,2024-09-30
+CHEM,Chemical Engineering,core,2024-25,quarter,Q2,Research,grants_lakh,2.69,INR lakh,sum,final,Research repository,2024-12-31
+CHEM,Chemical Engineering,core,2024-25,quarter,Q3,Research,grants_lakh,3.82,INR lakh,sum,final,Research repository,2025-03-31
+CHEM,Chemical Engineering,core,2024-25,quarter,Q4,Research,grants_lakh,3.26,INR lakh,sum,final,Research repository,2025-06-30
+CHEM,Chemical Engineering,core,2024-25,annual,FY,Placement,eligible_students,56,count,latest,final,Placement Cell tracker,2025-06-30
+CHEM,Chemical Engineering,core,2024-25,quarter,Q1,Placement,placed_students,3,count,sum,final,Placement Cell tracker,2024-09-30
+CHEM,Chemical Engineering,core,2024-25,quarter,Q2,Placement,placed_students,10,count,sum,final,Placement Cell tracker,2024-12-31
+CHEM,Chemical Engineering,core,2024-25,quarter,Q3,Placement,placed_students,13,count,sum,final,Placement Cell tracker,2025-03-31
+CHEM,Chemical Engineering,core,2024-25,quarter,Q4,Placement,placed_students,5,count,sum,final,Placement Cell tracker,2025-06-30
+CHEM,Chemical Engineering,core,2024-25,quarter,Q1,Placement,total_package_lpa,13.17,LPA,sum,final,Placement Cell tracker,2024-09-30
+CHEM,Chemical Engineering,core,2024-25,quarter,Q2,Placement,total_package_lpa,54.34,LPA,sum,final,Placement Cell tracker,2024-12-31
+CHEM,Chemical Engineering,core,2024-25,quarter,Q3,Placement,total_package_lpa,70.8,LPA,sum,final,Placement Cell tracker,2025-03-31
+CHEM,Chemical Engineering,core,2024-25,quarter,Q4,Placement,total_package_lpa,26.35,LPA,sum,final,Placement Cell tracker,2025-06-30
+CHEM,Chemical Engineering,core,2024-25,quarter,Q1,Placement,interns_completed,4,count,sum,final,Placement Cell tracker,2024-09-30
+CHEM,Chemical Engineering,core,2024-25,quarter,Q2,Placement,interns_completed,5,count,sum,final,Placement Cell tracker,2024-12-31
+CHEM,Chemical Engineering,core,2024-25,quarter,Q3,Placement,interns_completed,12,count,sum,final,Placement Cell tracker,2025-03-31
+CHEM,Chemical Engineering,core,2024-25,quarter,Q4,Placement,interns_completed,10,count,sum,final,Placement Cell tracker,2025-06-30
+CHEM,Chemical Engineering,core,2024-25,quarter,Q1,Finance,budget_allocated_lakh,35.0,INR lakh,sum,final,Finance & Accounts ledger,2024-09-30
+CHEM,Chemical Engineering,core,2024-25,quarter,Q2,Finance,budget_allocated_lakh,35.0,INR lakh,sum,final,Finance & Accounts ledger,2024-12-31
+CHEM,Chemical Engineering,core,2024-25,quarter,Q3,Finance,budget_allocated_lakh,35.0,INR lakh,sum,final,Finance & Accounts ledger,2025-03-31
+CHEM,Chemical Engineering,core,2024-25,quarter,Q4,Finance,budget_allocated_lakh,35.0,INR lakh,sum,final,Finance & Accounts ledger,2025-06-30
+CHEM,Chemical Engineering,core,2024-25,quarter,Q1,Finance,budget_spent_lakh,20.68,INR lakh,sum,final,Finance & Accounts ledger,2024-09-30
+CHEM,Chemical Engineering,core,2024-25,quarter,Q2,Finance,budget_spent_lakh,26.77,INR lakh,sum,final,Finance & Accounts ledger,2024-12-31
+CHEM,Chemical Engineering,core,2024-25,quarter,Q3,Finance,budget_spent_lakh,31.63,INR lakh,sum,final,Finance & Accounts ledger,2025-03-31
+CHEM,Chemical Engineering,core,2024-25,quarter,Q4,Finance,budget_spent_lakh,42.58,INR lakh,sum,final,Finance & Accounts ledger,2025-06-30

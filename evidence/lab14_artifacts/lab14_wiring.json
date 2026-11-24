@@ -1,0 +1,15 @@
+{
+  "Lab 1  coordinator loop": "clarify -> plan -> revise (the request below)",
+  "Lab 2  typed tools": "8 tools behind one router",
+  "Lab 3  skills": "2 reusable skills",
+  "Lab 4  memory": "6 archive records",
+  "Lab 5  connector": "3 resources, 3 scoped tokens",
+  "Lab 6  runtime": "budgets, audit, gates, checkpoint/resume",
+  "Lab 7  node graph": "11 nodes, 15 edges",
+  "Lab 8  swarm": "8 department agents + merge",
+  "Lab 9  grounding": "4 in-scope sources",
+  "Lab 10 self-healing": "6 constraints, budget 3",
+  "Lab 11 factory": "21 derived tests",
+  "Lab 12 governance": "6 roles, versioned + reversible",
+  "Lab 13 specialists": "4 domain packs"
+}

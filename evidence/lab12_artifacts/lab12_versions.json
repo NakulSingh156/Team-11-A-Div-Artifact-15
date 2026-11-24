@@ -1,0 +1,820 @@
+{
+  "1": {
+    "period": "academic year 2025-26",
+    "kpis": [
+      {
+        "kpi_id": "KPI-A1",
+        "name": "Institution pass percentage",
+        "value": 91.8519,
+        "unit": "%",
+        "target": 92.0,
+        "status": "at risk",
+        "source_system": "Academic ERP",
+        "figure_status": "final",
+        "departments": [
+          {
+            "dept": "CSE",
+            "value": 96.25
+          },
+          {
+            "dept": "ECE",
+            "value": 93.33
+          },
+          {
+            "dept": "ISE",
+            "value": 96.67
+          },
+          {
+            "dept": "EEE",
+            "value": 90.83
+          },
+          {
+            "dept": "MECH",
+            "value": 87.78
+          },
+          {
+            "dept": "CIVIL",
+            "value": 84.17
+          },
+          {
+            "dept": "CHEM",
+            "value": 90.0
+          },
+          {
+            "dept": "BT",
+            "value": 91.67
+          }
+        ]
+      },
+      {
+        "kpi_id": "KPI-A2",
+        "name": "CO/PO attainment index",
+        "value": 2.4844,
+        "unit": "index 0-3",
+        "target": 2.5,
+        "status": "at risk",
+        "source_system": "Academic ERP (OBE module)",
+        "figure_status": "final",
+        "departments": [
+          {
+            "dept": "CSE",
+            "value": 2.71
+          },
+          {
+            "dept": "ECE",
+            "value": 2.58
+          },
+          {
+            "dept": "ISE",
+            "value": 2.66
+          },
+          {
+            "dept": "EEE",
+            "value": 2.41
+          },
+          {
+            "dept": "MECH",
+            "value": 2.33
+          },
+          {
+            "dept": "CIVIL",
+            "value": 2.19
+          },
+          {
+            "dept": "CHEM",
+            "value": 2.28
+          },
+          {
+            "dept": "BT",
+            "value": 2.35
+          }
+        ]
+      },
+      {
+        "kpi_id": "KPI-R1",
+        "name": "Publications per faculty",
+        "value": 1.1859,
+        "unit": "per faculty",
+        "target": 1.5,
+        "status": "below target",
+        "source_system": "Research repository",
+        "figure_status": "final",
+        "departments": [
+          {
+            "dept": "CSE",
+            "value": 1.71
+          },
+          {
+            "dept": "ECE",
+            "value": 1.31
+          },
+          {
+            "dept": "ISE",
+            "value": 1.17
+          },
+          {
+            "dept": "EEE",
+            "value": 0.94
+          },
+          {
+            "dept": "MECH",
+            "value": 0.79
+          },
+          {
+            "dept": "CIVIL",
+            "value": 0.69
+          },
+          {
+            "dept": "CHEM",
+            "value": 1.27
+          },
+          {
+            "dept": "BT",
+            "value": 1.2
+          }
+        ]
+      },
+      {
+        "kpi_id": "KPI-R2",
+        "name": "Citations per faculty",
+        "value": 7.2564,
+        "unit": "per faculty",
+        "target": 9.0,
+        "status": "below target",
+        "source_system": "Research repository",
+        "figure_status": "final",
+        "departments": [
+          {
+            "dept": "CSE",
+            "value": 11.82
+          },
+          {
+            "dept": "ECE",
+            "value": 8.5
+          },
+          {
+            "dept": "ISE",
+            "value": 7.78
+          },
+          {
+            "dept": "EEE",
+            "value": 5.18
+          },
+          {
+            "dept": "MECH",
+            "value": 3.96
+          },
+          {
+            "dept": "CIVIL",
+            "value": 2.94
+          },
+          {
+            "dept": "CHEM",
+            "value": 6.91
+          },
+          {
+            "dept": "BT",
+            "value": 6.3
+          }
+        ]
+      },
+      {
+        "kpi_id": "KPI-R3",
+        "name": "Grants sanctioned",
+        "value": 242.5,
+        "unit": "INR lakh",
+        "target": 300.0,
+        "status": "below target",
+        "source_system": "Research repository",
+        "figure_status": "final",
+        "departments": [
+          {
+            "dept": "CSE",
+            "value": 96.5
+          },
+          {
+            "dept": "ECE",
+            "value": 41.0
+          },
+          {
+            "dept": "ISE",
+            "value": 22.5
+          },
+          {
+            "dept": "EEE",
+            "value": 18.0
+          },
+          {
+            "dept": "MECH",
+            "value": 27.5
+          },
+          {
+            "dept": "CIVIL",
+            "value": 12.0
+          },
+          {
+            "dept": "CHEM",
+            "value": 15.5
+          },
+          {
+            "dept": "BT",
+            "value": 9.5
+          }
+        ]
+      },
+      {
+        "kpi_id": "KPI-P1",
+        "name": "Placement percentage",
+        "value": 75.1205,
+        "unit": "%",
+        "target": 80.0,
+        "status": "below target",
+        "source_system": "Placement Cell tracker",
+        "figure_status": "final",
+        "departments": [
+          {
+            "dept": "CSE",
+            "value": 92.98
+          },
+          {
+            "dept": "ECE",
+            "value": 83.14
+          },
+          {
+            "dept": "ISE",
+            "value": 90.35
+          },
+          {
+            "dept": "EEE",
+            "value": 74.14
+          },
+          {
+            "dept": "MECH",
+            "value": 63.79
+          },
+          {
+            "dept": "CIVIL",
+            "value": 52.54
+          },
+          {
+            "dept": "CHEM",
+            "value": 56.9
+          },
+          {
+            "dept": "BT",
+            "value": 50.88
+          }
+        ]
+      },
+      {
+        "kpi_id": "KPI-P2",
+        "name": "Average package",
+        "value": 7.667,
+        "unit": "LPA",
+        "target": 8.0,
+        "status": "below target",
+        "source_system": "Placement Cell tracker",
+        "figure_status": "final",
+        "departments": [
+          {
+            "dept": "CSE",
+            "value": 10.6
+          },
+          {
+            "dept": "ECE",
+            "value": 7.4
+          },
+          {
+            "dept": "ISE",
+            "value": 9.2
+          },
+          {
+            "dept": "EEE",
+            "value": 6.1
+          },
+          {
+            "dept": "MECH",
+            "value": 5.4
+          },
+          {
+            "dept": "CIVIL",
+            "value": 4.6
+          },
+          {
+            "dept": "CHEM",
+            "value": 5.1
+          },
+          {
+            "dept": "BT",
+            "value": 4.9
+          }
+        ]
+      },
+      {
+        "kpi_id": "KPI-P3",
+        "name": "Internship completion",
+        "value": 73.3848,
+        "unit": "%",
+        "target": 85.0,
+        "status": "below target",
+        "source_system": "Placement Cell tracker",
+        "figure_status": "final",
+        "departments": [
+          {
+            "dept": "CSE",
+            "value": 89.91
+          },
+          {
+            "dept": "ECE",
+            "value": 86.63
+          },
+          {
+            "dept": "ISE",
+            "value": 84.21
+          },
+          {
+            "dept": "EEE",
+            "value": 72.41
+          },
+          {
+            "dept": "MECH",
+            "value": 58.62
+          },
+          {
+            "dept": "CIVIL",
+            "value": 51.69
+          },
+          {
+            "dept": "CHEM",
+            "value": 58.62
+          },
+          {
+            "dept": "BT",
+            "value": 52.63
+          }
+        ]
+      },
+      {
+        "kpi_id": "KPI-F1",
+        "name": "Budget utilisation",
+        "value": 86.9588,
+        "unit": "%",
+        "target": 90.0,
+        "status": "below target",
+        "source_system": "Finance & Accounts ledger",
+        "figure_status": "provisional",
+        "departments": [
+          {
+            "dept": "CSE",
+            "value": 93.57
+          },
+          {
+            "dept": "ECE",
+            "value": 89.03
+          },
+          {
+            "dept": "ISE",
+            "value": 92.08
+          },
+          {
+            "dept": "EEE",
+            "value": 86.19
+          },
+          {
+            "dept": "MECH",
+            "value": 82.33
+          },
+          {
+            "dept": "CIVIL",
+            "value": 78.42
+          },
+          {
+            "dept": "CHEM",
+            "value": 84.29
+          },
+          {
+            "dept": "BT",
+            "value": 78.46
+          }
+        ]
+      }
+    ],
+    "status": "approved",
+    "summary": "9 of 9 KPIs off target; placement improving, package declining.",
+    "edits": [
+      "Tightened the summary to 3 bullets."
+    ],
+    "approved_by": "Dr. A. Principal (Principal / Director)",
+    "approved_at": "2026-10-13T14:52:59+00:00",
+    "version": 1
+  },
+  "2": {
+    "period": "academic year 2025-26",
+    "kpis": [
+      {
+        "kpi_id": "KPI-A1",
+        "name": "Institution pass percentage",
+        "value": 91.8519,
+        "unit": "%",
+        "target": 92.0,
+        "status": "at risk",
+        "source_system": "Academic ERP",
+        "figure_status": "final",
+        "departments": [
+          {
+            "dept": "CSE",
+            "value": 96.25
+          },
+          {
+            "dept": "ECE",
+            "value": 93.33
+          },
+          {
+            "dept": "ISE",
+            "value": 96.67
+          },
+          {
+            "dept": "EEE",
+            "value": 90.83
+          },
+          {
+            "dept": "MECH",
+            "value": 87.78
+          },
+          {
+            "dept": "CIVIL",
+            "value": 84.17
+          },
+          {
+            "dept": "CHEM",
+            "value": 90.0
+          },
+          {
+            "dept": "BT",
+            "value": 91.67
+          }
+        ]
+      },
+      {
+        "kpi_id": "KPI-A2",
+        "name": "CO/PO attainment index",
+        "value": 2.4844,
+        "unit": "index 0-3",
+        "target": 2.5,
+        "status": "at risk",
+        "source_system": "Academic ERP (OBE module)",
+        "figure_status": "final",
+        "departments": [
+          {
+            "dept": "CSE",
+            "value": 2.71
+          },
+          {
+            "dept": "ECE",
+            "value": 2.58
+          },
+          {
+            "dept": "ISE",
+            "value": 2.66
+          },
+          {
+            "dept": "EEE",
+            "value": 2.41
+          },
+          {
+            "dept": "MECH",
+            "value": 2.33
+          },
+          {
+            "dept": "CIVIL",
+            "value": 2.19
+          },
+          {
+            "dept": "CHEM",
+            "value": 2.28
+          },
+          {
+            "dept": "BT",
+            "value": 2.35
+          }
+        ]
+      },
+      {
+        "kpi_id": "KPI-R1",
+        "name": "Publications per faculty",
+        "value": 1.1859,
+        "unit": "per faculty",
+        "target": 1.5,
+        "status": "below target",
+        "source_system": "Research repository",
+        "figure_status": "final",
+        "departments": [
+          {
+            "dept": "CSE",
+            "value": 1.71
+          },
+          {
+            "dept": "ECE",
+            "value": 1.31
+          },
+          {
+            "dept": "ISE",
+            "value": 1.17
+          },
+          {
+            "dept": "EEE",
+            "value": 0.94
+          },
+          {
+            "dept": "MECH",
+            "value": 0.79
+          },
+          {
+            "dept": "CIVIL",
+            "value": 0.69
+          },
+          {
+            "dept": "CHEM",
+            "value": 1.27
+          },
+          {
+            "dept": "BT",
+            "value": 1.2
+          }
+        ]
+      },
+      {
+        "kpi_id": "KPI-R2",
+        "name": "Citations per faculty",
+        "value": 7.2564,
+        "unit": "per faculty",
+        "target": 9.0,
+        "status": "below target",
+        "source_system": "Research repository",
+        "figure_status": "final",
+        "departments": [
+          {
+            "dept": "CSE",
+            "value": 11.82
+          },
+          {
+            "dept": "ECE",
+            "value": 8.5
+          },
+          {
+            "dept": "ISE",
+            "value": 7.78
+          },
+          {
+            "dept": "EEE",
+            "value": 5.18
+          },
+          {
+            "dept": "MECH",
+            "value": 3.96
+          },
+          {
+            "dept": "CIVIL",
+            "value": 2.94
+          },
+          {
+            "dept": "CHEM",
+            "value": 6.91
+          },
+          {
+            "dept": "BT",
+            "value": 6.3
+          }
+        ]
+      },
+      {
+        "kpi_id": "KPI-R3",
+        "name": "Grants sanctioned",
+        "value": 242.5,
+        "unit": "INR lakh",
+        "target": 300.0,
+        "status": "below target",
+        "source_system": "",
+        "figure_status": "final",
+        "departments": [
+          {
+            "dept": "CSE",
+            "value": 96.5
+          },
+          {
+            "dept": "ECE",
+            "value": 41.0
+          },
+          {
+            "dept": "ISE",
+            "value": 22.5
+          },
+          {
+            "dept": "EEE",
+            "value": 18.0
+          },
+          {
+            "dept": "MECH",
+            "value": 27.5
+          },
+          {
+            "dept": "CIVIL",
+            "value": 12.0
+          },
+          {
+            "dept": "CHEM",
+            "value": 15.5
+          },
+          {
+            "dept": "BT",
+            "value": 9.5
+          }
+        ]
+      },
+      {
+        "kpi_id": "KPI-P1",
+        "name": "Placement percentage",
+        "value": 75.1205,
+        "unit": "%",
+        "target": 80.0,
+        "status": "below target",
+        "source_system": "Placement Cell tracker",
+        "figure_status": "final",
+        "departments": [
+          {
+            "dept": "CSE",
+            "value": 92.98
+          },
+          {
+            "dept": "ECE",
+            "value": 83.14
+          },
+          {
+            "dept": "ISE",
+            "value": 90.35
+          },
+          {
+            "dept": "EEE",
+            "value": 74.14
+          },
+          {
+            "dept": "MECH",
+            "value": 63.79
+          },
+          {
+            "dept": "CIVIL",
+            "value": 52.54
+          },
+          {
+            "dept": "CHEM",
+            "value": 56.9
+          },
+          {
+            "dept": "BT",
+            "value": 50.88
+          }
+        ]
+      },
+      {
+        "kpi_id": "KPI-P2",
+        "name": "Average package",
+        "value": 7.667,
+        "unit": "LPA",
+        "target": 8.0,
+        "status": "below target",
+        "source_system": "Placement Cell tracker",
+        "figure_status": "final",
+        "departments": [
+          {
+            "dept": "CSE",
+            "value": 10.6
+          },
+          {
+            "dept": "ECE",
+            "value": 7.4
+          },
+          {
+            "dept": "ISE",
+            "value": 9.2
+          },
+          {
+            "dept": "EEE",
+            "value": 6.1
+          },
+          {
+            "dept": "MECH",
+            "value": 5.4
+          },
+          {
+            "dept": "CIVIL",
+            "value": 4.6
+          },
+          {
+            "dept": "CHEM",
+            "value": 5.1
+          },
+          {
+            "dept": "BT",
+            "value": 4.9
+          }
+        ]
+      },
+      {
+        "kpi_id": "KPI-P3",
+        "name": "Internship completion",
+        "value": 73.3848,
+        "unit": "%",
+        "target": 85.0,
+        "status": "below target",
+        "source_system": "Placement Cell tracker",
+        "figure_status": "final",
+        "departments": [
+          {
+            "dept": "CSE",
+            "value": 89.91
+          },
+          {
+            "dept": "ECE",
+            "value": 86.63
+          },
+          {
+            "dept": "ISE",
+            "value": 84.21
+          },
+          {
+            "dept": "EEE",
+            "value": 72.41
+          },
+          {
+            "dept": "MECH",
+            "value": 58.62
+          },
+          {
+            "dept": "CIVIL",
+            "value": 51.69
+          },
+          {
+            "dept": "CHEM",
+            "value": 58.62
+          },
+          {
+            "dept": "BT",
+            "value": 52.63
+          }
+        ]
+      },
+      {
+        "kpi_id": "KPI-F1",
+        "name": "Budget utilisation",
+        "value": 86.9588,
+        "unit": "%",
+        "target": 90.0,
+        "status": "below target",
+        "source_system": "Finance & Accounts ledger",
+        "figure_status": "provisional",
+        "departments": [
+          {
+            "dept": "CSE",
+            "value": 93.57
+          },
+          {
+            "dept": "ECE",
+            "value": 89.03
+          },
+          {
+            "dept": "ISE",
+            "value": 92.08
+          },
+          {
+            "dept": "EEE",
+            "value": 86.19
+          },
+          {
+            "dept": "MECH",
+            "value": 82.33
+          },
+          {
+            "dept": "CIVIL",
+            "value": 78.42
+          },
+          {
+            "dept": "CHEM",
+            "value": 84.29
+          },
+          {
+            "dept": "BT",
+            "value": 78.46
+          }
+        ]
+      }
+    ],
+    "status": "approved",
+    "summary": "REVISED: placement improving but average package now declining for the first time.",
+    "edits": [
+      "Added the package-decline note."
+    ],
+    "approved_by": "S. Registrar (Registrar)",
+    "approved_at": "2026-10-13T14:52:59+00:00",
+    "version": 2
+  }
+}

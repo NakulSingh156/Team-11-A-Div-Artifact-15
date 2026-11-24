@@ -1,0 +1,579 @@
+{
+  "run_id": "EDSS-RUNTIME-DEMO",
+  "period": "academic year 2025-26",
+  "completed": [
+    "load_departments",
+    "review_domains",
+    "retrieve_baseline",
+    "compute_trend",
+    "assemble_brief",
+    "human_gate",
+    "publish"
+  ],
+  "results": {
+    "load_departments": {
+      "row_count": 8,
+      "source": "Department reports export (CSV on disk)"
+    },
+    "review_domains": {
+      "Academic": {
+        "headline": "Academic: 2 of 2 KPIs off target across all departments for academic year 2025-26.",
+        "off_target": [
+          "KPI-A1",
+          "KPI-A2"
+        ],
+        "kpis": {
+          "KPI-A1": 91.8519,
+          "KPI-A2": 2.4844
+        }
+      },
+      "Research": {
+        "headline": "Research: 3 of 3 KPIs off target across all departments for academic year 2025-26.",
+        "off_target": [
+          "KPI-R1",
+          "KPI-R2",
+          "KPI-R3"
+        ],
+        "kpis": {
+          "KPI-R1": 1.1859,
+          "KPI-R2": 7.2564,
+          "KPI-R3": 242.5
+        }
+      },
+      "Placement": {
+        "headline": "Placement: 3 of 3 KPIs off target across all departments for academic year 2025-26.",
+        "off_target": [
+          "KPI-P1",
+          "KPI-P2",
+          "KPI-P3"
+        ],
+        "kpis": {
+          "KPI-P1": 75.1205,
+          "KPI-P2": 7.667,
+          "KPI-P3": 73.3848
+        }
+      },
+      "Finance": {
+        "headline": "Finance: 1 of 1 KPIs off target across all departments for academic year 2025-26. Figures include a provisional source.",
+        "off_target": [
+          "KPI-F1"
+        ],
+        "kpis": {
+          "KPI-F1": 86.9588
+        }
+      }
+    },
+    "retrieve_baseline": {
+      "2023-24": {
+        "KPI-A1": 90.4,
+        "KPI-A2": 2.38,
+        "KPI-R1": 0.98,
+        "KPI-R2": 5.9,
+        "KPI-R3": 198.0,
+        "KPI-P1": 71.8,
+        "KPI-P2": 7.1,
+        "KPI-P3": 64.2,
+        "KPI-F1": 84.3
+      },
+      "2024-25": {
+        "KPI-A1": 91.2,
+        "KPI-A2": 2.44,
+        "KPI-R1": 1.12,
+        "KPI-R2": 6.4,
+        "KPI-R3": 221.5,
+        "KPI-P1": 73.5,
+        "KPI-P2": 7.95,
+        "KPI-P3": 69.1,
+        "KPI-F1": 86.9
+      }
+    },
+    "compute_trend": {
+      "KPI-A1": {
+        "now": 91.85,
+        "prior": 91.2,
+        "yoy": 0.65,
+        "direction": "improving"
+      },
+      "KPI-A2": {
+        "now": 2.48,
+        "prior": 2.44,
+        "yoy": 0.04,
+        "direction": "improving"
+      },
+      "KPI-R1": {
+        "now": 1.19,
+        "prior": 1.12,
+        "yoy": 0.07,
+        "direction": "improving"
+      },
+      "KPI-R2": {
+        "now": 7.26,
+        "prior": 6.4,
+        "yoy": 0.86,
+        "direction": "improving"
+      },
+      "KPI-R3": {
+        "now": 242.5,
+        "prior": 221.5,
+        "yoy": 21.0,
+        "direction": "improving"
+      },
+      "KPI-P1": {
+        "now": 75.12,
+        "prior": 73.5,
+        "yoy": 1.62,
+        "direction": "improving"
+      },
+      "KPI-P2": {
+        "now": 7.67,
+        "prior": 7.95,
+        "yoy": -0.28,
+        "direction": "declining"
+      },
+      "KPI-P3": {
+        "now": 73.38,
+        "prior": 69.1,
+        "yoy": 4.28,
+        "direction": "improving"
+      },
+      "KPI-F1": {
+        "now": 86.96,
+        "prior": 86.9,
+        "yoy": 0.06,
+        "direction": "improving"
+      }
+    },
+    "assemble_brief": {
+      "lines": 28,
+      "off_target": [
+        "KPI-A1",
+        "KPI-A2",
+        "KPI-F1",
+        "KPI-P1",
+        "KPI-P2",
+        "KPI-P3",
+        "KPI-R1",
+        "KPI-R2",
+        "KPI-R3"
+      ],
+      "declining": [
+        "KPI-P2"
+      ]
+    },
+    "human_gate": {
+      "approved_by": "Dr. A. Principal",
+      "at": "2026-09-28T20:22:29+00:00"
+    },
+    "publish": {
+      "published": true,
+      "version": 1,
+      "circulated_to": "Governing Council",
+      "approved_by": "Dr. A. Principal"
+    }
+  },
+  "approvals": {
+    "human_gate": "Dr. A. Principal"
+  },
+  "audit": [
+    {
+      "seq": 1,
+      "run_id": "EDSS-RUNTIME-DEMO",
+      "action": "load_departments",
+      "kind": "tool",
+      "status": "ok",
+      "inputs": {},
+      "output": {
+        "row_count": 8,
+        "source": "Department reports export (CSV on disk)"
+      },
+      "error": null,
+      "ms": 2.55,
+      "budget": "actions 1/50 \u00b7 connector 1/60 \u00b7 0.00s/120s",
+      "at": "2026-09-28T20:22:29+00:00"
+    },
+    {
+      "seq": 2,
+      "run_id": "EDSS-RUNTIME-DEMO",
+      "action": "review_domains",
+      "kind": "skill",
+      "status": "ok",
+      "inputs": {},
+      "output": {
+        "Academic": {
+          "headline": "Academic: 2 of 2 KPIs off target across all departments for academic year 2025-26.",
+          "off_target": [
+            "KPI-A1",
+            "KPI-A2"
+          ],
+          "kpis": {
+            "KPI-A1": 91.8519,
+            "KPI-A2": 2.4844
+          }
+        },
+        "Research": {
+          "headline": "Research: 3 of 3 KPIs off target across all departments for academic year 2025-26.",
+          "off_target": [
+            "KPI-R1",
+            "KPI-R2",
+            "KPI-R3"
+          ],
+          "kpis": {
+            "KPI-R1": 1.1859,
+            "KPI-R2": 7.2564,
+            "KPI-R3": 242.5
+          }
+        },
+        "Placement": {
+          "headline": "Placement: 3 of 3 KPIs off target across all departments for academic year 2025-26.",
+          "off_target": [
+            "KPI-P1",
+            "KPI-P2",
+            "KPI-P3"
+          ],
+          "kpis": {
+            "KPI-P1": 75.1205,
+            "KPI-P2": 7.667,
+            "KPI-P3": 73.3848
+          }
+        },
+        "Finance": {
+          "headline": "Finance: 1 of 1 KPIs off target across all departments for academic year 2025-26. Figures include a provisional source.",
+          "off_target": [
+            "KPI-F1"
+          ],
+          "kpis": {
+            "KPI-F1": 86.9588
+          }
+        }
+      },
+      "error": null,
+      "ms": 0.91,
+      "budget": "actions 2/50 \u00b7 connector 1/60 \u00b7 0.00s/120s",
+      "at": "2026-09-28T20:22:29+00:00"
+    },
+    {
+      "seq": 3,
+      "run_id": "EDSS-RUNTIME-DEMO",
+      "action": "retrieve_baseline",
+      "kind": "memory",
+      "status": "ok",
+      "inputs": {},
+      "output": {
+        "2023-24": {
+          "KPI-A1": 90.4,
+          "KPI-A2": 2.38,
+          "KPI-R1": 0.98,
+          "KPI-R2": 5.9,
+          "KPI-R3": 198.0,
+          "KPI-P1": 71.8,
+          "KPI-P2": 7.1,
+          "KPI-P3": 64.2
+        },
+        "2024-25": {
+          "KPI-A1": 91.2,
+          "KPI-A2": 2.44,
+          "KPI-R1": 1.12,
+          "KPI-R2": 6.4,
+          "KPI-R3": 221.5,
+          "KPI-P1": 73.5,
+          "KPI-P2": 7.95,
+          "KPI-P3": 69.1
+        }
+      },
+      "error": null,
+      "ms": 0.1,
+      "budget": "actions 3/50 \u00b7 connector 1/60 \u00b7 0.00s/120s",
+      "at": "2026-09-28T20:22:29+00:00"
+    },
+    {
+      "seq": 4,
+      "run_id": "EDSS-RUNTIME-DEMO",
+      "action": "compute_trend",
+      "kind": "compute",
+      "status": "failed",
+      "inputs": {},
+      "output": null,
+      "error": "MCPError: BACKEND_FAILURE: benchmark service dropped the connection mid-run",
+      "ms": 0.01,
+      "budget": "actions 3/50 \u00b7 connector 1/60 \u00b7 0.00s/120s",
+      "at": "2026-09-28T20:22:29+00:00"
+    },
+    {
+      "seq": 5,
+      "run_id": "EDSS-RUNTIME-DEMO",
+      "action": "-",
+      "kind": "runtime",
+      "status": "resumed from checkpoint",
+      "inputs": {
+        "completed_before_crash": [
+          "load_departments",
+          "review_domains",
+          "retrieve_baseline",
+          "compute_trend",
+          "assemble_brief",
+          "human_gate",
+          "publish"
+        ]
+      },
+      "output": null,
+      "error": null,
+      "ms": 0.0,
+      "budget": "-",
+      "at": "2026-09-28T20:22:29+00:00"
+    },
+    {
+      "seq": 6,
+      "run_id": "EDSS-RUNTIME-DEMO",
+      "action": "load_departments",
+      "kind": "tool",
+      "status": "skipped (already completed)",
+      "inputs": {},
+      "output": {
+        "row_count": 8,
+        "source": "Department reports export (CSV on disk)"
+      },
+      "error": null,
+      "ms": 0.0,
+      "budget": "actions 3/50 \u00b7 connector 0/60 \u00b7 0.00s/120s",
+      "at": "2026-09-28T20:22:29+00:00"
+    },
+    {
+      "seq": 7,
+      "run_id": "EDSS-RUNTIME-DEMO",
+      "action": "review_domains",
+      "kind": "skill",
+      "status": "skipped (already completed)",
+      "inputs": {},
+      "output": {
+        "Academic": {
+          "headline": "Academic: 2 of 2 KPIs off target across all departments for academic year 2025-26.",
+          "off_target": [
+            "KPI-A1",
+            "KPI-A2"
+          ],
+          "kpis": {
+            "KPI-A1": 91.8519,
+            "KPI-A2": 2.4844
+          }
+        },
+        "Research": {
+          "headline": "Research: 3 of 3 KPIs off target across all departments for academic year 2025-26.",
+          "off_target": [
+            "KPI-R1",
+            "KPI-R2",
+            "KPI-R3"
+          ],
+          "kpis": {
+            "KPI-R1": 1.1859,
+            "KPI-R2": 7.2564,
+            "KPI-R3": 242.5
+          }
+        },
+        "Placement": {
+          "headline": "Placement: 3 of 3 KPIs off target across all departments for academic year 2025-26.",
+          "off_target": [
+            "KPI-P1",
+            "KPI-P2",
+            "KPI-P3"
+          ],
+          "kpis": {
+            "KPI-P1": 75.1205,
+            "KPI-P2": 7.667,
+            "KPI-P3": 73.3848
+          }
+        },
+        "Finance": {
+          "headline": "Finance: 1 of 1 KPIs off target across all departments for academic year 2025-26. Figures include a provisional source.",
+          "off_target": [
+            "KPI-F1"
+          ],
+          "kpis": {
+            "KPI-F1": 86.9588
+          }
+        }
+      },
+      "error": null,
+      "ms": 0.0,
+      "budget": "actions 3/50 \u00b7 connector 0/60 \u00b7 0.00s/120s",
+      "at": "2026-09-28T20:22:29+00:00"
+    },
+    {
+      "seq": 8,
+      "run_id": "EDSS-RUNTIME-DEMO",
+      "action": "retrieve_baseline",
+      "kind": "memory",
+      "status": "skipped (already completed)",
+      "inputs": {},
+      "output": {
+        "2023-24": {
+          "KPI-A1": 90.4,
+          "KPI-A2": 2.38,
+          "KPI-R1": 0.98,
+          "KPI-R2": 5.9,
+          "KPI-R3": 198.0,
+          "KPI-P1": 71.8,
+          "KPI-P2": 7.1,
+          "KPI-P3": 64.2
+        },
+        "2024-25": {
+          "KPI-A1": 91.2,
+          "KPI-A2": 2.44,
+          "KPI-R1": 1.12,
+          "KPI-R2": 6.4,
+          "KPI-R3": 221.5,
+          "KPI-P1": 73.5,
+          "KPI-P2": 7.95,
+          "KPI-P3": 69.1
+        }
+      },
+      "error": null,
+      "ms": 0.0,
+      "budget": "actions 3/50 \u00b7 connector 0/60 \u00b7 0.00s/120s",
+      "at": "2026-09-28T20:22:29+00:00"
+    },
+    {
+      "seq": 9,
+      "run_id": "EDSS-RUNTIME-DEMO",
+      "action": "compute_trend",
+      "kind": "compute",
+      "status": "ok",
+      "inputs": {},
+      "output": {
+        "KPI-A1": {
+          "now": 91.85,
+          "prior": 91.2,
+          "yoy": 0.65,
+          "direction": "improving"
+        },
+        "KPI-A2": {
+          "now": 2.48,
+          "prior": 2.44,
+          "yoy": 0.04,
+          "direction": "improving"
+        },
+        "KPI-R1": {
+          "now": 1.19,
+          "prior": 1.12,
+          "yoy": 0.07,
+          "direction": "improving"
+        },
+        "KPI-R2": {
+          "now": 7.26,
+          "prior": 6.4,
+          "yoy": 0.86,
+          "direction": "improving"
+        },
+        "KPI-R3": {
+          "now": 242.5,
+          "prior": 221.5,
+          "yoy": 21.0,
+          "direction": "improving"
+        },
+        "KPI-P1": {
+          "now": 75.12,
+          "prior": 73.5,
+          "yoy": 1.62,
+          "direction": "improving"
+        },
+        "KPI-P2": {
+          "now": 7.67,
+          "prior": 7.95,
+          "yoy": -0.28,
+          "direction": "declining"
+        },
+        "KPI-P3": {
+          "now": 73.38,
+          "prior": 69.1,
+          "yoy": 4.28,
+          "direction": "improving"
+        }
+      },
+      "error": null,
+      "ms": 0.03,
+      "budget": "actions 4/50 \u00b7 connector 0/60 \u00b7 0.00s/120s",
+      "at": "2026-09-28T20:22:29+00:00"
+    },
+    {
+      "seq": 10,
+      "run_id": "EDSS-RUNTIME-DEMO",
+      "action": "assemble_brief",
+      "kind": "skill",
+      "status": "ok",
+      "inputs": {},
+      "output": {
+        "lines": 28,
+        "off_target": "<9 items>",
+        "declining": [
+          "KPI-P2"
+        ]
+      },
+      "error": null,
+      "ms": 0.15,
+      "budget": "actions 5/50 \u00b7 connector 0/60 \u00b7 0.00s/120s",
+      "at": "2026-09-28T20:22:29+00:00"
+    },
+    {
+      "seq": 11,
+      "run_id": "EDSS-RUNTIME-DEMO",
+      "action": "human_gate",
+      "kind": "gate",
+      "status": "blocked: awaiting approval",
+      "inputs": {},
+      "output": null,
+      "error": null,
+      "ms": 0.0,
+      "budget": "actions 5/50 \u00b7 connector 0/60 \u00b7 0.00s/120s",
+      "at": "2026-09-28T20:22:29+00:00"
+    },
+    {
+      "seq": 12,
+      "run_id": "EDSS-RUNTIME-DEMO",
+      "action": "human_gate",
+      "kind": "gate",
+      "status": "approved",
+      "inputs": {
+        "by": "Dr. A. Principal"
+      },
+      "output": null,
+      "error": null,
+      "ms": 0.0,
+      "budget": "-",
+      "at": "2026-09-28T20:22:29+00:00"
+    },
+    {
+      "seq": 13,
+      "run_id": "EDSS-RUNTIME-DEMO",
+      "action": "human_gate",
+      "kind": "gate",
+      "status": "ok",
+      "inputs": {},
+      "output": {
+        "approved_by": "Dr. A. Principal",
+        "at": "2026-09-28T20:22:29+00:00"
+      },
+      "error": null,
+      "ms": 0.01,
+      "budget": "actions 6/50 \u00b7 connector 0/60 \u00b7 0.00s/120s",
+      "at": "2026-09-28T20:22:29+00:00"
+    },
+    {
+      "seq": 14,
+      "run_id": "EDSS-RUNTIME-DEMO",
+      "action": "publish",
+      "kind": "publish",
+      "status": "ok",
+      "inputs": {},
+      "output": {
+        "published": true,
+        "version": 1,
+        "circulated_to": "Governing Council",
+        "approved_by": "Dr. A. Principal"
+      },
+      "error": null,
+      "ms": 0.0,
+      "budget": "actions 7/50 \u00b7 connector 0/60 \u00b7 0.00s/120s",
+      "at": "2026-09-28T20:22:29+00:00"
+    }
+  ],
+  "saved_at": "2026-09-28T20:22:29+00:00"
+}

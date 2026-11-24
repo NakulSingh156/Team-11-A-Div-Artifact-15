@@ -1,0 +1,528 @@
+{
+  "review_domain": [
+    {
+      "inputs": {
+        "domain": "Academic",
+        "period": "academic year 2025-26"
+      },
+      "tools_used": [
+        "read_department_reports",
+        "read_kpi_definitions",
+        "compute_kpi",
+        "compare_to_target",
+        "read_kpi_definitions",
+        "compute_kpi",
+        "compare_to_target"
+      ],
+      "output_keys": [
+        "domain",
+        "headline",
+        "kpis",
+        "off_target",
+        "period",
+        "provisional",
+        "scope"
+      ]
+    },
+    {
+      "inputs": {
+        "domain": "Research",
+        "period": "academic year 2025-26"
+      },
+      "tools_used": [
+        "read_department_reports",
+        "read_kpi_definitions",
+        "compute_kpi",
+        "compare_to_target",
+        "read_kpi_definitions",
+        "compute_kpi",
+        "compare_to_target",
+        "read_kpi_definitions",
+        "compute_kpi",
+        "compare_to_target"
+      ],
+      "output_keys": [
+        "domain",
+        "headline",
+        "kpis",
+        "off_target",
+        "period",
+        "provisional",
+        "scope"
+      ]
+    },
+    {
+      "inputs": {
+        "domain": "Placement",
+        "period": "academic year 2025-26"
+      },
+      "tools_used": [
+        "read_department_reports",
+        "read_kpi_definitions",
+        "compute_kpi",
+        "compare_to_target",
+        "read_kpi_definitions",
+        "compute_kpi",
+        "compare_to_target",
+        "read_kpi_definitions",
+        "compute_kpi",
+        "compare_to_target"
+      ],
+      "output_keys": [
+        "domain",
+        "headline",
+        "kpis",
+        "off_target",
+        "period",
+        "provisional",
+        "scope"
+      ]
+    },
+    {
+      "inputs": {
+        "domain": "Finance",
+        "period": "academic year 2025-26"
+      },
+      "tools_used": [
+        "read_department_reports",
+        "read_kpi_definitions",
+        "compute_kpi",
+        "compare_to_target"
+      ],
+      "output_keys": [
+        "domain",
+        "headline",
+        "kpis",
+        "off_target",
+        "period",
+        "provisional",
+        "scope"
+      ]
+    },
+    {
+      "inputs": {
+        "domain": "Placement",
+        "period": "academic year 2025-26",
+        "category": "circuit"
+      },
+      "tools_used": [
+        "read_department_reports",
+        "filter_rows",
+        "read_kpi_definitions",
+        "compute_kpi",
+        "compare_to_target",
+        "read_kpi_definitions",
+        "compute_kpi",
+        "compare_to_target",
+        "read_kpi_definitions",
+        "compute_kpi",
+        "compare_to_target"
+      ],
+      "output_keys": [
+        "domain",
+        "headline",
+        "kpis",
+        "off_target",
+        "period",
+        "provisional",
+        "scope"
+      ]
+    },
+    {
+      "inputs": {
+        "domain": "Academic",
+        "period": "academic year 2025-26"
+      },
+      "tools_used": [
+        "read_department_reports",
+        "read_kpi_definitions",
+        "compute_kpi",
+        "compare_to_target",
+        "read_kpi_definitions",
+        "compute_kpi",
+        "compare_to_target"
+      ],
+      "output_keys": [
+        "domain",
+        "headline",
+        "kpis",
+        "off_target",
+        "period",
+        "provisional",
+        "scope"
+      ]
+    },
+    {
+      "inputs": {
+        "domain": "Research",
+        "period": "academic year 2025-26"
+      },
+      "tools_used": [
+        "read_department_reports",
+        "read_kpi_definitions",
+        "compute_kpi",
+        "compare_to_target",
+        "read_kpi_definitions",
+        "compute_kpi",
+        "compare_to_target",
+        "read_kpi_definitions",
+        "compute_kpi",
+        "compare_to_target"
+      ],
+      "output_keys": [
+        "domain",
+        "headline",
+        "kpis",
+        "off_target",
+        "period",
+        "provisional",
+        "scope"
+      ]
+    },
+    {
+      "inputs": {
+        "domain": "Placement",
+        "period": "academic year 2025-26"
+      },
+      "tools_used": [
+        "read_department_reports",
+        "read_kpi_definitions",
+        "compute_kpi",
+        "compare_to_target",
+        "read_kpi_definitions",
+        "compute_kpi",
+        "compare_to_target",
+        "read_kpi_definitions",
+        "compute_kpi",
+        "compare_to_target"
+      ],
+      "output_keys": [
+        "domain",
+        "headline",
+        "kpis",
+        "off_target",
+        "period",
+        "provisional",
+        "scope"
+      ]
+    },
+    {
+      "inputs": {
+        "domain": "Finance",
+        "period": "academic year 2025-26"
+      },
+      "tools_used": [
+        "read_department_reports",
+        "read_kpi_definitions",
+        "compute_kpi",
+        "compare_to_target"
+      ],
+      "output_keys": [
+        "domain",
+        "headline",
+        "kpis",
+        "off_target",
+        "period",
+        "provisional",
+        "scope"
+      ]
+    },
+    {
+      "inputs": {
+        "domain": "Academic",
+        "period": "academic year 2025-26"
+      },
+      "tools_used": [
+        "read_department_reports",
+        "read_kpi_definitions",
+        "compute_kpi",
+        "compare_to_target",
+        "read_kpi_definitions",
+        "compute_kpi",
+        "compare_to_target"
+      ],
+      "output_keys": [
+        "domain",
+        "headline",
+        "kpis",
+        "off_target",
+        "period",
+        "provisional",
+        "scope"
+      ]
+    },
+    {
+      "inputs": {
+        "domain": "Academic",
+        "period": "academic year 2025-26"
+      },
+      "tools_used": [
+        "read_department_reports",
+        "read_kpi_definitions",
+        "compute_kpi",
+        "compare_to_target",
+        "read_kpi_definitions",
+        "compute_kpi",
+        "compare_to_target",
+        "read_kpi_definitions",
+        "compute_kpi",
+        "compare_to_target"
+      ],
+      "output_keys": [
+        "domain",
+        "headline",
+        "kpis",
+        "off_target",
+        "period",
+        "provisional",
+        "scope"
+      ]
+    }
+  ],
+  "format_document": [
+    {
+      "inputs": {
+        "title": "Research performance review — academic year 2025-26",
+        "meta": {
+          "Prepared for": "Principal / Registrar",
+          "Scope": "all departments",
+          "Status": "DRAFT — not circulated"
+        },
+        "template": "brief",
+        "sections": [
+          {
+            "heading": "Headline",
+            "bullets": [
+              "Research: 3 of 3 KPIs off target across all departments for academic year 2025-26."
+            ]
+          },
+          {
+            "heading": "KPIs against target",
+            "table": {
+              "columns": [
+                "KPI",
+                "Name",
+                "Value",
+                "Target",
+                "Status"
+              ],
+              "rows": [
+                {
+                  "KPI": "KPI-R1",
+                  "Name": "Publications per faculty",
+                  "Value": "1.19",
+                  "Target": "1.50",
+                  "Status": "below target"
+                },
+                {
+                  "KPI": "KPI-R2",
+                  "Name": "Citations per faculty",
+                  "Value": "7.26",
+                  "Target": "9.00",
+                  "Status": "below target"
+                },
+                {
+                  "KPI": "KPI-R3",
+                  "Name": "Grants sanctioned",
+                  "Value": "242.50",
+                  "Target": "300.00",
+                  "Status": "below target"
+                }
+              ]
+            }
+          },
+          {
+            "heading": "Off target",
+            "bullets": [
+              "KPI-R1",
+              "KPI-R2",
+              "KPI-R3"
+            ]
+          }
+        ],
+        "source_line": "Source: Research repository"
+      },
+      "tools_used": [],
+      "output_keys": [
+        "document",
+        "line_count",
+        "section_count",
+        "template"
+      ]
+    },
+    {
+      "inputs": {
+        "title": "Placement drive — logistics memo",
+        "meta": {
+          "To": "Placement Cell",
+          "From": "Registrar's office"
+        },
+        "template": "memo",
+        "sections": [
+          {
+            "heading": "Arrangements",
+            "bullets": [
+              "Two interview halls booked in the CS block for the recruiter panel.",
+              "Transport to be arranged from the main gate for visiting recruiters."
+            ]
+          },
+          {
+            "heading": "Slots",
+            "table": {
+              "columns": [
+                "Day",
+                "Session",
+                "Hall"
+              ],
+              "rows": [
+                {
+                  "Day": "Monday",
+                  "Session": "Pre-placement talk",
+                  "Hall": "A1"
+                },
+                {
+                  "Day": "Tuesday",
+                  "Session": "Technical round",
+                  "Hall": "A2"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "tools_used": [],
+      "output_keys": [
+        "document",
+        "line_count",
+        "section_count",
+        "template"
+      ]
+    },
+    {
+      "inputs": {
+        "title": "Institution performance review — academic year 2025-26",
+        "meta": {
+          "Prepared for": "Principal / Registrar / Governing Council",
+          "Domains": "Academic, Research, Placement, Finance",
+          "Status": "DRAFT — not circulated without approval"
+        },
+        "template": "brief",
+        "sections": [
+          {
+            "heading": "Headline",
+            "bullets": [
+              "Academic: 2 of 2 KPIs off target across all departments for academic year 2025-26.",
+              "Research: 3 of 3 KPIs off target across all departments for academic year 2025-26.",
+              "Placement: 3 of 3 KPIs off target across all departments for academic year 2025-26.",
+              "Finance: 1 of 1 KPIs off target across all departments for academic year 2025-26. Figures include a provisional source."
+            ]
+          },
+          {
+            "heading": "All KPIs against target",
+            "table": {
+              "columns": [
+                "KPI",
+                "Name",
+                "Domain",
+                "Value",
+                "Target",
+                "Status"
+              ],
+              "rows": [
+                {
+                  "KPI": "KPI-A1",
+                  "Name": "Institution pass percentage",
+                  "Domain": "Academic",
+                  "Value": "91.85",
+                  "Target": "92.00",
+                  "Status": "at risk"
+                },
+                {
+                  "KPI": "KPI-A2",
+                  "Name": "CO/PO attainment index",
+                  "Domain": "Academic",
+                  "Value": "2.48",
+                  "Target": "2.50",
+                  "Status": "at risk"
+                },
+                {
+                  "KPI": "KPI-R1",
+                  "Name": "Publications per faculty",
+                  "Domain": "Research",
+                  "Value": "1.19",
+                  "Target": "1.50",
+                  "Status": "below target"
+                },
+                {
+                  "KPI": "KPI-R2",
+                  "Name": "Citations per faculty",
+                  "Domain": "Research",
+                  "Value": "7.26",
+                  "Target": "9.00",
+                  "Status": "below target"
+                },
+                {
+                  "KPI": "KPI-R3",
+                  "Name": "Grants sanctioned",
+                  "Domain": "Research",
+                  "Value": "242.50",
+                  "Target": "300.00",
+                  "Status": "below target"
+                },
+                {
+                  "KPI": "KPI-P1",
+                  "Name": "Placement percentage",
+                  "Domain": "Placement",
+                  "Value": "75.12",
+                  "Target": "80.00",
+                  "Status": "below target"
+                },
+                {
+                  "KPI": "KPI-P2",
+                  "Name": "Average package",
+                  "Domain": "Placement",
+                  "Value": "7.67",
+                  "Target": "8.00",
+                  "Status": "below target"
+                },
+                {
+                  "KPI": "KPI-P3",
+                  "Name": "Internship completion",
+                  "Domain": "Placement",
+                  "Value": "73.38",
+                  "Target": "85.00",
+                  "Status": "below target"
+                },
+                {
+                  "KPI": "KPI-F1",
+                  "Name": "Budget utilisation",
+                  "Domain": "Finance",
+                  "Value": "86.96",
+                  "Target": "90.00",
+                  "Status": "below target"
+                }
+              ]
+            }
+          },
+          {
+            "heading": "Flags",
+            "bullets": [
+              "KPI-F1 is PROVISIONAL — Budget utilisation",
+              "KPI-A1 would read as on-target if rounded — 91.85 rounds to 92.0 at 0 decimal place(s), which would read as meeting the target of 92.0. Report the unrounded figure.",
+              "KPI-A2 would read as on-target if rounded — 2.484 rounds to 2.5 at 1 decimal place(s), which would read as meeting the target of 2.5. Report the unrounded figure.",
+              "KPI-P2 would read as on-target if rounded — 7.667 rounds to 8.0 at 0 decimal place(s), which would read as meeting the target of 8.0. Report the unrounded figure."
+            ]
+          }
+        ],
+        "source_line": "Every figure computed by the registered KPI formulas from Registrar-authorised department records."
+      },
+      "tools_used": [],
+      "output_keys": [
+        "document",
+        "line_count",
+        "section_count",
+        "template"
+      ]
+    }
+  ]
+}

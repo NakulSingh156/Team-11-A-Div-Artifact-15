@@ -1,0 +1,92 @@
+[
+  {
+    "step": 1,
+    "node": "coordinator",
+    "kind": "coordinator",
+    "note": "8 department rows, access confirmed",
+    "condition_taken": null,
+    "ms": 1.49,
+    "at": "2026-09-28T20:26:43+00:00"
+  },
+  {
+    "step": 2,
+    "node": "domain_agents",
+    "kind": "parallel",
+    "note": "4 nodes in parallel: ['academic_agent', 'research_agent', 'placement_agent', 'finance_agent']",
+    "condition_taken": null,
+    "ms": 1.12,
+    "at": "2026-09-28T20:26:43+00:00"
+  },
+  {
+    "step": 3,
+    "node": "kpi_agent",
+    "kind": "join",
+    "note": "9 institution KPIs synthesised from 4 domain views",
+    "condition_taken": null,
+    "ms": 0.01,
+    "at": "2026-09-28T20:26:43+00:00"
+  },
+  {
+    "step": 4,
+    "node": "report_agent",
+    "kind": "agent",
+    "note": "brief drafted, revision 0, 9 KPI rows",
+    "condition_taken": null,
+    "ms": 0.01,
+    "at": "2026-09-28T20:26:43+00:00"
+  },
+  {
+    "step": 5,
+    "node": "validation",
+    "kind": "validation",
+    "note": "FAILED: ['KPI-R2'] cite no source system",
+    "condition_taken": "fail",
+    "ms": 0.0,
+    "at": "2026-09-28T20:26:43+00:00"
+  },
+  {
+    "step": 6,
+    "node": "regenerate",
+    "kind": "agent",
+    "note": "regenerating only ['KPI-R2'] (attempt 1)",
+    "condition_taken": null,
+    "ms": 0.0,
+    "at": "2026-09-28T20:26:43+00:00"
+  },
+  {
+    "step": 7,
+    "node": "report_agent",
+    "kind": "agent",
+    "note": "brief drafted, revision 1, 9 KPI rows",
+    "condition_taken": null,
+    "ms": 0.0,
+    "at": "2026-09-28T20:26:43+00:00"
+  },
+  {
+    "step": 8,
+    "node": "validation",
+    "kind": "validation",
+    "note": "all checks passed",
+    "condition_taken": "pass",
+    "ms": 0.0,
+    "at": "2026-09-28T20:26:43+00:00"
+  },
+  {
+    "step": 9,
+    "node": "human_gate",
+    "kind": "gate",
+    "note": "Principal / Registrar approved for circulation",
+    "condition_taken": "approve",
+    "ms": 0.0,
+    "at": "2026-09-28T20:26:43+00:00"
+  },
+  {
+    "step": 10,
+    "node": "publish",
+    "kind": "publish",
+    "note": "versioned brief released to the Governing Council",
+    "condition_taken": null,
+    "ms": 0.0,
+    "at": "2026-09-28T20:26:43+00:00"
+  }
+]

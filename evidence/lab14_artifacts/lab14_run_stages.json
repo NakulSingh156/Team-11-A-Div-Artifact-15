@@ -1,0 +1,68 @@
+[
+  {
+    "stage": 1,
+    "lab": "Lab 5",
+    "name": "connector read",
+    "detail": "8 rows via Department reports export (CSV on disk)"
+  },
+  {
+    "stage": 2,
+    "lab": "Lab 8",
+    "name": "parallel swarm + merge",
+    "detail": "7/8 agents, 3 double-counts removed, coverage 87.5%"
+  },
+  {
+    "stage": 3,
+    "lab": "Lab 3",
+    "name": "domain skills",
+    "detail": "4 domains reviewed, 9 KPIs off target"
+  },
+  {
+    "stage": 4,
+    "lab": "Lab 4",
+    "name": "memory + no-repeat",
+    "detail": "2 baselines; closest prior decision BRIEF-2023-24-Q4 (sim 0.543)"
+  },
+  {
+    "stage": 5,
+    "lab": "Lab 13",
+    "name": "specialists drafted options",
+    "detail": "9 options from 4 domain packs"
+  },
+  {
+    "stage": 6,
+    "lab": "Lab 9",
+    "name": "grounding",
+    "detail": "9/9 claims carry an in-scope source, locator and value"
+  },
+  {
+    "stage": 7,
+    "lab": "Lab 10",
+    "name": "validation (pre-heal)",
+    "detail": "passed=False; failing ['every-figure-cites-its-source@KPI-R2']"
+  },
+  {
+    "stage": 8,
+    "lab": "Lab 10",
+    "name": "self-heal",
+    "detail": "1 attempt(s); now passed=True"
+  },
+  {
+    "stage": 9,
+    "lab": "Lab 11",
+    "name": "acceptance suite",
+    "detail": "22/22 derived tests green"
+  },
+  {
+    "stage": 10,
+    "lab": "Lab 11",
+    "name": "gate -> human",
+    "detail": "submitted to Dr. A. Principal (Principal / Director)"
+  },
+  {
+    "stage": 11,
+    "lab": "Lab 12",
+    "name": "approved + published",
+    "detail": "v1 by Dr. A. Principal; 1 governance audit entries"
+  }
+]

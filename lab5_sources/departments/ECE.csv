@@ -1,0 +1,79 @@
+dept_code,dept_name,category,period,grain,sub_period,domain,metric,value,unit,aggregation,figure_status,source_system,recorded_on
+ECE,Electronics & Communication,circuit,2025-26,semester,SEM-1,Academic,students_appeared,90,count,sum,final,Academic ERP,2025-12-31
+ECE,Electronics & Communication,circuit,2025-26,semester,SEM-2,Academic,students_appeared,90,count,sum,final,Academic ERP,2026-06-30
+ECE,Electronics & Communication,circuit,2025-26,semester,SEM-1,Academic,students_passed,84,count,sum,final,Academic ERP,2025-12-31
+ECE,Electronics & Communication,circuit,2025-26,semester,SEM-2,Academic,students_passed,84,count,sum,final,Academic ERP,2026-06-30
+ECE,Electronics & Communication,circuit,2025-26,annual,FY,Academic,co_po_attainment,2.58,index 0-3,weighted_mean,final,Academic ERP,2026-06-30
+ECE,Electronics & Communication,circuit,2025-26,annual,FY,Research,sanctioned_faculty,26,count,latest,final,Research repository,2026-06-30
+ECE,Electronics & Communication,circuit,2025-26,quarter,Q1,Research,publications,6,count,sum,final,Research repository,2025-09-30
+ECE,Electronics & Communication,circuit,2025-26,quarter,Q2,Research,publications,8,count,sum,final,Research repository,2025-12-31
+ECE,Electronics & Communication,circuit,2025-26,quarter,Q3,Research,publications,10,count,sum,final,Research repository,2026-03-31
+ECE,Electronics & Communication,circuit,2025-26,quarter,Q4,Research,publications,10,count,sum,final,Research repository,2026-06-30
+ECE,Electronics & Communication,circuit,2025-26,quarter,Q1,Research,citations,46,count,sum,final,Research repository,2025-09-30
+ECE,Electronics & Communication,circuit,2025-26,quarter,Q2,Research,citations,53,count,sum,final,Research repository,2025-12-31
+ECE,Electronics & Communication,circuit,2025-26,quarter,Q3,Research,citations,60,count,sum,final,Research repository,2026-03-31
+ECE,Electronics & Communication,circuit,2025-26,quarter,Q4,Research,citations,62,count,sum,final,Research repository,2026-06-30
+ECE,Electronics & Communication,circuit,2025-26,quarter,Q1,Research,grants_lakh,12.71,INR lakh,sum,final,Research repository,2025-09-30
+ECE,Electronics & Communication,circuit,2025-26,quarter,Q2,Research,grants_lakh,7.79,INR lakh,sum,final,Research repository,2025-12-31
+ECE,Electronics & Communication,circuit,2025-26,quarter,Q3,Research,grants_lakh,11.07,INR lakh,sum,final,Research repository,2026-03-31
+ECE,Electronics & Communication,circuit,2025-26,quarter,Q4,Research,grants_lakh,9.43,INR lakh,sum,final,Research repository,2026-06-30
+ECE,Electronics & Communication,circuit,2025-26,annual,FY,Placement,eligible_students,172,count,latest,final,Placement Cell tracker,2026-06-30
+ECE,Electronics & Communication,circuit,2025-26,quarter,Q1,Placement,placed_students,13,count,sum,final,Placement Cell tracker,2025-09-30
+ECE,Electronics & Communication,circuit,2025-26,quarter,Q2,Placement,placed_students,48,count,sum,final,Placement Cell tracker,2025-12-31
+ECE,Electronics & Communication,circuit,2025-26,quarter,Q3,Placement,placed_students,59,count,sum,final,Placement Cell tracker,2026-03-31
+ECE,Electronics & Communication,circuit,2025-26,quarter,Q4,Placement,placed_students,23,count,sum,final,Placement Cell tracker,2026-06-30
+ECE,Electronics & Communication,circuit,2025-26,quarter,Q1,Placement,total_package_lpa,84.66,LPA,sum,final,Placement Cell tracker,2025-09-30
+ECE,Electronics & Communication,circuit,2025-26,quarter,Q2,Placement,total_package_lpa,349.21,LPA,sum,final,Placement Cell tracker,2025-12-31
+ECE,Electronics & Communication,circuit,2025-26,quarter,Q3,Placement,total_package_lpa,455.02,LPA,sum,final,Placement Cell tracker,2026-03-31
+ECE,Electronics & Communication,circuit,2025-26,quarter,Q4,Placement,total_package_lpa,169.31,LPA,sum,final,Placement Cell tracker,2026-06-30
+ECE,Electronics & Communication,circuit,2025-26,quarter,Q1,Placement,interns_completed,18,count,sum,final,Placement Cell tracker,2025-09-30
+ECE,Electronics & Communication,circuit,2025-26,quarter,Q2,Placement,interns_completed,25,count,sum,final,Placement Cell tracker,2025-12-31
+ECE,Electronics & Communication,circuit,2025-26,quarter,Q3,Placement,interns_completed,58,count,sum,final,Placement Cell tracker,2026-03-31
+ECE,Electronics & Communication,circuit,2025-26,quarter,Q4,Placement,interns_completed,48,count,sum,final,Placement Cell tracker,2026-06-30
+ECE,Electronics & Communication,circuit,2025-26,quarter,Q1,Finance,budget_allocated_lakh,77.5,INR lakh,sum,final,Finance & Accounts ledger,2025-09-30
+ECE,Electronics & Communication,circuit,2025-26,quarter,Q2,Finance,budget_allocated_lakh,77.5,INR lakh,sum,final,Finance & Accounts ledger,2025-12-31
+ECE,Electronics & Communication,circuit,2025-26,quarter,Q3,Finance,budget_allocated_lakh,77.5,INR lakh,sum,final,Finance & Accounts ledger,2026-03-31
+ECE,Electronics & Communication,circuit,2025-26,quarter,Q4,Finance,budget_allocated_lakh,77.5,INR lakh,sum,final,Finance & Accounts ledger,2026-06-30
+ECE,Electronics & Communication,circuit,2025-26,quarter,Q1,Finance,budget_spent_lakh,46.92,INR lakh,sum,final,Finance & Accounts ledger,2025-09-30
+ECE,Electronics & Communication,circuit,2025-26,quarter,Q2,Finance,budget_spent_lakh,60.72,INR lakh,sum,final,Finance & Accounts ledger,2025-12-31
+ECE,Electronics & Communication,circuit,2025-26,quarter,Q3,Finance,budget_spent_lakh,71.76,INR lakh,sum,final,Finance & Accounts ledger,2026-03-31
+ECE,Electronics & Communication,circuit,2025-26,quarter,Q4,Finance,budget_spent_lakh,96.6,INR lakh,sum,final,Finance & Accounts ledger,2026-06-30
+ECE,Electronics & Communication,circuit,2024-25,semester,SEM-1,Academic,students_appeared,90,count,sum,final,Academic ERP,2024-12-31
+ECE,Electronics & Communication,circuit,2024-25,semester,SEM-2,Academic,students_appeared,90,count,sum,final,Academic ERP,2025-06-30
+ECE,Electronics & Communication,circuit,2024-25,semester,SEM-1,Academic,students_passed,84,count,sum,final,Academic ERP,2024-12-31
+ECE,Electronics & Communication,circuit,2024-25,semester,SEM-2,Academic,students_passed,83,count,sum,final,Academic ERP,2025-06-30
+ECE,Electronics & Communication,circuit,2024-25,annual,FY,Academic,co_po_attainment,2.54,index 0-3,weighted_mean,final,Academic ERP,2025-06-30
+ECE,Electronics & Communication,circuit,2024-25,annual,FY,Research,sanctioned_faculty,26,count,latest,final,Research repository,2025-06-30
+ECE,Electronics & Communication,circuit,2024-25,quarter,Q1,Research,publications,6,count,sum,final,Research repository,2024-09-30
+ECE,Electronics & Communication,circuit,2024-25,quarter,Q2,Research,publications,8,count,sum,final,Research repository,2024-12-31
+ECE,Electronics & Communication,circuit,2024-25,quarter,Q3,Research,publications,9,count,sum,final,Research repository,2025-03-31
+ECE,Electronics & Communication,circuit,2024-25,quarter,Q4,Research,publications,9,count,sum,final,Research repository,2025-06-30
+ECE,Electronics & Communication,circuit,2024-25,quarter,Q1,Research,citations,41,count,sum,final,Research repository,2024-09-30
+ECE,Electronics & Communication,circuit,2024-25,quarter,Q2,Research,citations,47,count,sum,final,Research repository,2024-12-31
+ECE,Electronics & Communication,circuit,2024-25,quarter,Q3,Research,citations,53,count,sum,final,Research repository,2025-03-31
+ECE,Electronics & Communication,circuit,2024-25,quarter,Q4,Research,citations,54,count,sum,final,Research repository,2025-06-30
+ECE,Electronics & Communication,circuit,2024-25,quarter,Q1,Research,grants_lakh,11.61,INR lakh,sum,final,Research repository,2024-09-30
+ECE,Electronics & Communication,circuit,2024-25,quarter,Q2,Research,grants_lakh,7.12,INR lakh,sum,final,Research repository,2024-12-31
+ECE,Electronics & Communication,circuit,2024-25,quarter,Q3,Research,grants_lakh,10.11,INR lakh,sum,final,Research repository,2025-03-31
+ECE,Electronics & Communication,circuit,2024-25,quarter,Q4,Research,grants_lakh,8.61,INR lakh,sum,final,Research repository,2025-06-30
+ECE,Electronics & Communication,circuit,2024-25,annual,FY,Placement,eligible_students,166,count,latest,final,Placement Cell tracker,2025-06-30
+ECE,Electronics & Communication,circuit,2024-25,quarter,Q1,Placement,placed_students,12,count,sum,final,Placement Cell tracker,2024-09-30
+ECE,Electronics & Communication,circuit,2024-25,quarter,Q2,Placement,placed_students,46,count,sum,final,Placement Cell tracker,2024-12-31
+ECE,Electronics & Communication,circuit,2024-25,quarter,Q3,Placement,placed_students,55,count,sum,final,Placement Cell tracker,2025-03-31
+ECE,Electronics & Communication,circuit,2024-25,quarter,Q4,Placement,placed_students,22,count,sum,final,Placement Cell tracker,2025-06-30
+ECE,Electronics & Communication,circuit,2024-25,quarter,Q1,Placement,total_package_lpa,82.82,LPA,sum,final,Placement Cell tracker,2024-09-30
+ECE,Electronics & Communication,circuit,2024-25,quarter,Q2,Placement,total_package_lpa,341.64,LPA,sum,final,Placement Cell tracker,2024-12-31
+ECE,Electronics & Communication,circuit,2024-25,quarter,Q3,Placement,total_package_lpa,445.17,LPA,sum,final,Placement Cell tracker,2025-03-31
+ECE,Electronics & Communication,circuit,2024-25,quarter,Q4,Placement,total_package_lpa,165.65,LPA,sum,final,Placement Cell tracker,2025-06-30
+ECE,Electronics & Communication,circuit,2024-25,quarter,Q1,Placement,interns_completed,16,count,sum,final,Placement Cell tracker,2024-09-30
+ECE,Electronics & Communication,circuit,2024-25,quarter,Q2,Placement,interns_completed,23,count,sum,final,Placement Cell tracker,2024-12-31
+ECE,Electronics & Communication,circuit,2024-25,quarter,Q3,Placement,interns_completed,53,count,sum,final,Placement Cell tracker,2025-03-31
+ECE,Electronics & Communication,circuit,2024-25,quarter,Q4,Placement,interns_completed,43,count,sum,final,Placement Cell tracker,2025-06-30
+ECE,Electronics & Communication,circuit,2024-25,quarter,Q1,Finance,budget_allocated_lakh,77.5,INR lakh,sum,final,Finance & Accounts ledger,2024-09-30
+ECE,Electronics & Communication,circuit,2024-25,quarter,Q2,Finance,budget_allocated_lakh,77.5,INR lakh,sum,final,Finance & Accounts ledger,2024-12-31
+ECE,Electronics & Communication,circuit,2024-25,quarter,Q3,Finance,budget_allocated_lakh,77.5,INR lakh,sum,final,Finance & Accounts ledger,2025-03-31
+ECE,Electronics & Communication,circuit,2024-25,quarter,Q4,Finance,budget_allocated_lakh,77.5,INR lakh,sum,final,Finance & Accounts ledger,2025-06-30
+ECE,Electronics & Communication,circuit,2024-25,quarter,Q1,Finance,budget_spent_lakh,45.8,INR lakh,sum,final,Finance & Accounts ledger,2024-09-30
+ECE,Electronics & Communication,circuit,2024-25,quarter,Q2,Finance,budget_spent_lakh,59.26,INR lakh,sum,final,Finance & Accounts ledger,2024-12-31
+ECE,Electronics & Communication,circuit,2024-25,quarter,Q3,Finance,budget_spent_lakh,70.04,INR lakh,sum,final,Finance & Accounts ledger,2025-03-31
+ECE,Electronics & Communication,circuit,2024-25,quarter,Q4,Finance,budget_spent_lakh,94.29,INR lakh,sum,final,Finance & Accounts ledger,2025-06-30

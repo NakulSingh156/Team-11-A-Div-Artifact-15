@@ -1,0 +1,20 @@
+{
+  "regenerations": 1,
+  "node_visits": {
+    "coordinator": 1,
+    "domain_agents": 1,
+    "kpi_agent": 1,
+    "report_agent": 2,
+    "validation": 2,
+    "regenerate": 1,
+    "human_gate": 1,
+    "publish": 1
+  },
+  "validation_first_pass": "FAILED: ['KPI-R2'] cite no source system",
+  "validation_final": {
+    "passed": true,
+    "failing": [],
+    "note": "all checks passed"
+  },
+  "domain_agents_reran": false
+}

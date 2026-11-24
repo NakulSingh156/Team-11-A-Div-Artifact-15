@@ -1,0 +1,224 @@
+[
+  {
+    "kpi_id": "KPI-A1",
+    "specialist": "Academic affairs pack",
+    "headline": "Institution pass percentage is 91.85% against 92.00%; the weakest cohort performance sits in CIVIL, MECH.",
+    "options": [
+      {
+        "title": "Remedial cohort coaching in CIVIL",
+        "owner": "Dean (Academics)",
+        "timeline": "1 semester",
+        "risks": [
+          "Diverts faculty hours from laboratory supervision.",
+          "Gains land in the next examination cycle, not this one."
+        ],
+        "trade_off": "Staff time now against a lagging indicator later.",
+        "measure_of_success": "Institution pass percentage \u2265 92.00% at the next end-semester examination"
+      }
+    ],
+    "scheme_fields": {
+      "affected_cohort": [
+        "CIVIL",
+        "MECH"
+      ],
+      "assessment_cycle": "end-semester 2025-26",
+      "attainment_linked": true
+    },
+    "valid": true
+  },
+  {
+    "kpi_id": "KPI-A2",
+    "specialist": "Academic affairs pack",
+    "headline": "CO/PO attainment index is 2.484 (index 0-3) against 2.500 (index 0-3); the weakest cohort performance sits in CIVIL, CHEM.",
+    "options": [
+      {
+        "title": "Remedial cohort coaching in CIVIL",
+        "owner": "Dean (Academics)",
+        "timeline": "1 semester",
+        "risks": [
+          "Diverts faculty hours from laboratory supervision.",
+          "Gains land in the next examination cycle, not this one."
+        ],
+        "trade_off": "Staff time now against a lagging indicator later.",
+        "measure_of_success": "CO/PO attainment index \u2265 2.500 (index 0-3) at the next end-semester examination"
+      }
+    ],
+    "scheme_fields": {
+      "affected_cohort": [
+        "CIVIL",
+        "CHEM"
+      ],
+      "assessment_cycle": "end-semester 2025-26",
+      "attainment_linked": true
+    },
+    "valid": true
+  },
+  {
+    "kpi_id": "KPI-R1",
+    "specialist": "Research & publications pack",
+    "headline": "Publications per faculty is 1.19 per faculty against 1.50 per faculty; indexed-venue publication volume is the binding constraint.",
+    "options": [
+      {
+        "title": "Seed-grant scheme tied to indexed venues",
+        "owner": "Dean (R&D)",
+        "timeline": "2 semesters",
+        "risks": [
+          "Counting publications alone rewards low-quality venues.",
+          "Citation effects lag publication by two to three years."
+        ],
+        "trade_off": "Output volume against output quality.",
+        "measure_of_success": "Publications per faculty \u2265 1.50 per faculty within two assessment cycles"
+      }
+    ],
+    "scheme_fields": {
+      "indexing_basis": "Scopus/WoS indexed only",
+      "lag_years": 2,
+      "double_count_checked": true
+    },
+    "valid": true
+  },
+  {
+    "kpi_id": "KPI-R2",
+    "specialist": "Research & publications pack",
+    "headline": "Citations per faculty is 7.26 per faculty against 9.00 per faculty; indexed-venue publication volume is the binding constraint.",
+    "options": [
+      {
+        "title": "Seed-grant scheme tied to indexed venues",
+        "owner": "Dean (R&D)",
+        "timeline": "2 semesters",
+        "risks": [
+          "Counting publications alone rewards low-quality venues.",
+          "Citation effects lag publication by two to three years."
+        ],
+        "trade_off": "Output volume against output quality.",
+        "measure_of_success": "Citations per faculty \u2265 9.00 per faculty within two assessment cycles"
+      }
+    ],
+    "scheme_fields": {
+      "indexing_basis": "Scopus/WoS indexed only",
+      "lag_years": 2,
+      "double_count_checked": true
+    },
+    "valid": true
+  },
+  {
+    "kpi_id": "KPI-R3",
+    "specialist": "Research & publications pack",
+    "headline": "Grants sanctioned is INR 242.50 lakh against INR 300.00 lakh; sanctioned grant volume is the binding constraint.",
+    "options": [
+      {
+        "title": "Seed-grant scheme tied to indexed venues",
+        "owner": "Dean (R&D)",
+        "timeline": "2 semesters",
+        "risks": [
+          "Counting publications alone rewards low-quality venues.",
+          "Citation effects lag publication by two to three years."
+        ],
+        "trade_off": "Output volume against output quality.",
+        "measure_of_success": "Grants sanctioned \u2265 INR 300.00 lakh within two assessment cycles"
+      }
+    ],
+    "scheme_fields": {
+      "indexing_basis": "Scopus/WoS indexed only",
+      "lag_years": 2,
+      "double_count_checked": true
+    },
+    "valid": true
+  },
+  {
+    "kpi_id": "KPI-P1",
+    "specialist": "Placement & careers pack",
+    "headline": "Placement percentage is 75.12% against 80.00%; recruiter coverage is thinnest for BT, CIVIL, CHEM.",
+    "options": [
+      {
+        "title": "Targeted recruiter outreach for the weakest branches",
+        "owner": "Placement Officer",
+        "timeline": "2 semesters",
+        "risks": [
+          "Core-branch hiring is market-driven and may not convert.",
+          "A wider recruiter pool typically lowers the average package."
+        ],
+        "trade_off": "Placement percentage against average package \u2014 these two KPIs pull in opposite directions.",
+        "measure_of_success": "Placement percentage \u2265 80.00% by the close of the next placement season"
+      }
+    ],
+    "scheme_fields": {
+      "eligible_pool": 1037,
+      "recruiter_action": "outreach + alumni referral",
+      "provisional_offers_excluded": true
+    },
+    "valid": true
+  },
+  {
+    "kpi_id": "KPI-P2",
+    "specialist": "Placement & careers pack",
+    "headline": "Average package is 7.67 LPA against 8.00 LPA; recruiter coverage is thinnest for CIVIL, BT, CHEM.",
+    "options": [
+      {
+        "title": "Targeted recruiter outreach for the weakest branches",
+        "owner": "Placement Officer",
+        "timeline": "2 semesters",
+        "risks": [
+          "Core-branch hiring is market-driven and may not convert.",
+          "A wider recruiter pool typically lowers the average package."
+        ],
+        "trade_off": "Placement percentage against average package \u2014 these two KPIs pull in opposite directions.",
+        "measure_of_success": "Average package \u2265 8.00 LPA by the close of the next placement season"
+      }
+    ],
+    "scheme_fields": {
+      "eligible_pool": 779,
+      "recruiter_action": "outreach + alumni referral",
+      "provisional_offers_excluded": true
+    },
+    "valid": true
+  },
+  {
+    "kpi_id": "KPI-P3",
+    "specialist": "Placement & careers pack",
+    "headline": "Internship completion is 73.38% against 85.00%; recruiter coverage is thinnest for CIVIL, BT, MECH.",
+    "options": [
+      {
+        "title": "Targeted recruiter outreach for the weakest branches",
+        "owner": "Placement Officer",
+        "timeline": "2 semesters",
+        "risks": [
+          "Core-branch hiring is market-driven and may not convert.",
+          "A wider recruiter pool typically lowers the average package."
+        ],
+        "trade_off": "Placement percentage against average package \u2014 these two KPIs pull in opposite directions.",
+        "measure_of_success": "Internship completion \u2265 85.00% by the close of the next placement season"
+      }
+    ],
+    "scheme_fields": {
+      "eligible_pool": 1037,
+      "recruiter_action": "outreach + alumni referral",
+      "provisional_offers_excluded": true
+    },
+    "valid": true
+  },
+  {
+    "kpi_id": "KPI-F1",
+    "specialist": "Finance & accounts pack",
+    "headline": "Budget utilisation is 86.96% against 90.00% on PROVISIONAL, unreconciled figures.",
+    "options": [
+      {
+        "title": "Defer any reallocation until the books close",
+        "owner": "Finance Office",
+        "timeline": "After the August book close",
+        "risks": [
+          "Underspend becomes harder to redeploy later in the year.",
+          "The Council may read deferral as inaction."
+        ],
+        "trade_off": "Decision speed against acting on a number that may move.",
+        "measure_of_success": "Utilisation \u2265 90.00% on audited figures at year end"
+      }
+    ],
+    "scheme_fields": {
+      "figure_status": "provisional",
+      "reconciliation_due": "August book close",
+      "action_permitted": false
+    },
+    "valid": true
+  }
+]

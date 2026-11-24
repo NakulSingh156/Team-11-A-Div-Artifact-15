@@ -1,0 +1,52 @@
+[
+  {
+    "check": "I1  every accepted candidate maps to an in-scope source",
+    "passed": true,
+    "evidence": "5 accepted, sources: ['KPI register', 'department reports', 'external benchmarks', 'institutional archive']"
+  },
+  {
+    "check": "I2  every accepted candidate carries a locator AND a value",
+    "passed": true,
+    "evidence": "source alone is not evidence \u2014 the row says exactly where and what"
+  },
+  {
+    "check": "I3  ungrounded candidates are rejected, not kept with a caveat",
+    "passed": true,
+    "evidence": "rejected ['C6', 'C7', 'C8']; none appears in the brief"
+  },
+  {
+    "check": "I4  a fluent but sourceless causal claim is rejected",
+    "passed": true,
+    "evidence": "no in-scope source was named or found for this claim"
+  },
+  {
+    "check": "I5  a claim naming a KPI that does not exist is rejected",
+    "passed": true,
+    "evidence": "'KPI-S1' is not an approved KPI"
+  },
+  {
+    "check": "I6  a claim naming a field no department reports is rejected",
+    "passed": true,
+    "evidence": "'alumni_donations' is not a reported field"
+  },
+  {
+    "check": "I7  a paper-level evidence table is produced",
+    "passed": true,
+    "evidence": "8 rows covering every candidate, accepted or not"
+  },
+  {
+    "check": "I8  the brief cannot be built with an ungrounded claim in it",
+    "passed": true,
+    "evidence": "refusing to build: ['C6', 'C7', 'C8'] have no in-scope evidence"
+  },
+  {
+    "check": "I9  grounding spans more than one source kind",
+    "passed": true,
+    "evidence": "4 distinct in-scope sources used"
+  },
+  {
+    "check": "I10 a grounded figure equals what the source actually yields",
+    "passed": true,
+    "evidence": "C1's recorded value is recomputed from the source and matches"
+  }
+]

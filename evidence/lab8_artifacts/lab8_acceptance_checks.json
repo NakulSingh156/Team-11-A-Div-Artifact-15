@@ -1,0 +1,62 @@
+[
+  {
+    "check": "H1  one agent per unit, all run in parallel",
+    "passed": true,
+    "evidence": "8 department agents dispatched in one ThreadPoolExecutor"
+  },
+  {
+    "check": "H2  parallel execution is genuinely faster than serial",
+    "passed": true,
+    "evidence": "373 ms wall vs 935 ms summed (561 ms saved)"
+  },
+  {
+    "check": "H3  a transient failure is retried and recovers",
+    "passed": true,
+    "evidence": "CHEM failed once then succeeded on attempt 2"
+  },
+  {
+    "check": "H4  a permanent failure is retried, then given up on cleanly",
+    "passed": true,
+    "evidence": "CIVIL: 3 attempts, final error recorded"
+  },
+  {
+    "check": "H5  one dead unit does not abort the whole swarm",
+    "passed": true,
+    "evidence": "7 of 8 agents still produced a usable result"
+  },
+  {
+    "check": "H6  every failed attempt is logged",
+    "passed": true,
+    "evidence": "4 failed attempts recorded (1 CHEM + 3 CIVIL)"
+  },
+  {
+    "check": "H7  the merge detects the cross-department conflict",
+    "passed": true,
+    "evidence": "3 papers claimed by two departments each"
+  },
+  {
+    "check": "H8  contested items are counted once, not twice",
+    "passed": true,
+    "evidence": "174 claimed -> 171 distinct"
+  },
+  {
+    "check": "H9  the conflict actually changes the KPI leadership sees",
+    "passed": true,
+    "evidence": "1.2429 -> 1.2214 per faculty"
+  },
+  {
+    "check": "H10 coverage is tracked and the result is marked incomplete",
+    "passed": true,
+    "evidence": "coverage 87.5%, missing ['CIVIL']"
+  },
+  {
+    "check": "H11 a partial merge cannot be published as an institution figure",
+    "passed": true,
+    "evidence": "publish_institution_figure raised PartialCoverageError at 87.5% coverage"
+  },
+  {
+    "check": "H12 the flat export's double-count is only visible after an identity merge",
+    "passed": true,
+    "evidence": "export says 185; distinct identities across all eight are 182"
+  }
+]

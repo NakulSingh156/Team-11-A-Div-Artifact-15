@@ -1,0 +1,30 @@
+[
+  {
+    "attempt": "intern reads department rows (no scope)",
+    "code": "FORBIDDEN_SCOPE"
+  },
+  {
+    "attempt": "Academic Agent reads a benchmark (no scope)",
+    "code": "FORBIDDEN_SCOPE"
+  },
+  {
+    "attempt": "unknown token",
+    "code": "UNAUTHORIZED"
+  },
+  {
+    "attempt": "unknown resource",
+    "code": "UNKNOWN_RESOURCE"
+  },
+  {
+    "attempt": "missing required parameter",
+    "code": "BAD_REQUEST"
+  },
+  {
+    "attempt": "backend says not found",
+    "code": "NOT_FOUND"
+  },
+  {
+    "attempt": "benchmark genuinely absent",
+    "code": "NOT_FOUND"
+  }
+]

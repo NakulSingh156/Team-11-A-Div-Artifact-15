@@ -1,0 +1,83 @@
+[
+  {
+    "step": 1,
+    "agent": "Lab 9 grounding",
+    "tool": "compute_kpi",
+    "reason": "ground C1 on KPI-P1",
+    "input": {
+      "kpi_id": "KPI-P1",
+      "rows": "[8 rows: CSE, ECE, ISE, EEE, MECH, CIVIL, CHEM, BT]"
+    },
+    "output": {
+      "kpi_id": "KPI-P1",
+      "name": "Placement percentage",
+      "domain": "Placement",
+      "value": 75.1205,
+      "unit": "%",
+      "formula": "sum(placed_students) / sum(eligible_students) x 100",
+      "method": "ratio",
+      "n_departments": 8,
+      "departments": [
+        "CSE",
+        "ECE",
+        "ISE",
+        "EEE",
+        "MECH",
+        "CIVIL",
+        "CHEM",
+        "BT"
+      ],
+      "inputs_used": {
+        "sum(placed_students)": 779,
+        "sum(eligible_students)": 1037
+      },
+      "evidence": "[8 rows: CSE, ECE, ISE, EEE, MECH, CIVIL, CHEM, BT]",
+      "source_system": "Placement Cell tracker",
+      "figure_status": "final"
+    },
+    "ok": true,
+    "ms": 0.04,
+    "at": "2026-10-13T14:42:31+00:00"
+  },
+  {
+    "step": 2,
+    "agent": "Lab 9 grounding",
+    "tool": "compute_kpi",
+    "reason": "ground C5 on KPI-F1",
+    "input": {
+      "kpi_id": "KPI-F1",
+      "rows": "[8 rows: CSE, ECE, ISE, EEE, MECH, CIVIL, CHEM, BT]"
+    },
+    "output": {
+      "kpi_id": "KPI-F1",
+      "name": "Budget utilisation",
+      "domain": "Finance",
+      "value": 86.9588,
+      "unit": "%",
+      "formula": "sum(budget_spent_lakh) / sum(budget_allocated_lakh) x 100",
+      "method": "ratio",
+      "n_departments": 8,
+      "departments": [
+        "CSE",
+        "ECE",
+        "ISE",
+        "EEE",
+        "MECH",
+        "CIVIL",
+        "CHEM",
+        "BT"
+      ],
+      "inputs_used": {
+        "sum(budget_spent_lakh)": 1687.0,
+        "sum(budget_allocated_lakh)": 1940.0
+      },
+      "evidence": "[8 rows: CSE, ECE, ISE, EEE, MECH, CIVIL, CHEM, BT]",
+      "source_system": "Finance & Accounts ledger",
+      "figure_status": "provisional",
+      "caveat": "Q3-Q4 of 2025-26 are unreconciled; the Finance Office closes books in August."
+    },
+    "ok": true,
+    "ms": 0.07,
+    "at": "2026-10-13T14:42:31+00:00"
+  }
+]

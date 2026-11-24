@@ -1,0 +1,79 @@
+dept_code,dept_name,category,period,grain,sub_period,domain,metric,value,unit,aggregation,figure_status,source_system,recorded_on
+ISE,Information Science & Engineering,circuit,2025-26,semester,SEM-1,Academic,students_appeared,60,count,sum,final,Academic ERP,2025-12-31
+ISE,Information Science & Engineering,circuit,2025-26,semester,SEM-2,Academic,students_appeared,60,count,sum,final,Academic ERP,2026-06-30
+ISE,Information Science & Engineering,circuit,2025-26,semester,SEM-1,Academic,students_passed,58,count,sum,final,Academic ERP,2025-12-31
+ISE,Information Science & Engineering,circuit,2025-26,semester,SEM-2,Academic,students_passed,58,count,sum,final,Academic ERP,2026-06-30
+ISE,Information Science & Engineering,circuit,2025-26,annual,FY,Academic,co_po_attainment,2.66,index 0-3,weighted_mean,final,Academic ERP,2026-06-30
+ISE,Information Science & Engineering,circuit,2025-26,annual,FY,Research,sanctioned_faculty,18,count,latest,final,Research repository,2026-06-30
+ISE,Information Science & Engineering,circuit,2025-26,quarter,Q1,Research,publications,4,count,sum,final,Research repository,2025-09-30
+ISE,Information Science & Engineering,circuit,2025-26,quarter,Q2,Research,publications,5,count,sum,final,Research repository,2025-12-31
+ISE,Information Science & Engineering,circuit,2025-26,quarter,Q3,Research,publications,6,count,sum,final,Research repository,2026-03-31
+ISE,Information Science & Engineering,circuit,2025-26,quarter,Q4,Research,publications,6,count,sum,final,Research repository,2026-06-30
+ISE,Information Science & Engineering,circuit,2025-26,quarter,Q1,Research,citations,29,count,sum,final,Research repository,2025-09-30
+ISE,Information Science & Engineering,circuit,2025-26,quarter,Q2,Research,citations,34,count,sum,final,Research repository,2025-12-31
+ISE,Information Science & Engineering,circuit,2025-26,quarter,Q3,Research,citations,38,count,sum,final,Research repository,2026-03-31
+ISE,Information Science & Engineering,circuit,2025-26,quarter,Q4,Research,citations,39,count,sum,final,Research repository,2026-06-30
+ISE,Information Science & Engineering,circuit,2025-26,quarter,Q1,Research,grants_lakh,6.98,INR lakh,sum,final,Research repository,2025-09-30
+ISE,Information Science & Engineering,circuit,2025-26,quarter,Q2,Research,grants_lakh,4.28,INR lakh,sum,final,Research repository,2025-12-31
+ISE,Information Science & Engineering,circuit,2025-26,quarter,Q3,Research,grants_lakh,6.07,INR lakh,sum,final,Research repository,2026-03-31
+ISE,Information Science & Engineering,circuit,2025-26,quarter,Q4,Research,grants_lakh,5.17,INR lakh,sum,final,Research repository,2026-06-30
+ISE,Information Science & Engineering,circuit,2025-26,annual,FY,Placement,eligible_students,114,count,latest,final,Placement Cell tracker,2026-06-30
+ISE,Information Science & Engineering,circuit,2025-26,quarter,Q1,Placement,placed_students,9,count,sum,final,Placement Cell tracker,2025-09-30
+ISE,Information Science & Engineering,circuit,2025-26,quarter,Q2,Placement,placed_students,35,count,sum,final,Placement Cell tracker,2025-12-31
+ISE,Information Science & Engineering,circuit,2025-26,quarter,Q3,Placement,placed_students,42,count,sum,final,Placement Cell tracker,2026-03-31
+ISE,Information Science & Engineering,circuit,2025-26,quarter,Q4,Placement,placed_students,17,count,sum,final,Placement Cell tracker,2026-06-30
+ISE,Information Science & Engineering,circuit,2025-26,quarter,Q1,Placement,total_package_lpa,75.81,LPA,sum,final,Placement Cell tracker,2025-09-30
+ISE,Information Science & Engineering,circuit,2025-26,quarter,Q2,Placement,total_package_lpa,312.71,LPA,sum,final,Placement Cell tracker,2025-12-31
+ISE,Information Science & Engineering,circuit,2025-26,quarter,Q3,Placement,total_package_lpa,407.47,LPA,sum,final,Placement Cell tracker,2026-03-31
+ISE,Information Science & Engineering,circuit,2025-26,quarter,Q4,Placement,total_package_lpa,151.61,LPA,sum,final,Placement Cell tracker,2026-06-30
+ISE,Information Science & Engineering,circuit,2025-26,quarter,Q1,Placement,interns_completed,12,count,sum,final,Placement Cell tracker,2025-09-30
+ISE,Information Science & Engineering,circuit,2025-26,quarter,Q2,Placement,interns_completed,16,count,sum,final,Placement Cell tracker,2025-12-31
+ISE,Information Science & Engineering,circuit,2025-26,quarter,Q3,Placement,interns_completed,37,count,sum,final,Placement Cell tracker,2026-03-31
+ISE,Information Science & Engineering,circuit,2025-26,quarter,Q4,Placement,interns_completed,31,count,sum,final,Placement Cell tracker,2026-06-30
+ISE,Information Science & Engineering,circuit,2025-26,quarter,Q1,Finance,budget_allocated_lakh,60.0,INR lakh,sum,final,Finance & Accounts ledger,2025-09-30
+ISE,Information Science & Engineering,circuit,2025-26,quarter,Q2,Finance,budget_allocated_lakh,60.0,INR lakh,sum,final,Finance & Accounts ledger,2025-12-31
+ISE,Information Science & Engineering,circuit,2025-26,quarter,Q3,Finance,budget_allocated_lakh,60.0,INR lakh,sum,final,Finance & Accounts ledger,2026-03-31
+ISE,Information Science & Engineering,circuit,2025-26,quarter,Q4,Finance,budget_allocated_lakh,60.0,INR lakh,sum,final,Finance & Accounts ledger,2026-06-30
+ISE,Information Science & Engineering,circuit,2025-26,quarter,Q1,Finance,budget_spent_lakh,37.57,INR lakh,sum,final,Finance & Accounts ledger,2025-09-30
+ISE,Information Science & Engineering,circuit,2025-26,quarter,Q2,Finance,budget_spent_lakh,48.62,INR lakh,sum,final,Finance & Accounts ledger,2025-12-31
+ISE,Information Science & Engineering,circuit,2025-26,quarter,Q3,Finance,budget_spent_lakh,57.46,INR lakh,sum,final,Finance & Accounts ledger,2026-03-31
+ISE,Information Science & Engineering,circuit,2025-26,quarter,Q4,Finance,budget_spent_lakh,77.35,INR lakh,sum,final,Finance & Accounts ledger,2026-06-30
+ISE,Information Science & Engineering,circuit,2024-25,semester,SEM-1,Academic,students_appeared,60,count,sum,final,Academic ERP,2024-12-31
+ISE,Information Science & Engineering,circuit,2024-25,semester,SEM-2,Academic,students_appeared,60,count,sum,final,Academic ERP,2025-06-30
+ISE,Information Science & Engineering,circuit,2024-25,semester,SEM-1,Academic,students_passed,58,count,sum,final,Academic ERP,2024-12-31
+ISE,Information Science & Engineering,circuit,2024-25,semester,SEM-2,Academic,students_passed,57,count,sum,final,Academic ERP,2025-06-30
+ISE,Information Science & Engineering,circuit,2024-25,annual,FY,Academic,co_po_attainment,2.62,index 0-3,weighted_mean,final,Academic ERP,2025-06-30
+ISE,Information Science & Engineering,circuit,2024-25,annual,FY,Research,sanctioned_faculty,18,count,latest,final,Research repository,2025-06-30
+ISE,Information Science & Engineering,circuit,2024-25,quarter,Q1,Research,publications,3,count,sum,final,Research repository,2024-09-30
+ISE,Information Science & Engineering,circuit,2024-25,quarter,Q2,Research,publications,5,count,sum,final,Research repository,2024-12-31
+ISE,Information Science & Engineering,circuit,2024-25,quarter,Q3,Research,publications,6,count,sum,final,Research repository,2025-03-31
+ISE,Information Science & Engineering,circuit,2024-25,quarter,Q4,Research,publications,6,count,sum,final,Research repository,2025-06-30
+ISE,Information Science & Engineering,circuit,2024-25,quarter,Q1,Research,citations,26,count,sum,final,Research repository,2024-09-30
+ISE,Information Science & Engineering,circuit,2024-25,quarter,Q2,Research,citations,30,count,sum,final,Research repository,2024-12-31
+ISE,Information Science & Engineering,circuit,2024-25,quarter,Q3,Research,citations,33,count,sum,final,Research repository,2025-03-31
+ISE,Information Science & Engineering,circuit,2024-25,quarter,Q4,Research,citations,34,count,sum,final,Research repository,2025-06-30
+ISE,Information Science & Engineering,circuit,2024-25,quarter,Q1,Research,grants_lakh,6.37,INR lakh,sum,final,Research repository,2024-09-30
+ISE,Information Science & Engineering,circuit,2024-25,quarter,Q2,Research,grants_lakh,3.9,INR lakh,sum,final,Research repository,2024-12-31
+ISE,Information Science & Engineering,circuit,2024-25,quarter,Q3,Research,grants_lakh,5.55,INR lakh,sum,final,Research repository,2025-03-31
+ISE,Information Science & Engineering,circuit,2024-25,quarter,Q4,Research,grants_lakh,4.73,INR lakh,sum,final,Research repository,2025-06-30
+ISE,Information Science & Engineering,circuit,2024-25,annual,FY,Placement,eligible_students,110,count,latest,final,Placement Cell tracker,2025-06-30
+ISE,Information Science & Engineering,circuit,2024-25,quarter,Q1,Placement,placed_students,9,count,sum,final,Placement Cell tracker,2024-09-30
+ISE,Information Science & Engineering,circuit,2024-25,quarter,Q2,Placement,placed_students,33,count,sum,final,Placement Cell tracker,2024-12-31
+ISE,Information Science & Engineering,circuit,2024-25,quarter,Q3,Placement,placed_students,40,count,sum,final,Placement Cell tracker,2025-03-31
+ISE,Information Science & Engineering,circuit,2024-25,quarter,Q4,Placement,placed_students,15,count,sum,final,Placement Cell tracker,2025-06-30
+ISE,Information Science & Engineering,circuit,2024-25,quarter,Q1,Placement,total_package_lpa,74.17,LPA,sum,final,Placement Cell tracker,2024-09-30
+ISE,Information Science & Engineering,circuit,2024-25,quarter,Q2,Placement,total_package_lpa,305.94,LPA,sum,final,Placement Cell tracker,2024-12-31
+ISE,Information Science & Engineering,circuit,2024-25,quarter,Q3,Placement,total_package_lpa,398.64,LPA,sum,final,Placement Cell tracker,2025-03-31
+ISE,Information Science & Engineering,circuit,2024-25,quarter,Q4,Placement,total_package_lpa,148.33,LPA,sum,final,Placement Cell tracker,2025-06-30
+ISE,Information Science & Engineering,circuit,2024-25,quarter,Q1,Placement,interns_completed,10,count,sum,final,Placement Cell tracker,2024-09-30
+ISE,Information Science & Engineering,circuit,2024-25,quarter,Q2,Placement,interns_completed,15,count,sum,final,Placement Cell tracker,2024-12-31
+ISE,Information Science & Engineering,circuit,2024-25,quarter,Q3,Placement,interns_completed,34,count,sum,final,Placement Cell tracker,2025-03-31
+ISE,Information Science & Engineering,circuit,2024-25,quarter,Q4,Placement,interns_completed,28,count,sum,final,Placement Cell tracker,2025-06-30
+ISE,Information Science & Engineering,circuit,2024-25,quarter,Q1,Finance,budget_allocated_lakh,60.0,INR lakh,sum,final,Finance & Accounts ledger,2024-09-30
+ISE,Information Science & Engineering,circuit,2024-25,quarter,Q2,Finance,budget_allocated_lakh,60.0,INR lakh,sum,final,Finance & Accounts ledger,2024-12-31
+ISE,Information Science & Engineering,circuit,2024-25,quarter,Q3,Finance,budget_allocated_lakh,60.0,INR lakh,sum,final,Finance & Accounts ledger,2025-03-31
+ISE,Information Science & Engineering,circuit,2024-25,quarter,Q4,Finance,budget_allocated_lakh,60.0,INR lakh,sum,final,Finance & Accounts ledger,2025-06-30
+ISE,Information Science & Engineering,circuit,2024-25,quarter,Q1,Finance,budget_spent_lakh,35.45,INR lakh,sum,final,Finance & Accounts ledger,2024-09-30
+ISE,Information Science & Engineering,circuit,2024-25,quarter,Q2,Finance,budget_spent_lakh,45.88,INR lakh,sum,final,Finance & Accounts ledger,2024-12-31
+ISE,Information Science & Engineering,circuit,2024-25,quarter,Q3,Finance,budget_spent_lakh,54.23,INR lakh,sum,final,Finance & Accounts ledger,2025-03-31
+ISE,Information Science & Engineering,circuit,2024-25,quarter,Q4,Finance,budget_spent_lakh,73.0,INR lakh,sum,final,Finance & Accounts ledger,2025-06-30

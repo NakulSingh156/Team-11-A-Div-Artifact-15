@@ -1,0 +1,56 @@
+{
+  "principal": {
+    "name": "Principal / Director",
+    "can_view": true,
+    "can_edit": true,
+    "can_approve": true,
+    "can_rollback": true,
+    "sees_department_detail": true,
+    "sees_provisional": true
+  },
+  "registrar": {
+    "name": "Registrar",
+    "can_view": true,
+    "can_edit": true,
+    "can_approve": true,
+    "can_rollback": true,
+    "sees_department_detail": true,
+    "sees_provisional": true
+  },
+  "dean": {
+    "name": "Dean",
+    "can_view": true,
+    "can_edit": true,
+    "can_approve": false,
+    "can_rollback": false,
+    "sees_department_detail": true,
+    "sees_provisional": true
+  },
+  "council": {
+    "name": "Governing Council member",
+    "can_view": true,
+    "can_edit": false,
+    "can_approve": false,
+    "can_rollback": false,
+    "sees_department_detail": false,
+    "sees_provisional": false
+  },
+  "analyst": {
+    "name": "Planning analyst",
+    "can_view": true,
+    "can_edit": false,
+    "can_approve": false,
+    "can_rollback": false,
+    "sees_department_detail": true,
+    "sees_provisional": true
+  },
+  "intern": {
+    "name": "Summer intern",
+    "can_view": true,
+    "can_edit": false,
+    "can_approve": false,
+    "can_rollback": false,
+    "sees_department_detail": false,
+    "sees_provisional": false
+  }
+}

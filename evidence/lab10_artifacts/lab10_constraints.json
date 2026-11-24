@@ -1,0 +1,38 @@
+[
+  {
+    "id": "every-figure-cites-its-source",
+    "text": "Every figure cites its source system.",
+    "scope": "row",
+    "diagnosis": "a KPI row reached the brief with an empty source_system"
+  },
+  {
+    "id": "assumptions-stated",
+    "text": "Assumptions are stated explicitly (at least three).",
+    "scope": "brief",
+    "diagnosis": "the assumptions block was dropped or truncated"
+  },
+  {
+    "id": "options-carry-risks",
+    "text": "Each option lists its risks and its trade-off.",
+    "scope": "brief",
+    "diagnosis": "an option was drafted without risks or without a trade-off"
+  },
+  {
+    "id": "provisional-labelled",
+    "text": "Provisional figures carry their caveat.",
+    "scope": "row",
+    "diagnosis": "an unreconciled figure was shown without its caveat"
+  },
+  {
+    "id": "rounding-hides-nothing",
+    "text": "A displayed figure never rounds a miss into a hit.",
+    "scope": "row",
+    "diagnosis": "a rounded display value made a missed target read as met"
+  },
+  {
+    "id": "no-publish-without-approval",
+    "text": "Nothing is published without leadership approval.",
+    "scope": "brief",
+    "diagnosis": "the brief carried a status that bypasses the human gate"
+  }
+]

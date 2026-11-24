@@ -1,0 +1,43 @@
+{
+  "spec_id": "PLAN-2025-26-r3",
+  "period": "academic year 2025-26",
+  "domains": [
+    "Academic",
+    "Research",
+    "Placement",
+    "Finance"
+  ],
+  "required_kpis": [
+    "KPI-A1",
+    "KPI-A2",
+    "KPI-R1",
+    "KPI-R2",
+    "KPI-R3",
+    "KPI-P1",
+    "KPI-P2",
+    "KPI-P3",
+    "KPI-F1"
+  ],
+  "drilldown_policy": "mandatory for every KPI",
+  "brief_sections": [
+    "Council cover note",
+    "Executive summary",
+    "KPI scorecard",
+    "Off-target drill-down",
+    "Options",
+    "Risks and trade-offs",
+    "Assumptions",
+    "Evidence appendix"
+  ],
+  "validation_checks": [
+    "every figure cites its source",
+    "assumptions are stated explicitly",
+    "each option lists its risks and trade-offs",
+    "no action is taken without leadership approval"
+  ],
+  "evidence_requirements": [
+    "Every figure carries its source system and formula.",
+    "Provisional figures are labelled inline."
+  ],
+  "min_options_per_off_target_kpi": 1
+}

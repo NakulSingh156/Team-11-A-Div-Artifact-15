@@ -1,0 +1,65 @@
+{
+  "Academic": {
+    "name": "Academic affairs pack",
+    "vocabulary": [
+      "pass percentage",
+      "attainment",
+      "remedial",
+      "cohort",
+      "examination"
+    ],
+    "required_scheme": [
+      "affected_cohort",
+      "assessment_cycle",
+      "attainment_linked"
+    ]
+  },
+  "Research": {
+    "name": "Research & publications pack",
+    "vocabulary": [
+      "publication",
+      "citation",
+      "faculty",
+      "grant",
+      "indexed",
+      "cohort"
+    ],
+    "required_scheme": [
+      "indexing_basis",
+      "lag_years",
+      "double_count_checked"
+    ]
+  },
+  "Placement": {
+    "name": "Placement & careers pack",
+    "vocabulary": [
+      "placement",
+      "recruiter",
+      "offer",
+      "package",
+      "internship",
+      "eligible"
+    ],
+    "required_scheme": [
+      "eligible_pool",
+      "recruiter_action",
+      "provisional_offers_excluded"
+    ]
+  },
+  "Finance": {
+    "name": "Finance & accounts pack",
+    "vocabulary": [
+      "budget",
+      "utilisation",
+      "reconcil",
+      "audited",
+      "allocation",
+      "spend"
+    ],
+    "required_scheme": [
+      "figure_status",
+      "reconciliation_due",
+      "action_permitted"
+    ]
+  }
+}

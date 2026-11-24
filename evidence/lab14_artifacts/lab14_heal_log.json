@@ -1,0 +1,20 @@
+[
+  {
+    "attempt": 0,
+    "action": "validate",
+    "passed": false,
+    "failing": [
+      "every-figure-cites-its-source@KPI-R2"
+    ]
+  },
+  {
+    "attempt": 1,
+    "action": "diagnose + targeted repair",
+    "repaired": [
+      "every-figure-cites-its-source@KPI-R2"
+    ],
+    "unrepairable": [],
+    "passed": true,
+    "failing": []
+  }
+]

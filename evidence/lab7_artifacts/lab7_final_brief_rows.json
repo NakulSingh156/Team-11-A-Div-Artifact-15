@@ -1,0 +1,86 @@
+{
+  "rows": [
+    {
+      "kpi_id": "KPI-A1",
+      "name": "Institution pass percentage",
+      "value": 91.8519,
+      "target": 92.0,
+      "status": "at risk",
+      "source_system": "Academic ERP",
+      "figure_status": "final"
+    },
+    {
+      "kpi_id": "KPI-A2",
+      "name": "CO/PO attainment index",
+      "value": 2.4844,
+      "target": 2.5,
+      "status": "at risk",
+      "source_system": "Academic ERP (OBE module)",
+      "figure_status": "final"
+    },
+    {
+      "kpi_id": "KPI-R1",
+      "name": "Publications per faculty",
+      "value": 1.1859,
+      "target": 1.5,
+      "status": "below target",
+      "source_system": "Research repository",
+      "figure_status": "final"
+    },
+    {
+      "kpi_id": "KPI-R2",
+      "name": "Citations per faculty",
+      "value": 7.2564,
+      "target": 9.0,
+      "status": "below target",
+      "source_system": "Research repository",
+      "figure_status": "final"
+    },
+    {
+      "kpi_id": "KPI-R3",
+      "name": "Grants sanctioned",
+      "value": 242.5,
+      "target": 300.0,
+      "status": "below target",
+      "source_system": "Research repository",
+      "figure_status": "final"
+    },
+    {
+      "kpi_id": "KPI-P1",
+      "name": "Placement percentage",
+      "value": 75.1205,
+      "target": 80.0,
+      "status": "below target",
+      "source_system": "Placement Cell tracker",
+      "figure_status": "final"
+    },
+    {
+      "kpi_id": "KPI-P2",
+      "name": "Average package",
+      "value": 7.667,
+      "target": 8.0,
+      "status": "below target",
+      "source_system": "Placement Cell tracker",
+      "figure_status": "final"
+    },
+    {
+      "kpi_id": "KPI-P3",
+      "name": "Internship completion",
+      "value": 73.3848,
+      "target": 85.0,
+      "status": "below target",
+      "source_system": "Placement Cell tracker",
+      "figure_status": "final"
+    },
+    {
+      "kpi_id": "KPI-F1",
+      "name": "Budget utilisation",
+      "value": 86.9588,
+      "target": 90.0,
+      "status": "below target",
+      "source_system": "Finance & Accounts ledger",
+      "figure_status": "provisional"
+    }
+  ],
+  "revision": 1
+}

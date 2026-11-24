@@ -1,0 +1,72 @@
+[
+  {
+    "check": "N1  one request produced an approved, published brief in one session",
+    "passed": true,
+    "evidence": "v1 approved by Dr. A. Principal (Principal / Director) in 273 ms"
+  },
+  {
+    "check": "N2  every phase ran \u2014 the capstone is wiring, not a subset",
+    "passed": true,
+    "evidence": "stages recorded for: ['Lab 10', 'Lab 11', 'Lab 12', 'Lab 13', 'Lab 3', 'Lab 4', 'Lab 5', 'Lab 8', 'Lab 9']"
+  },
+  {
+    "check": "N3  Lab 5 \u2014 every figure entered through the connector",
+    "passed": true,
+    "evidence": "2 connector calls logged"
+  },
+  {
+    "check": "N4  Lab 8 \u2014 the swarm ran in parallel and merged by identity",
+    "passed": true,
+    "evidence": "3 double-counts removed; coverage 87.5%"
+  },
+  {
+    "check": "N5  Lab 9 \u2014 every claim in the brief is grounded",
+    "passed": true,
+    "evidence": "9/9 claims with source + locator + value"
+  },
+  {
+    "check": "N6  Lab 10 \u2014 an injected defect was detected and healed",
+    "passed": true,
+    "evidence": "KPI-R2's missing source was caught and repaired in 1 attempt"
+  },
+  {
+    "check": "N7  Lab 11 \u2014 the brief passed every derived acceptance test",
+    "passed": true,
+    "evidence": "22/22 tests green"
+  },
+  {
+    "check": "N8  Lab 11 \u2014 the human saw it only after the suite went green",
+    "passed": true,
+    "evidence": "submit_for_review requires all_pass; approval came after it"
+  },
+  {
+    "check": "N9  Lab 12 \u2014 the release is versioned, attributed and reversible",
+    "passed": true,
+    "evidence": "v1 by Dr. A. Principal (Principal / Director), on record and rollback-capable"
+  },
+  {
+    "check": "N10 Lab 12 \u2014 the Council copy is redacted, and says so",
+    "passed": true,
+    "evidence": "8 of 9 KPIs; redactions ['department-level drill-down', 'KPI-F1 (provisional)']"
+  },
+  {
+    "check": "N11 Lab 13 \u2014 every option came from the pack that owns its domain",
+    "passed": true,
+    "evidence": "9 options from 4 packs, each with a measure of success"
+  },
+  {
+    "check": "N12 the brief carries options AND risks, as Chapter 15 requires",
+    "passed": true,
+    "evidence": "every option lists its risks and its trade-off"
+  },
+  {
+    "check": "N13 the provisional figure survived the whole pipeline still labelled",
+    "passed": true,
+    "evidence": "KPI-F1 is still marked provisional with its caveat in the approved release"
+  },
+  {
+    "check": "N14 no capability was reimplemented \u2014 every one is the SAME object the lab built",
+    "passed": true,
+    "evidence": "10/10 capabilities pass an identity check against their source module"
+  }
+]

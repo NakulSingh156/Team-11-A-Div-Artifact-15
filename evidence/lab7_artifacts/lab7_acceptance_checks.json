@@ -1,0 +1,72 @@
+[
+  {
+    "check": "G1  the wiring is data, not control flow",
+    "passed": true,
+    "evidence": "11 nodes and 15 edges, inspectable and renderable"
+  },
+  {
+    "check": "G2  the graph is statically checked before it runs",
+    "passed": true,
+    "evidence": "the real graph passes; the orphan graph reports forgotten_agent unreachable"
+  },
+  {
+    "check": "G3  an edge to an undefined node is refused at build time",
+    "passed": true,
+    "evidence": "add_edge raised GraphError rather than storing a dangling edge"
+  },
+  {
+    "check": "G4  the four domain agents ran in parallel, as one step",
+    "passed": true,
+    "evidence": "4 nodes in parallel: ['academic_agent', 'research_agent', 'p"
+  },
+  {
+    "check": "G5  the join waits for all four domain views",
+    "passed": true,
+    "evidence": "kpi_agent synthesised 9 KPIs from 4 domain agents"
+  },
+  {
+    "check": "G6  validation is a real gate \u2014 it failed the first pass",
+    "passed": true,
+    "evidence": "FAILED: ['KPI-R2'] cite no source system"
+  },
+  {
+    "check": "G7  the back-edge fired and control returned to the report node",
+    "passed": true,
+    "evidence": "regenerate -> report_agent taken 1 time(s)"
+  },
+  {
+    "check": "G8  ONLY the failing stage was redone",
+    "passed": true,
+    "evidence": "domain agents and the KPI join each ran exactly once across both passes"
+  },
+  {
+    "check": "G9  the defect validation existed to catch was actually repaired",
+    "passed": true,
+    "evidence": "every KPI row in the final brief cites a source system"
+  },
+  {
+    "check": "G10 the second pass then passed the gate",
+    "passed": true,
+    "evidence": "validation -> pass -> human_gate"
+  },
+  {
+    "check": "G11 publish is reachable only through the human gate",
+    "passed": true,
+    "evidence": "edges into publish: [('human_gate', 'approve')]"
+  },
+  {
+    "check": "G12 the human gate has a route for edit as well as approve",
+    "passed": true,
+    "evidence": "approve -> publish; edit -> regenerate (a second back-edge)"
+  },
+  {
+    "check": "G13 a non-converging back-edge is stopped by the cycle budget",
+    "passed": true,
+    "evidence": "the always-failing graph was halted after 12 steps"
+  },
+  {
+    "check": "G14 the run is traceable end to end",
+    "passed": true,
+    "evidence": "10 steps: coordinator -> \u2026 -> publish"
+  }
+]

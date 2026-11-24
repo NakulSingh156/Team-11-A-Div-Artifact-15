@@ -1,0 +1,876 @@
+{
+  "spec_id": "PLAN-CAPSTONE-2025-26",
+  "period": "academic year 2025-26",
+  "kpis": [
+    {
+      "kpi_id": "KPI-A1",
+      "name": "Institution pass percentage",
+      "value": 91.8519,
+      "value_shown": "91.85",
+      "unit": "%",
+      "target": 92.0,
+      "status": "at risk",
+      "source_system": "Academic ERP",
+      "figure_status": "final",
+      "caveat": "",
+      "rounding_warning": "91.85 rounds to 92.0 at 0 decimal place(s), which would read as meeting the target of 92.0. Report the unrounded figure.",
+      "drilldown": [
+        {
+          "dept": "CSE",
+          "value": 96.25
+        },
+        {
+          "dept": "ECE",
+          "value": 93.33
+        },
+        {
+          "dept": "ISE",
+          "value": 96.67
+        },
+        {
+          "dept": "EEE",
+          "value": 90.83
+        },
+        {
+          "dept": "MECH",
+          "value": 87.78
+        },
+        {
+          "dept": "CIVIL",
+          "value": 84.17
+        },
+        {
+          "dept": "CHEM",
+          "value": 90.0
+        },
+        {
+          "dept": "BT",
+          "value": 91.67
+        }
+      ],
+      "departments": [
+        {
+          "dept": "CSE",
+          "value": 96.25
+        },
+        {
+          "dept": "ECE",
+          "value": 93.33
+        },
+        {
+          "dept": "ISE",
+          "value": 96.67
+        },
+        {
+          "dept": "EEE",
+          "value": 90.83
+        },
+        {
+          "dept": "MECH",
+          "value": 87.78
+        },
+        {
+          "dept": "CIVIL",
+          "value": 84.17
+        },
+        {
+          "dept": "CHEM",
+          "value": 90.0
+        },
+        {
+          "dept": "BT",
+          "value": 91.67
+        }
+      ]
+    },
+    {
+      "kpi_id": "KPI-A2",
+      "name": "CO/PO attainment index",
+      "value": 2.4844,
+      "value_shown": "2.48",
+      "unit": "index 0-3",
+      "target": 2.5,
+      "status": "at risk",
+      "source_system": "Academic ERP (OBE module)",
+      "figure_status": "final",
+      "caveat": "",
+      "rounding_warning": "2.484 rounds to 2.5 at 1 decimal place(s), which would read as meeting the target of 2.5. Report the unrounded figure.",
+      "drilldown": [
+        {
+          "dept": "CSE",
+          "value": 2.71
+        },
+        {
+          "dept": "ECE",
+          "value": 2.58
+        },
+        {
+          "dept": "ISE",
+          "value": 2.66
+        },
+        {
+          "dept": "EEE",
+          "value": 2.41
+        },
+        {
+          "dept": "MECH",
+          "value": 2.33
+        },
+        {
+          "dept": "CIVIL",
+          "value": 2.19
+        },
+        {
+          "dept": "CHEM",
+          "value": 2.28
+        },
+        {
+          "dept": "BT",
+          "value": 2.35
+        }
+      ],
+      "departments": [
+        {
+          "dept": "CSE",
+          "value": 2.71
+        },
+        {
+          "dept": "ECE",
+          "value": 2.58
+        },
+        {
+          "dept": "ISE",
+          "value": 2.66
+        },
+        {
+          "dept": "EEE",
+          "value": 2.41
+        },
+        {
+          "dept": "MECH",
+          "value": 2.33
+        },
+        {
+          "dept": "CIVIL",
+          "value": 2.19
+        },
+        {
+          "dept": "CHEM",
+          "value": 2.28
+        },
+        {
+          "dept": "BT",
+          "value": 2.35
+        }
+      ]
+    },
+    {
+      "kpi_id": "KPI-R1",
+      "name": "Publications per faculty",
+      "value": 1.1859,
+      "value_shown": "1.19",
+      "unit": "per faculty",
+      "target": 1.5,
+      "status": "below target",
+      "source_system": "Research repository",
+      "figure_status": "final",
+      "caveat": "",
+      "rounding_warning": null,
+      "drilldown": [
+        {
+          "dept": "CSE",
+          "value": 1.71
+        },
+        {
+          "dept": "ECE",
+          "value": 1.31
+        },
+        {
+          "dept": "ISE",
+          "value": 1.17
+        },
+        {
+          "dept": "EEE",
+          "value": 0.94
+        },
+        {
+          "dept": "MECH",
+          "value": 0.79
+        },
+        {
+          "dept": "CIVIL",
+          "value": 0.69
+        },
+        {
+          "dept": "CHEM",
+          "value": 1.27
+        },
+        {
+          "dept": "BT",
+          "value": 1.2
+        }
+      ],
+      "departments": [
+        {
+          "dept": "CSE",
+          "value": 1.71
+        },
+        {
+          "dept": "ECE",
+          "value": 1.31
+        },
+        {
+          "dept": "ISE",
+          "value": 1.17
+        },
+        {
+          "dept": "EEE",
+          "value": 0.94
+        },
+        {
+          "dept": "MECH",
+          "value": 0.79
+        },
+        {
+          "dept": "CIVIL",
+          "value": 0.69
+        },
+        {
+          "dept": "CHEM",
+          "value": 1.27
+        },
+        {
+          "dept": "BT",
+          "value": 1.2
+        }
+      ]
+    },
+    {
+      "kpi_id": "KPI-R2",
+      "name": "Citations per faculty",
+      "value": 7.2564,
+      "value_shown": "7.26",
+      "unit": "per faculty",
+      "target": 9.0,
+      "status": "below target",
+      "source_system": "Research repository",
+      "figure_status": "final",
+      "caveat": "",
+      "rounding_warning": null,
+      "drilldown": [
+        {
+          "dept": "CSE",
+          "value": 11.82
+        },
+        {
+          "dept": "ECE",
+          "value": 8.5
+        },
+        {
+          "dept": "ISE",
+          "value": 7.78
+        },
+        {
+          "dept": "EEE",
+          "value": 5.18
+        },
+        {
+          "dept": "MECH",
+          "value": 3.96
+        },
+        {
+          "dept": "CIVIL",
+          "value": 2.94
+        },
+        {
+          "dept": "CHEM",
+          "value": 6.91
+        },
+        {
+          "dept": "BT",
+          "value": 6.3
+        }
+      ],
+      "departments": [
+        {
+          "dept": "CSE",
+          "value": 11.82
+        },
+        {
+          "dept": "ECE",
+          "value": 8.5
+        },
+        {
+          "dept": "ISE",
+          "value": 7.78
+        },
+        {
+          "dept": "EEE",
+          "value": 5.18
+        },
+        {
+          "dept": "MECH",
+          "value": 3.96
+        },
+        {
+          "dept": "CIVIL",
+          "value": 2.94
+        },
+        {
+          "dept": "CHEM",
+          "value": 6.91
+        },
+        {
+          "dept": "BT",
+          "value": 6.3
+        }
+      ]
+    },
+    {
+      "kpi_id": "KPI-R3",
+      "name": "Grants sanctioned",
+      "value": 242.5,
+      "value_shown": "242.50",
+      "unit": "INR lakh",
+      "target": 300.0,
+      "status": "below target",
+      "source_system": "Research repository",
+      "figure_status": "final",
+      "caveat": "",
+      "rounding_warning": null,
+      "drilldown": [
+        {
+          "dept": "CSE",
+          "value": 96.5
+        },
+        {
+          "dept": "ECE",
+          "value": 41.0
+        },
+        {
+          "dept": "ISE",
+          "value": 22.5
+        },
+        {
+          "dept": "EEE",
+          "value": 18.0
+        },
+        {
+          "dept": "MECH",
+          "value": 27.5
+        },
+        {
+          "dept": "CIVIL",
+          "value": 12.0
+        },
+        {
+          "dept": "CHEM",
+          "value": 15.5
+        },
+        {
+          "dept": "BT",
+          "value": 9.5
+        }
+      ],
+      "departments": [
+        {
+          "dept": "CSE",
+          "value": 96.5
+        },
+        {
+          "dept": "ECE",
+          "value": 41.0
+        },
+        {
+          "dept": "ISE",
+          "value": 22.5
+        },
+        {
+          "dept": "EEE",
+          "value": 18.0
+        },
+        {
+          "dept": "MECH",
+          "value": 27.5
+        },
+        {
+          "dept": "CIVIL",
+          "value": 12.0
+        },
+        {
+          "dept": "CHEM",
+          "value": 15.5
+        },
+        {
+          "dept": "BT",
+          "value": 9.5
+        }
+      ]
+    },
+    {
+      "kpi_id": "KPI-P1",
+      "name": "Placement percentage",
+      "value": 75.1205,
+      "value_shown": "75.12",
+      "unit": "%",
+      "target": 80.0,
+      "status": "below target",
+      "source_system": "Placement Cell tracker",
+      "figure_status": "final",
+      "caveat": "",
+      "rounding_warning": null,
+      "drilldown": [
+        {
+          "dept": "CSE",
+          "value": 92.98
+        },
+        {
+          "dept": "ECE",
+          "value": 83.14
+        },
+        {
+          "dept": "ISE",
+          "value": 90.35
+        },
+        {
+          "dept": "EEE",
+          "value": 74.14
+        },
+        {
+          "dept": "MECH",
+          "value": 63.79
+        },
+        {
+          "dept": "CIVIL",
+          "value": 52.54
+        },
+        {
+          "dept": "CHEM",
+          "value": 56.9
+        },
+        {
+          "dept": "BT",
+          "value": 50.88
+        }
+      ],
+      "departments": [
+        {
+          "dept": "CSE",
+          "value": 92.98
+        },
+        {
+          "dept": "ECE",
+          "value": 83.14
+        },
+        {
+          "dept": "ISE",
+          "value": 90.35
+        },
+        {
+          "dept": "EEE",
+          "value": 74.14
+        },
+        {
+          "dept": "MECH",
+          "value": 63.79
+        },
+        {
+          "dept": "CIVIL",
+          "value": 52.54
+        },
+        {
+          "dept": "CHEM",
+          "value": 56.9
+        },
+        {
+          "dept": "BT",
+          "value": 50.88
+        }
+      ]
+    },
+    {
+      "kpi_id": "KPI-P2",
+      "name": "Average package",
+      "value": 7.667,
+      "value_shown": "7.67",
+      "unit": "LPA",
+      "target": 8.0,
+      "status": "below target",
+      "source_system": "Placement Cell tracker",
+      "figure_status": "final",
+      "caveat": "",
+      "rounding_warning": "7.667 rounds to 8.0 at 0 decimal place(s), which would read as meeting the target of 8.0. Report the unrounded figure.",
+      "drilldown": [
+        {
+          "dept": "CSE",
+          "value": 10.6
+        },
+        {
+          "dept": "ECE",
+          "value": 7.4
+        },
+        {
+          "dept": "ISE",
+          "value": 9.2
+        },
+        {
+          "dept": "EEE",
+          "value": 6.1
+        },
+        {
+          "dept": "MECH",
+          "value": 5.4
+        },
+        {
+          "dept": "CIVIL",
+          "value": 4.6
+        },
+        {
+          "dept": "CHEM",
+          "value": 5.1
+        },
+        {
+          "dept": "BT",
+          "value": 4.9
+        }
+      ],
+      "departments": [
+        {
+          "dept": "CSE",
+          "value": 10.6
+        },
+        {
+          "dept": "ECE",
+          "value": 7.4
+        },
+        {
+          "dept": "ISE",
+          "value": 9.2
+        },
+        {
+          "dept": "EEE",
+          "value": 6.1
+        },
+        {
+          "dept": "MECH",
+          "value": 5.4
+        },
+        {
+          "dept": "CIVIL",
+          "value": 4.6
+        },
+        {
+          "dept": "CHEM",
+          "value": 5.1
+        },
+        {
+          "dept": "BT",
+          "value": 4.9
+        }
+      ]
+    },
+    {
+      "kpi_id": "KPI-P3",
+      "name": "Internship completion",
+      "value": 73.3848,
+      "value_shown": "73.38",
+      "unit": "%",
+      "target": 85.0,
+      "status": "below target",
+      "source_system": "Placement Cell tracker",
+      "figure_status": "final",
+      "caveat": "",
+      "rounding_warning": null,
+      "drilldown": [
+        {
+          "dept": "CSE",
+          "value": 89.91
+        },
+        {
+          "dept": "ECE",
+          "value": 86.63
+        },
+        {
+          "dept": "ISE",
+          "value": 84.21
+        },
+        {
+          "dept": "EEE",
+          "value": 72.41
+        },
+        {
+          "dept": "MECH",
+          "value": 58.62
+        },
+        {
+          "dept": "CIVIL",
+          "value": 51.69
+        },
+        {
+          "dept": "CHEM",
+          "value": 58.62
+        },
+        {
+          "dept": "BT",
+          "value": 52.63
+        }
+      ],
+      "departments": [
+        {
+          "dept": "CSE",
+          "value": 89.91
+        },
+        {
+          "dept": "ECE",
+          "value": 86.63
+        },
+        {
+          "dept": "ISE",
+          "value": 84.21
+        },
+        {
+          "dept": "EEE",
+          "value": 72.41
+        },
+        {
+          "dept": "MECH",
+          "value": 58.62
+        },
+        {
+          "dept": "CIVIL",
+          "value": 51.69
+        },
+        {
+          "dept": "CHEM",
+          "value": 58.62
+        },
+        {
+          "dept": "BT",
+          "value": 52.63
+        }
+      ]
+    },
+    {
+      "kpi_id": "KPI-F1",
+      "name": "Budget utilisation",
+      "value": 86.9588,
+      "value_shown": "86.96",
+      "unit": "%",
+      "target": 90.0,
+      "status": "below target",
+      "source_system": "Finance & Accounts ledger",
+      "figure_status": "provisional",
+      "caveat": "Q3-Q4 of 2025-26 are unreconciled; the Finance Office closes books in August.",
+      "rounding_warning": null,
+      "drilldown": [
+        {
+          "dept": "CSE",
+          "value": 93.57
+        },
+        {
+          "dept": "ECE",
+          "value": 89.03
+        },
+        {
+          "dept": "ISE",
+          "value": 92.08
+        },
+        {
+          "dept": "EEE",
+          "value": 86.19
+        },
+        {
+          "dept": "MECH",
+          "value": 82.33
+        },
+        {
+          "dept": "CIVIL",
+          "value": 78.42
+        },
+        {
+          "dept": "CHEM",
+          "value": 84.29
+        },
+        {
+          "dept": "BT",
+          "value": 78.46
+        }
+      ],
+      "departments": [
+        {
+          "dept": "CSE",
+          "value": 93.57
+        },
+        {
+          "dept": "ECE",
+          "value": 89.03
+        },
+        {
+          "dept": "ISE",
+          "value": 92.08
+        },
+        {
+          "dept": "EEE",
+          "value": 86.19
+        },
+        {
+          "dept": "MECH",
+          "value": 82.33
+        },
+        {
+          "dept": "CIVIL",
+          "value": 78.42
+        },
+        {
+          "dept": "CHEM",
+          "value": 84.29
+        },
+        {
+          "dept": "BT",
+          "value": 78.46
+        }
+      ]
+    }
+  ],
+  "sections": {
+    "Executive summary": "\u2026",
+    "KPI scorecard": "\u2026",
+    "Off-target drill-down": "\u2026",
+    "Options": "\u2026",
+    "Risks and trade-offs": "\u2026",
+    "Assumptions": "\u2026",
+    "Evidence appendix": "\u2026"
+  },
+  "options": [
+    {
+      "title": "Remedial cohort coaching in CIVIL",
+      "owner": "Dean (Academics)",
+      "timeline": "1 semester",
+      "risks": [
+        "Diverts faculty hours from laboratory supervision.",
+        "Gains land in the next examination cycle, not this one."
+      ],
+      "trade_off": "Staff time now against a lagging indicator later.",
+      "measure_of_success": "Institution pass percentage \u2265 92.00% at the next end-semester examination",
+      "kpi_id": "KPI-A1",
+      "specialist": "Academic affairs pack"
+    },
+    {
+      "title": "Remedial cohort coaching in CIVIL",
+      "owner": "Dean (Academics)",
+      "timeline": "1 semester",
+      "risks": [
+        "Diverts faculty hours from laboratory supervision.",
+        "Gains land in the next examination cycle, not this one."
+      ],
+      "trade_off": "Staff time now against a lagging indicator later.",
+      "measure_of_success": "CO/PO attainment index \u2265 2.500 (index 0-3) at the next end-semester examination",
+      "kpi_id": "KPI-A2",
+      "specialist": "Academic affairs pack"
+    },
+    {
+      "title": "Seed-grant scheme tied to indexed venues",
+      "owner": "Dean (R&D)",
+      "timeline": "2 semesters",
+      "risks": [
+        "Counting publications alone rewards low-quality venues.",
+        "Citation effects lag publication by two to three years."
+      ],
+      "trade_off": "Output volume against output quality.",
+      "measure_of_success": "Publications per faculty \u2265 1.50 per faculty within two assessment cycles",
+      "kpi_id": "KPI-R1",
+      "specialist": "Research & publications pack"
+    },
+    {
+      "title": "Seed-grant scheme tied to indexed venues",
+      "owner": "Dean (R&D)",
+      "timeline": "2 semesters",
+      "risks": [
+        "Counting publications alone rewards low-quality venues.",
+        "Citation effects lag publication by two to three years."
+      ],
+      "trade_off": "Output volume against output quality.",
+      "measure_of_success": "Citations per faculty \u2265 9.00 per faculty within two assessment cycles",
+      "kpi_id": "KPI-R2",
+      "specialist": "Research & publications pack"
+    },
+    {
+      "title": "Seed-grant scheme tied to indexed venues",
+      "owner": "Dean (R&D)",
+      "timeline": "2 semesters",
+      "risks": [
+        "Counting publications alone rewards low-quality venues.",
+        "Citation effects lag publication by two to three years."
+      ],
+      "trade_off": "Output volume against output quality.",
+      "measure_of_success": "Grants sanctioned \u2265 INR 300.00 lakh within two assessment cycles",
+      "kpi_id": "KPI-R3",
+      "specialist": "Research & publications pack"
+    },
+    {
+      "title": "Targeted recruiter outreach for the weakest branches",
+      "owner": "Placement Officer",
+      "timeline": "2 semesters",
+      "risks": [
+        "Core-branch hiring is market-driven and may not convert.",
+        "A wider recruiter pool typically lowers the average package."
+      ],
+      "trade_off": "Placement percentage against average package \u2014 these two KPIs pull in opposite directions.",
+      "measure_of_success": "Placement percentage \u2265 80.00% by the close of the next placement season",
+      "kpi_id": "KPI-P1",
+      "specialist": "Placement & careers pack"
+    },
+    {
+      "title": "Targeted recruiter outreach for the weakest branches",
+      "owner": "Placement Officer",
+      "timeline": "2 semesters",
+      "risks": [
+        "Core-branch hiring is market-driven and may not convert.",
+        "A wider recruiter pool typically lowers the average package."
+      ],
+      "trade_off": "Placement percentage against average package \u2014 these two KPIs pull in opposite directions.",
+      "measure_of_success": "Average package \u2265 8.00 LPA by the close of the next placement season",
+      "kpi_id": "KPI-P2",
+      "specialist": "Placement & careers pack"
+    },
+    {
+      "title": "Targeted recruiter outreach for the weakest branches",
+      "owner": "Placement Officer",
+      "timeline": "2 semesters",
+      "risks": [
+        "Core-branch hiring is market-driven and may not convert.",
+        "A wider recruiter pool typically lowers the average package."
+      ],
+      "trade_off": "Placement percentage against average package \u2014 these two KPIs pull in opposite directions.",
+      "measure_of_success": "Internship completion \u2265 85.00% by the close of the next placement season",
+      "kpi_id": "KPI-P3",
+      "specialist": "Placement & careers pack"
+    },
+    {
+      "title": "Defer any reallocation until the books close",
+      "owner": "Finance Office",
+      "timeline": "After the August book close",
+      "risks": [
+        "Underspend becomes harder to redeploy later in the year.",
+        "The Council may read deferral as inaction."
+      ],
+      "trade_off": "Decision speed against acting on a number that may move.",
+      "measure_of_success": "Utilisation \u2265 90.00% on audited figures at year end",
+      "kpi_id": "KPI-F1",
+      "specialist": "Finance & accounts pack"
+    }
+  ],
+  "assumptions": [
+    "Analysis covers academic year 2025-26 only.",
+    "Only Registrar-authorised read access was used.",
+    "KPI definitions and targets are the approved set.",
+    "Institution figures aggregate raw counts, never a mean of department percentages."
+  ],
+  "status": "approved",
+  "edits": [
+    "Lead with the average-package decline."
+  ],
+  "approved_by": "Dr. A. Principal (Principal / Director)",
+  "approved_at": "2026-10-13T15:01:52+00:00",
+  "version": 1
+}

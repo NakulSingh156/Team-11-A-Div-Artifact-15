@@ -1,0 +1,13 @@
+{
+  "headline": "Budget utilisation is 86.96% against 90.00% on audited figures.",
+  "scheme_fields": {
+    "figure_status": "provisional",
+    "reconciliation_due": "August book close",
+    "action_permitted": true
+  },
+  "valid": false,
+  "violations": [
+    "finance outputs may not permit action on an unreconciled figure",
+    "a provisional finance figure must be labelled in the headline"
+  ]
+}

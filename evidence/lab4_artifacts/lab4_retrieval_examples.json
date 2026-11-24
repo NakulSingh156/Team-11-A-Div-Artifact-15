@@ -1,0 +1,49 @@
+{
+  "tag_query_placement": [
+    "BRIEF-2023-24-Q4",
+    "BRIEF-2025-26-RUN-2025-26-01"
+  ],
+  "similarity_query": {
+    "text": "Placement percentage is 75.12% against an 80% target for 2025-26. The core branches are far below the circuit branches and are pulling the institution figure down.",
+    "hits": [
+      {
+        "record_id": "BRIEF-2023-24-Q4",
+        "similarity": 0.3931
+      },
+      {
+        "record_id": "BRIEF-2024-25-Q3",
+        "similarity": 0.1516
+      },
+      {
+        "record_id": "BRIEF-2024-25-Q4",
+        "similarity": 0.0734
+      },
+      {
+        "record_id": "BRIEF-2024-25-Q2",
+        "similarity": 0.0614
+      }
+    ]
+  },
+  "hybrid_query": [
+    {
+      "record_id": "BRIEF-2023-24-Q4",
+      "similarity": 0.3865
+    },
+    {
+      "record_id": "BRIEF-2024-25-Q2",
+      "similarity": 0.0512
+    }
+  ],
+  "no_repeat_check": [
+    {
+      "proposal": "Approve a recruiter outreach budget to lift placement in the core branches.",
+      "closest": "BRIEF-2023-24-Q4",
+      "similarity": 0.5556
+    },
+    {
+      "proposal": "Introduce a credit-bearing mandatory summer internship for all eligible students.",
+      "closest": "BRIEF-2024-25-Q2",
+      "similarity": 0.0787
+    }
+  ]
+}

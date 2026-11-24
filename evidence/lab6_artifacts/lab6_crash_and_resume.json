@@ -1,0 +1,27 @@
+{
+  "completed_before_crash": [
+    "load_departments",
+    "review_domains",
+    "retrieve_baseline"
+  ],
+  "crashed_at": "compute_trend",
+  "error": "MCPError: BACKEND_FAILURE: benchmark service dropped the connection mid-run",
+  "skipped_on_resume": [
+    "load_departments",
+    "review_domains",
+    "retrieve_baseline"
+  ],
+  "executed_after_resume": [
+    "compute_trend",
+    "assemble_brief"
+  ],
+  "final_completed": [
+    "load_departments",
+    "review_domains",
+    "retrieve_baseline",
+    "compute_trend",
+    "assemble_brief",
+    "human_gate",
+    "publish"
+  ]
+}
