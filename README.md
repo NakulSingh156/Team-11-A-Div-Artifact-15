@@ -28,8 +28,8 @@ dashboard to stare at.
 ## Quickstart
 
 ```bash
-git clone https://github.com/NakulSingh156/Team-11-A-Div-Artifact-15.git
-cd Team-11-A-Div-Artifact-15/dashboard
+git clone https://github.com/VII-Sem-Agentic-AI-2026/Team-11-A-Div-Artifact-15-Executive-Decision-Support-System.git
+cd Team-11-A-Div-Artifact-15-Executive-Decision-Support-System/dashboard
 pip install -r requirements.txt
 streamlit run pipeline_app.py
 ```
